@@ -1,1437 +1,1437 @@
-,id,org_id,name,status,city,country,latitude,longitude
-0,18,31,NIKHEF Amsterdam,ok,Amsterdam,NL,52.356394,4.950837
-1,52,41935,UltraEdge Velizy,ok,Paris,FR,48.782499,2.208747
-2,53,7,Telehouse - Paris 2 (Voltaire - Léon Frot),ok,Paris,FR,48.856654,2.38532
-3,54,7,Telehouse - Paris 1 (Jeûneurs),ok,Paris,FR,48.869869,2.344236
-4,55,41935,UltraEdge Paris - Courbevoie,ok,Paris,FR,48.903746,2.257694
-5,56,8592,Digital Realty Paris PAR1,ok,Paris,FR,48.902082,2.369496
-6,57,41935,UltraEdge Lyon-Venissieux,ok,Vénissieux,FR,45.722882,4.862905
-7,58,8592,Digital Realty Frankfurt FRA1-27,ok,Frankfurt,DE,50.11925,8.735199
-8,59,98,ITENOS Frankfurt (FRA1),ok,Frankfurt,DE,50.099697,8.631763
-9,60,2,"Equinix FR5 - Frankfurt, KleyerStrasse",ok,Frankfurt,DE,50.09885,8.632004
-10,61,8592,Digital Realty Amsterdam AMS17,ok,Amsterdam,NL,52.356353,4.951609
-11,62,2,"Equinix AM7 - Amsterdam, Kuiperberweg",ok,Amsterdam,NL,52.303078,4.938009
-12,63,77,Global Switch Amsterdam,ok,Amsterdam,NL,52.343984,4.828711
-13,64,8592,"Digital Realty Amsterdam AMS3, AMS5-8, AMS10",ok,Amsterdam,NL,52.28415,4.770855
-14,66,106,Vienna University Computer Center (Wien),ok,Vienna,AT,48.214151,16.357784
-15,67,8592,Digital Realty Vienna VIE1-2,ok,Vienna,AT,48.269027,16.410613
-16,68,8592,Digital Realty Brussels BRU1,ok,Brussels,BE,50.870502,4.476941
-17,72,2,"Equinix PA7 - Paris, Energy Park",ok,Paris,FR,48.904891,2.259202
-18,73,2,"Equinix PA5 - Paris, Victor Hugo",ok,Paris,FR,48.90407,2.369221
-19,74,2,"Equinix FR7 - Frankfurt, Gutleutstrasse",ok,Frankfurt,DE,50.096869,8.644169
-20,75,8592,Digital Realty Paris PAR2,ok,Paris,FR,48.906617,2.370417
-21,80,2,"Equinix AM8 - Amsterdam, Gyroscoopweg",ok,Amsterdam,NL,52.396814,4.838579
-22,97,14309,Templus DC Milan MIL01,ok,Milan,IT,45.49538,9.17865
-23,104,8592,Digital Realty Amsterdam AMS9,ok,Amsterdam,NL,52.356671,4.952501
-24,106,8592,Digital Realty Dusseldorf DUS1-3,ok,Düsseldorf,DE,51.186111,6.869937
-25,108,7,Telehouse - Frankfurt,ok,Frankfurt,DE,50.096962,8.630057
-26,109,8735,EdgeConneX Munich (EDCMUC01),ok,Munich,DE,48.139859,11.526173
-27,110,171,BIT-1,ok,Ede,NL,52.030762,5.624974
-28,111,174,ColoCenter Frankfurt,ok,Frankfurt,DE,50.103483,8.636254
-29,112,118,Level(3) Paris (Le Capitole),ok,Paris,FR,48.887694,2.21513
-30,117,178,TAS Sophia,ok,Antibes,FR,43.628052,7.038047
-31,118,2,Equinix EN1 - Enschede,ok,Enschede,NL,52.236979,6.84964
-32,119,8592,Digital Realty Frankfurt FRA28 (Closed),ok,Frankfurt,DE,50.081709,8.623156
-33,121,136,Espanix Datacenter,ok,Madrid,ES,40.466022,-3.660963
-34,122,2,Equinix BA1 - Barcelona,ok,Barcelona,ES,41.351557,2.137457
-35,126,2,Equinix LS1 - Lisbon,ok,Lisbon,PT,38.787919,-9.123454
-36,127,2,Equinix MD2 - Madrid,ok,Alcobendas,ES,40.536855,-3.648584
-37,130,8592,Digital Realty Madrid MAD1-2,ok,Madrid,ES,40.439323,-3.621211
-38,135,118,Level(3) Brussels,ok,Brussels,BE,50.857721,4.412116
-39,138,9273,CSUC Campus Nord,ok,Barcelona,ES,41.387314,2.111883
-40,148,8592,Digital Realty Copenhagen CPH1-3,ok,Copenhagen,DK,55.728092,12.377482
-41,153,297,NorthC Duesseldorf,ok,Düsseldorf,DE,51.18819,6.86728
-42,154,244,Telnet Caldera Milan,ok,Milan,IT,45.476177,9.103887
-43,155,248,Speedbone Berlin,ok,Berlin,DE,52.465779,13.369905
-44,156,2,"Equinix SK1 - Stockholm, Bromma",ok,Stockholm,SE,59.362574,17.955657
-45,158,942,GlobalConnect Taastrup 1 (CPH1),ok,Taastrup,DK,55.662,12.301459
-46,164,2,"Equinix DB1 - Dublin, CityWest",ok,Dublin,IE,53.296306,-6.41897
-47,166,1152,Verizon Madrid,ok,Madrid,ES,40.447968,-3.574684
-48,177,8592,Digital Realty Dublin DUB1-2,ok,Dublin,IE,53.334251,-6.365538
-49,178,2,"Equinix DB2 - Dublin, Kilcarbery",ok,Dublin,IE,53.318647,-6.439957
-50,179,2,Equinix MD1 - Madrid,ok,Madrid,ES,40.513497,-3.671891
-51,180,8592,Digital Realty Dublin DUB10,ok,Dublin,IE,53.412081,-6.366707
-52,181,77,Global Switch Paris,ok,Paris,FR,48.899823,2.296095
-53,185,297,NorthC Nürnberg,ok,Nuremberg,DE,49.38991,11.17706
-54,187,305,Versatel Gent (Handelsdok Center),ok,Ghent,BE,51.063866,3.734616
-55,190,314,LCL Antwerp,ok,Antwerp,BE,51.264294,4.402951
-56,191,305,Versatel Antwerp,ok,Antwerp,BE,51.262686,4.41733
-57,192,297,NorthC Munich 2,ok,Munich,DE,48.135973,11.662742
-58,193,314,LCL Brussels (Diegem),ok,Brussels,BE,50.887474,4.455068
-59,203,339,Deutschherrnkarree,ok,Nuremberg,DE,49.453955,11.063356
-60,206,343,"STOKAB KN5, Södermalm",ok,Stockholm,SE,59.31535,18.045546
-61,207,343,"STOKAB KN6, Hammarby",ok,Stockholm,SE,59.298407,18.089786
-62,208,8592,Digital Realty Stockholm STO1-6,ok,Stockholm,SE,59.422226,17.916696
-63,212,355,Spaanse Kubus Rotterdam,ok,Rotterdam,NL,51.930359,4.414322
-64,213,358,Unilogic Networks Datacenter Sittard,ok,Sittard,NL,50.995925,5.845593
-65,214,8089,CE Colo Prague,ok,Prague,CZ,50.060164,14.482978
-66,215,364,DC Tower Zizkov CRa,ok,Prague,CZ,50.08103,14.451122
-67,216,366,GTS Telehouse Prague,ok,Prague,CZ,50.078094,14.475889
-68,217,368,Pragonet Telehouse Prague,ok,Prague,CZ,50.062152,14.428607
-69,218,28858,Arelion Dusseldorf DDF/B,ok,Düsseldorf,DE,51.188,6.86608
-70,220,376,BCE Colocation Luxembourg,ok,Luxembourg,LU,49.637537,6.163425
-71,222,34593,Telia Telehouse Copenhagen,ok,Copenhagen,DK,55.661921,12.377342
-72,226,8592,Digital Realty Marseille MRS1/2/3/4,ok,Marseille,FR,43.310818,5.373865
-73,229,2,"Equinix PA1 - Paris, Roissy",ok,Roissy-en-France,FR,48.983691,2.507095
-74,230,365,Cogent Lille,ok,Lille,FR,50.63768,3.090551
-75,231,399,Multicoms Paris (Velizy),ok,Paris,FR,48.785043,2.209917
-76,232,41935,UltraEdge Bordeaux,ok,Bordeaux,FR,44.889171,-0.557446
-77,233,41935,UltraEdge Strasbourg,ok,Strasbourg,FR,48.569149,7.781145
-78,235,7200,Mediagateway,ok,Hilversum,NL,52.241526,5.169722
-79,236,8592,Digital Realty Amsterdam AMS1/4 (closed),ok,Amsterdam,NL,52.399861,4.842597
-80,238,4570,NorthC Oude Meer,ok,Oude Meer,NL,52.29257,4.788162
-81,239,4570,NorthC Aalsmeer,ok,Aalsmeer,NL,52.259795,4.774186
-82,241,416,UNITED COLO GmbH / NGZ-Server.de Coburg,ok,Coburg,DE,50.254995,10.95877
-83,245,2172,InterDC Doetinchem,ok,Doetinchem,NL,51.954184,6.300252
-84,252,365,Cogent Montpellier,ok,Montpellier,FR,43.60956,3.887893
-85,258,343,"STOKAB KN3, Kista",ok,Stockholm,SE,59.405682,17.943347
-86,259,1152,MCI Stockholm (Kista),ok,Stockholm,SE,59.406342,17.953487
-87,260,9342,VIVI Vienna (Wien),ok,Vienna,AT,48.213465,16.356475
-88,261,118,Lumen Duesseldorf,ok,Düsseldorf,DE,51.18875,6.86597
-89,262,4570,NorthC Amsterdam 2,ok,Amsterdam,NL,52.29643,4.94859
-90,264,365,Cogent Nice,ok,Nice,FR,43.70338,7.259722
-91,265,365,Cogent Antibes,ok,Antibes,FR,43.609448,7.073109
-92,266,365,Cogent Toulouse,ok,Toulouse,FR,43.620447,1.423103
-93,269,475,BUCH-Facility Bucharest,ok,Bucharest,RO,44.419772,26.115913
-94,274,7459,"WIIT Datacenter DUS1, DUS2, DUS3, DUS4, DUS6, DUS7",ok,Düsseldorf,DE,51.267301,6.81752
-95,277,491,NTT Frankfurt 1 Data Center (FRA1),ok,Frankfurt,DE,50.128192,8.601436
-96,278,494,Mobistar Nossegem fka Versatel Nossegem,ok,Nossegem,BE,50.877572,4.503638
-97,280,12494,Eircom Dublin (Citywest),ok,Dublin,IE,53.296287,-6.415382
-98,284,1152,MCI/Verizon Brussels (Diegem) E,ok,Machelen,BE,50.885261,4.450532
-99,285,1152,MCI/Verizon Brussels (Diegem) H,ok,Brussels,BE,50.885261,4.450532
-100,290,514,aixit Frankfurt,ok,Frankfurt,DE,50.1009,8.629585
-101,291,516,NewColo Frankfurt,ok,Frankfurt,DE,50.101713,8.63429
-102,294,7507,ITGate PdF (TRN1/TRN2),ok,Turin,IT,45.090688,7.660825
-103,295,19800,AtlasEdge DC Brussels BRU001,ok,Brussels,BE,50.872026,4.503629
-104,299,118,Global Crossing Joop,ok,Amsterdam,NL,52.33538,4.933657
-105,300,533,BIX Building (Victor Hugo street),ok,Budapest,HU,47.51796,19.055712
-106,301,536,Dataplex Budapest,ok,Budapest,HU,47.448989,19.107458
-107,306,2,"Equinix PA2 - Paris, Saint-Denis",ok,Paris,FR,48.927166,2.350664
-108,328,7820,BTC Core Network Sofia,ok,Sofia,BG,42.693819,23.32401
-109,331,297,NorthC Berlin,ok,Berlin,DE,52.452868,13.428412
-110,351,2,Equinix DU1 - Dusseldorf,ok,Düsseldorf,DE,51.219632,6.80715
-111,357,305,Versatel Berlin,ok,Berlin,DE,52.452542,13.430493
-112,367,639,INTERNIC Frankfurt,ok,Frankfurt,DE,50.105084,8.666501
-113,374,8959,Iron Mountain Data Center - Amsterdam (AMS-1),ok,Amsterdam,NL,52.391165,4.665267
-114,375,2,"Equinix AM1/AM2 - Amsterdam, Luttenbergweg",ok,Amsterdam,NL,52.299929,4.943121
-115,376,2,Equinix ZW1 - Zwolle,ok,Zwolle,NL,52.488492,6.142697
-116,377,658,DTS DataCenter Herford,ok,Herford,DE,52.12009,8.64637
-117,383,672,Berget Boras,ok,Boras,SE,57.71545,12.925524
-118,386,41935,UltraEdge Montpellier,ok,Montpellier,FR,43.596863,3.868353
-119,405,714,Axione Lotim Telecom,ok,Saint-Etienne,FR,,
-120,406,8540,euNetworks Amsterdam,ok,Amsterdam,NL,52.333407,4.919422
-121,412,1152,MCI/Verizon Paris St Denis,ok,Paris,FR,48.911058,2.363056
-122,417,34593,Telia Copenhagen (Ørestad/OSD),ok,København S,DK,55.625745,12.578517
-123,419,749,Malmö/B,ok,Malmö,SE,55.571236,12.935775
-124,421,171,BIT-2,ok,Ede,NL,52.027212,5.623903
-125,424,18675,TTC TELEPORT DC1,ok,Prague,CZ,50.082018,14.53335
-126,426,13077,QTS Groningen (GRO1),ok,Groningen,NL,53.246048,6.52852
-127,427,297,NorthC Hamburg,ok,Hamburg,DE,53.54799,10.04365
-128,429,770,Pixelpark GmbH Colo II Berlin,ok,Berlin,DE,52.50192,13.36945
-129,434,27479,Gothnet DC Marieholm,ok,Gothenburg,SE,57.731137,12.002845
-130,439,785,NXDATA-1 Bucharest (BUH1),ok,Bucharest,RO,44.481916,26.120789
-131,441,936,Databarn Amsterdam,ok,Amsterdam,NL,52.396443,4.851132
-132,442,87,GrafiX Internet B.V. - Capelle,ok,Capelle aan den IJssel,NL,51.953828,4.585041
-133,444,794,noris network datacenter.de NBG3 / NBG4,ok,Nuremberg,DE,49.45341,11.06364
-134,445,797,CarrierColo Berlin Luetzow (I/P/B/ site B),ok,Berlin,DE,52.50192,13.36945
-135,454,1348,DNS:NET Colo I Berlin,ok,Berlin,DE,52.50192,13.36945
-136,455,1007,R-KOM Datacenter,ok,Regensburg,DE,49.013454,12.148083
-137,457,2,"Equinix FR2 - Frankfurt, North",ok,Frankfurt,DE,50.141895,8.741764
-138,458,826,FCCN Lisbon - SE03,ok,Lisbon,PT,38.756444,-9.146581
-139,462,34999,LIM Warsaw,ok,Warsaw,PL,52.227718,21.005015
-140,463,10041,Telia Stockholm STK2,ok,Solna,SE,59.362546,17.998905
-141,464,8540,euNetworks Colocation Berlin,ok,Berlin,DE,52.46566,13.36937
-142,465,840,Sitel Bratislava,ok,Bratislava,SK,48.118746,17.095572
-143,473,849,Core-Backbone NBG1,ok,Nuremberg,DE,49.45341,11.06364
-144,477,6752,Nepustil Stuttgart Zettachring 10a,ok,Stuttgart,DE,48.70899,9.17098
-145,478,491,NTT Berlin 1 Data Center (BER1),ok,Berlin,DE,52.538479,13.237136
-146,480,2,Equinix MU1/MU3 - Munich,ok,Munich,DE,48.143056,11.55584
-147,484,864,Malmö Västergatan 4 / Stortorget,ok,Malmö,SE,55.606818,12.998449
-148,494,8592,Digital Realty Amsterdam AMS18,ok,Amsterdam,NL,52.332165,4.923265
-149,495,8540,euNetworks (Global Voice),ok,Dublin,IE,53.291549,-6.416232
-150,496,879,SOCO Datacenter,ok,Dueren,DE,50.82885,6.457331
-151,497,87,GrafiX Internet B.V. - Alphen,ok,Alphen aan den Rijn,NL,52.131092,4.640164
-152,498,8592,Digital Realty Paris PAR3,ok,Paris,FR,48.914726,2.362398
-153,499,8592,Digital Realty Paris PAR4,ok,Paris,FR,,
-154,506,891,Piceno Datacenter,ok,Ascoli Piceno,IT,,
-155,509,2,"Equinix WA1 - Warsaw, Centrum LIM",ok,Warsaw,PL,52.227354,21.003357
-156,511,14618,Raiffeisen Diana Haus (RDH),ok,Vienna,AT,48.214174,16.377515
-157,517,849,Core-Backbone NBG2,ok,Nuremberg,DE,49.45341,11.06364
-158,518,849,Core-Backbone NBG3,ok,Nuremberg,DE,49.45341,11.06364
-159,524,16956,Eurofiber Datacenter Nedzone,ok,Steenbergen,NL,51.587535,4.305055
-160,529,1827,UPL TELECOM s.r.o.,ok,Prague,CZ,50.078067,14.472131
-161,532,13077,QTS Eemshaven (EEM1),ok,Eemshaven,NL,53.437293,6.858243
-162,536,934,UNI-C,ok,Lyngby,DK,55.784385,12.519543
-163,537,365,Cogent Strasbourg,ok,Schiltigheim,FR,48.60056,7.744168
-164,538,936,Databarn Rivium,ok,Capelle aan den IJssel,NL,51.91038,4.546787
-165,544,9775,Intermax Schouwburgplein Rotterdam,ok,Rotterdam,NL,51.92025,4.474623
-166,545,13598,WIIT Milano,ok,Milan,IT,45.465492,9.187323
-167,555,2136,Namex Datacenter Rome,ok,Rome,IT,41.898919,12.512156
-168,566,972,Digital Residence,ok,Nijmegen,NL,,
-169,567,1029,Solcon Datacenter Dronten,ok,Dronten,NL,52.53901,5.702234
-170,573,985,LightStorm Bratislava,ok,Bratislava,SK,,
-171,586,999,Montpellier Internet Telecom Datacenter,ok,Montpellier,FR,43.584614,3.871767
-172,589,942,GlobalConnect Kolding,ok,Kolding,DK,55.534452,9.474905
-173,591,1010,comtrance Duesseldorf,ok,Düsseldorf,DE,51.188,6.86608
-174,592,1012,Inter Fiber,ok,Peague 3,CZ,50.078067,14.472131
-175,594,1016,TMR Telehouse Bochum,ok,Bochum,DE,51.488704,7.219452
-176,595,1018,Webplus24 GmbH,ok,Mahlow,DE,52.35737,13.40806
-177,596,414,WideXS - G54,ok,Amsterdam,NL,52.400002,4.841993
-178,603,118,Lumen Frankfurt 2,ok,Frankfurt,DE,50.1003,8.63461
-179,607,1034,A1 Hrvatska Zagreb,ok,Zagreb,HR,45.785779,16.031468
-180,616,10478,TKTelekom - Joanitow,ok,Wroclaw,PL,51.09664,17.037555
-181,617,17600,nLighten Sophia Antipolis NCE1,ok,Antibes,FR,43.604752,7.075697
-182,620,18610,CIX,ok,Cork City,IE,51.903621,-8.512335
-183,628,365,Cogent Rouen,ok,Rouen,FR,49.428736,1.076366
-184,629,1067,Airwire DC Galway,ok,Galway,IE,,
-185,630,942,GlobalConnect Taastrup 2,ok,Taastrup,DK,55.662392,12.307179
-186,636,7,Telehouse - Paris 3 (Magny),ok,Magny-les-Hameaux,FR,48.726927,2.081473
-187,644,17600,nLighten Gent BRU1,ok,Merelbeke,BE,50.987659,3.767603
-188,646,31498,EXA Edge DC Milan,ok,Milan,IT,45.478016,9.101828
-189,652,1098,Belgacom Netcenter - 02MRI,ok,Machelen,BE,50.905082,4.422969
-190,655,7344,OPCORE - DC2 / PAR2,ok,Vitry-sur-Seine,FR,48.794768,2.411851
-191,659,17600,nLighten Amsterdam AMS1,ok,Amsterdam,NL,52.400495,4.842911
-192,662,1114,WDC,ok,Villers-le-Bouillet,BE,50.580621,5.262687
-193,663,4938,TELEPOINT Sofia Centre,ok,Sofia,BG,42.702735,23.306259
-194,664,1117,ITD Network SA Core Colocation center,ok,Sofia,BG,42.679361,23.366812
-195,665,1117,ITD Network SA Access Colocation Center,ok,Sofia,BG,42.694699,23.316748
-196,666,1120,Sofia Data Center (SDC),ok,Sofia,BG,42.656366,23.369197
-197,672,1120,Sofia Data Center (SDC) Ruse,ok,Ruse,BG,,
-198,673,1120,Varna Teleport Center,ok,Varna,BG,43.205497,27.912757
-199,674,1120,Burgas Teleport Center,ok,Burgas,BG,42.492929,27.473234
-200,675,1120,Plovdiv Teleport Center,ok,Plovdiv,BG,42.13603,24.753688
-201,678,602,Luna.nl Rotterdam Puntegale,ok,Rotterdam,NL,51.917088,4.473742
-202,683,2,"Equinix FR4 - Frankfurt, West",ok,Frankfurt,DE,50.097939,8.587964
-203,684,2,"Equinix SK2 - Stockholm, Sköndal",ok,Stockholm,SE,59.263521,18.105656
-204,685,118,Lumen Berlin,ok,Berlin,DE,52.43267,13.37372
-205,686,11724,Stadtwerke Norderstedt RZ1,ok,Norderstedt,DE,53.706205,9.994222
-206,700,1016,GFR DataCenter Bochum,ok,Bochum,DE,51.474367,7.193234
-207,707,1170,Global-e Datacenter NLRI1,ok,Rijen,NL,51.579078,4.929288
-208,708,12711,BBBell Torino,ok,Turin,IT,45.090615,7.658883
-209,714,8592,Digital Realty Paris PAR5,ok,Paris,FR,48.914183,2.362402
-210,715,8592,Digital Realty Paris PAR6,ok,Paris,FR,48.815272,2.402842
-211,716,118,Lumen Brussels,ok,Machelen,BE,50.887581,4.455725
-212,717,2,"Equinix PA3 - Paris, Saint-Denis",ok,Paris,FR,48.927166,2.350664
-213,718,365,Cogent Bordeaux,ok,Bordeaux,FR,44.86328,-0.555491
-214,719,1184,Neuf Caen,ok,Caen,FR,,
-215,720,1184,Neuf Cesson,ok,Cesson-Sévigné,FR,,
-216,721,365,Cogent Dijon,ok,Dijon,FR,47.308867,5.03019
-217,722,365,Cogent Grenoble,ok,Grenoble,FR,45.189943,5.736655
-218,723,365,Cogent Paris,ok,La Garenne Colombes,FR,48.907073,2.241557
-219,724,26110,ETIX Lyon #1,ok,Lyon,FR,45.729237,4.843612
-220,725,365,Cogent Nantes,ok,Nantes,FR,47.203142,-1.550442
-221,726,365,Cogent Poitiers,ok,Poitiers,FR,46.588271,0.339986
-222,727,365,Cogent Rennes,ok,Rennes,FR,48.107474,-1.64368
-223,728,1184,Neuf Rouen,ok,Saint Etienne du Rouvray,FR,,
-224,730,365,Cogent Tours,ok,Tours,FR,47.432609,0.686648
-225,731,365,Cogent Velizy,ok,Vélizy-Villacoublay,FR,48.783682,2.208055
-226,732,1198,Sanef Telecom Reims,ok,Thillois,FR,,
-227,735,1204,Carrierswitchraum Jena,ok,Jena,DE,50.8953,11.5842
-228,736,2341,Intershop-Tower Jena,ok,Jena,DE,50.928788,11.584776
-229,740,1212,Bahnhof Pionen,ok,Stockholm,SE,59.312383,18.085488
-230,741,1214,LVRTC TV Tower,ok,Riga,LV,56.923961,24.137042
-231,744,2362,Perses 2 - Riga,ok,Riga,LV,56.951976,24.124289
-232,746,1221,Hoern Campus Kiel,ok,Kiel,DE,54.310789,10.132338
-233,747,8540,euNetworks Colocation Frankfurt,ok,Frankfurt,DE,50.105432,8.647503
-234,749,8540,euNetworks Colocation Hannover,ok,Hannover,DE,52.398251,9.76883
-235,750,8540,euNetworks Colocation Dresden,ok,Dresden,DE,51.038826,13.731843
-236,751,8540,euNetworks Colocation Leipzig,ok,Leipzig,DE,51.364861,12.39941
-237,752,8540,euNetworks Colocation Hamburg,ok,Hamburg,DE,53.549318,10.048008
-238,753,8540,euNetworks Duesseldorf - site closed,ok,Düsseldorf,DE,51.226515,6.790216
-239,754,8540,euNetworks Colocation Koeln,ok,Cologne,DE,50.937182,6.973508
-240,755,8540,euNetworks Colocation Muenchen 1,ok,Munich,DE,48.149349,11.521064
-241,757,8540,euNetworks Colocation Nuernberg,ok,Nuremberg,DE,49.45971,11.03472
-242,771,1249,ULI-WEBFARM,ok,Milan,IT,,
-243,772,1251,iNES Datacenter Bucharest,ok,Bucharest,RO,44.484589,26.089852
-244,777,1258,Kelag Klagenfurt,ok,Klagenfurt,AT,46.62109,14.309852
-245,778,1261,Stadtwerke Klagenfurt,ok,Klagenfurt am Wörthersee,AT,46.617463,14.315468
-246,782,1263,Portus/IPHH HH2 (Wendenstrasse 408),ok,Hamburg,DE,53.549318,10.048008
-247,785,981,Hibernia Atlantic Dublin International Exchange Center,ok,Dublin,IE,53.400983,-6.218081
-248,787,10041,Telia Telehouse KJJ,ok,Tallinn,EE,59.435184,24.714942
-249,788,12713,Delska EU North Vilnius LT DC3,ok,Vilnius,LT,54.691725,25.288454
-250,789,1274,Sigmanet Data Centre,ok,Riga,LV,56.948577,24.118195
-251,790,1276,n@work Hamburg Wendenstraße,ok,Hamburg,DE,53.550912,10.047057
-252,793,1280,PROFISOL Bucharest,ok,Bucharest,RO,44.441308,26.139318
-253,802,1289,Digita Helsinki Pasila Broadcasting Tower,ok,Helsinki,FI,60.204658,24.922446
-254,808,1298,NewTelco Frankfurt,ok,Frankfurt,DE,50.099697,8.631763
-255,813,77,Global Switch Frankfurt,ok,Frankfurt,DE,50.129995,8.598073
-256,821,1313,Alionis VBO,ok,Villebon-sur-Yvette,FR,48.68827,2.212531
-257,822,1316,Siminn Hosting,ok,Copenhagen,DK,55.706356,12.585254
-258,823,614,Ikoula IKDC1,ok,Reims,FR,49.233817,4.034496
-259,824,1184,Neuf Reims,ok,Reims,FR,49.258209,4.017703
-260,831,16352,Serverfarm AMS1 Amsterdam,ok,Amsterdam,NL,52.395902,4.870918
-261,834,1331,Datacenter Noord-Holland,ok,Alkmaar,NL,52.625663,4.770622
-262,839,2577,SRCE Zagreb,ok,Zagreb,HR,45.792436,15.969413
-263,842,2,"Equinix PA6 - Paris, Condorcet",ok,Paris,FR,48.910255,2.368248
-264,844,1059,Fuzion Skanderborg,ok,Skanderborg,DK,56.070062,9.992591
-265,845,1059,Fuzion Aarhus,ok,Aarhus,DK,56.155695,10.177281
-266,846,1338,Fiber Direkt B15,ok,Stockholm,SE,,
-267,848,2590,Smartdc Rotterdam,ok,Rotterdam,NL,51.923689,4.432138
-268,856,2633,Ad Valem Technologies - France (Saint-Denis),ok,Saint-Denis,FR,48.927915,2.341221
-269,857,9280,KoloDC NL1,ok,Dronten,NL,52.543666,5.705215
-270,861,5526,KielNET Telehouse,ok,Kiel,DE,,
-271,862,2701,SpaceNet (LA),ok,Munich,DE,48.139859,11.526173
-272,864,3207,MIX DC CALDERA,ok,Milan,IT,45.476394,9.103571
-273,868,8540,euNetworks Colocation Rostock,ok,Rostock,DE,54.0751,12.138343
-274,869,8540,euNetworks Colocation Kiel,ok,Kiel,DE,54.33753,10.113224
-275,870,8540,euNetworks Colocation Bremen,ok,Bremen,DE,53.076765,8.773137
-276,871,8540,euNetworks Colocation Bielefeld,ok,Bielefeld,DE,52.022258,8.53299
-277,872,8540,euNetworks Colocation Magdeburg,ok,Magdeburg,DE,52.137862,11.63839
-278,873,8540,euNetworks Colocation Dortmund,ok,Dortmund,DE,51.520894,7.487899
-279,875,8540,euNetworks Colocation Mannheim,ok,Mannheim,DE,49.460294,8.499803
-280,876,8540,euNetworks Colocation Stuttgart,ok,Stuttgart,DE,48.708602,9.171533
-281,877,8540,euNetworks Colocation Karlsruhe,ok,Karlsruhe,DE,49.020127,8.440485
-282,879,8540,euNetworks Colocation Wuerzburg,ok,Würzburg,DE,49.799682,9.971257
-283,880,8540,euNetworks Colocation Erfurt,ok,Erfurt,DE,50.973316,11.034196
-284,882,2091,SIX SI Ljubljana Technology Park,ok,Ljubljana,SI,46.049968,14.460483
-285,883,2091,SIX SI Jozef Stefan Institute,ok,Ljubljana,SI,46.04225,14.488861
-286,884,2,"Equinix ML2 - Milan, Savona",ok,Milan,IT,45.448684,9.147436
-287,885,2,"Equinix ML3 - Milan, Basiglio",ok,Milan,IT,45.354074,9.147319
-288,890,2814,Vienna-Hainburgerstrasse (HS33),ok,Vienna,AT,48.198957,16.397861
-289,893,2824,XINON Graz,ok,Graz,AT,47.043339,15.465817
-290,906,1208,Fiducial Cloud LYO1,ok,Lyon,FR,45.770702,4.804503
-291,909,35949,LuxConnect DC1.1 - Bettembourg,ok,Bettembourg,LU,49.504919,6.113522
-292,923,78,Sicily Hub - Telecom Italia Sparkle Palermo Data Center,ok,Palermo,IT,38.161167,13.31538
-293,924,3254,Tiscali Palermo,ok,Palermo,IT,38.158096,13.317108
-294,926,2973,EdgeIT,ok,Västra Frölunda,SE,,
-295,927,3140,iNTERWERK Rechenzentrum,ok,Frankfurt,DE,50.122376,8.744717
-296,932,297,NorthC Frankfurt 3,ok,Frankfurt am Main,DE,50.102755,8.619718
-297,936,3192,AdNet Datacenter,ok,Bucharest,RO,44.432984,26.153028
-298,965,797,CarrierColo Berlin Kitzing (I/P/B/ site K),ok,Berlin,DE,52.43269,13.37386
-299,967,1685,firstcolo - FRA1,ok,Frankfurt,DE,50.116454,8.725955
-300,972,3434,Ecohost,ok,Bucharest,RO,44.441738,26.166248
-301,974,3444,Master DC Prague,ok,Prague,CZ,50.06947,14.463437
-302,975,3444,Master DC Brno,ok,Brno,CZ,49.196817,16.618764
-303,978,785,NXDATA-2 Bucharest (BUH2),ok,Bucharest,RO,44.479796,26.11423
-304,980,3484,Previder PDC2,ok,Hengelo,NL,52.243834,6.767264
-305,982,3497,DCENTER.PL - FT21,ok,Warsaw,PL,,
-306,989,41935,UltraEdge Lille,ok,Lille,FR,50.627753,3.03312
-307,991,3596,Cable & Wireless,ok,Dublin,IE,53.406419,-6.219909
-308,997,12351,PSE Jordana,ok,Katowice,PL,50.272696,18.841378
-309,998,1540,"ATMAN Data Center Katowice-1 (KTW-1, Altus)",ok,Katowice,PL,50.261637,19.024715
-310,1000,3707,WickedWay Utrecht,ok,Utrecht,NL,,
-311,1010,11051,Reliance St. Denis,ok,Paris,FR,48.927166,2.350664
-312,1011,11051,Reliance Plerin,ok,Plérin,FR,48.547554,-2.791928
-313,1022,3794,KPN DC2,ok,Amsterdam,NL,52.336612,4.886848
-314,1029,10541,ITandTEL TechCenter Linz,ok,Linz,AT,48.318645,14.306537
-315,1030,10541,ITandTEL Wels,ok,Wels,AT,48.162322,14.039465
-316,1031,10541,ITandTEL Voesendorf/Vienna,ok,Voesendorf,AT,48.124446,16.323359
-317,1032,10541,ITandTEL Perg,ok,Perg,AT,48.245792,14.619928
-318,1044,4037,SecureIT DCC,ok,Luxembourg,LU,49.581762,6.115898
-319,1045,4037,SecureIT DCB1.1,ok,Bettembourg,LU,49.505196,6.113479
-320,1046,4037,SecureIT DCB1.2,ok,Bettembourg,LU,49.505196,6.113479
-321,1047,4037,SecureIT DCR,ok,Bissen,LU,,
-322,1051,4020,Cornelia (Rome),ok,Rome,IT,41.891194,12.382053
-323,1052,1331,Datahouse Belgium,ok,Vilvoorde,BE,50.913256,4.392628
-324,1053,343,"STOKAB KN7, Östermalm",ok,Stockholm,SE,59.339137,18.085151
-325,1055,4181,IT TEL Ljubljana,ok,Ljubljana,SI,46.057422,14.505232
-326,1062,2172,InterDC Enschede,ok,Enschede,NL,52.2203,6.864338
-327,1065,2,"Equinix DB3 - Dublin, Ballycoolin",ok,Dublin,IE,53.411166,-6.347409
-328,1066,2018,Hotel des Telecoms,ok,Labege Innopole,FR,43.542557,1.509438
-329,1067,4329,PIO-NET,ok,Mogilno,PL,52.651023,17.961311
-330,1068,905,DEEP Resilience Centre Luxembourg West,ok,Windhof,LU,49.648448,5.95776
-331,1083,4570,NorthC Amsterdam 1,ok,Amsterdam,NL,52.392977,4.849211
-332,1090,905,DEEP Resilience Centre Luxembourg South,ok,Kayl,LU,49.49842,6.051976
-333,1097,4810,TDF Datacenter Paris Fort de Romainville,ok,Les Lilas,FR,48.885231,2.422496
-334,1113,4889,Hasselt DC2,ok,Hasselt,BE,50.938288,5.363598
-335,1119,5005,Citycom Datacenter Graz,ok,Graz,AT,47.043339,15.465817
-336,1120,1331,Datahouse Spijkenisse,ok,Spijkenisse,NL,51.855567,4.301731
-337,1124,17593,T-Mobile Piękna,ok,Warsaw,PL,52.223552,21.018092
-338,1128,5094,Centrinuity Toulouse,ok,Toulouse Balma,FR,43.625503,1.487055
-339,1130,5096,IMADIFF,ok,Paris,FR,48.824719,2.355616
-340,1131,41935,UltraEdge Toulouse,ok,Toulouse,FR,43.618886,1.419659
-341,1145,5258,Datacenter-Feldkirch,ok,Feldkirch,AT,47.270038,9.606018
-342,1158,6935,10 Rue des Frères Peuge,ok,Balma,FR,43.626642,1.487312
-343,1160,5498,iDataGreen,ok,Barcelona,ES,,
-344,1161,314,LCL Brussels West,ok,Aalst,BE,50.913149,4.038039
-345,1171,2525,TelemaxX IPC1,ok,Karlsruhe,DE,49.013549,8.347128
-346,1172,2525,POP Technologiepark Karlsruhe,ok,Karlsruhe,DE,49.019539,8.439932
-347,1173,2525,TelemaxX IPC3,ok,Karlsruhe,DE,49.020105,8.478102
-348,1181,5603,Civicos Networking DCLAGUNA,ok,San Cristóbal de La Laguna,ES,28.475976,-16.312445
-349,1182,5603,Civicos Networking DCROUBAIX,ok,Roubaix,FR,50.690091,3.177134
-350,1186,491,NTT Munich 1 Data Center (MUC1),ok,Munich,DE,48.150108,11.747954
-351,1187,491,NTT Hamburg 1 Data Center (HAM1),ok,Hamburg,DE,53.637322,10.01565
-352,1200,5741,Completel Val de Reuil,ok,Paris,FR,48.889321,2.243667
-353,1222,2,"Equinix AM11 - Amsterdam, Lemelerbergweg",ok,Amsterdam,NL,52.303846,4.93928
-354,1228,6042,Axione ADTIM,ok,Alixan,FR,44.989004,4.976087
-355,1230,16956,Eurofiber Datacenter Rotterdam,ok,Alblasserdam,NL,51.845913,4.679147
-356,1236,2,"Equinix AM5 - Amsterdam, Schepenbergweg",ok,Amsterdam,NL,52.293351,4.945054
-357,1237,35949,LuxConnect DC2 - Bissen,ok,Bissen,LU,49.788326,6.086779
-358,1244,2,"Equinix PA4 - Paris, Pantin",ok,Paris,FR,48.901133,2.412643
-359,1249,6350,conova - Datacenter 4/5,ok,Salzburg,AT,47.792026,13.010659
-360,1262,10596,Free Pro - Limonest,ok,Limonest,FR,45.806778,4.77262
-361,1268,6532,Stadtnetz Bamberg,ok,Bamberg,DE,49.900962,10.885819
-362,1270,6349,RTDC,ok,Aubière,FR,45.758988,3.131487
-363,1276,794,noris network datacenter.de NBG6,ok,Nuremberg,DE,49.41013,11.13012
-364,1288,6797,Amune Networks CPD !,ok,San Javier,ES,37.80561,-0.83857
-365,1292,6743,VegaSystems Datacenter Paderborn,ok,Paderborn,DE,51.682458,8.736708
-366,1298,6801,DATASIX Vienna (VIE1),ok,Vienna,AT,48.192998,16.353429
-367,1302,1212,Bahnhof Thule,ok,Stockholm,SE,59.337179,18.063938
-368,1313,6870,Data Facilities Spijkenisse,ok,Spijkenisse,NL,51.855278,4.301992
-369,1314,1273,"IPTP, Matrix 4, Amsterdam, The Netherlands",ok,Amsterdam,NL,52.356626,4.958019
-370,1320,2,"Equinix AM3 - Amsterdam, Science Park",ok,Amsterdam,NL,52.354686,4.958827
-371,1322,1685,firstcolo - FRA4,ok,Frankfurt,DE,50.1399,8.74346
-372,1336,7066,KPN DSSD2,ok,Düsseldorf,DE,51.258617,6.798702
-373,1341,4570,NorthC Delft,ok,Delft,NL,51.987103,4.377522
-374,1350,7149,Alticom - IJsselstein,ok,IJsselstein,NL,52.002407,5.050569
-375,1351,942,IP-Only Espoo,ok,Espoo,FI,60.185744,24.811988
-376,1364,11381,Infostrada/NEP Datacenter,ok,Hilversum,NL,52.237216,5.172769
-377,1368,8592,Digital Realty Zagreb (ZAG1),ok,Zagreb,HR,45.803311,15.943893
-378,1370,26110,ETIX Lille #2,ok,Sainghin-en-Mélantois,FR,50.584099,3.136511
-379,1373,297,NorthC Munich 1,ok,Munich,DE,48.117498,11.601931
-380,1392,942,GlobalConnect Malmö,ok,Malmö,SE,55.574518,12.927828
-381,1393,508,"Krossverksgatan 13a, Malmö",ok,Malmö,SE,55.5748,12.928058
-382,1397,1843,DELTA ZDC Goes,ok,Goes,NL,,
-383,1400,6728,PoP Faraday (Rouen),ok,Rouen,FR,49.442992,1.079135
-384,1402,7344,OPCORE - DC3 / PAR3,ok,Vitry-sur-Seine,FR,48.775278,2.379971
-385,1429,35807,EFX,ok,Eindhoven,NL,51.445601,5.494271
-386,1439,7511,Nessus NDC1,ok,Vienna,AT,48.179683,16.363922
-387,1441,7716,DnsHosting Torino PdF,ok,Turin,IT,45.090615,7.658883
-388,1442,7052,Host.it DC1,ok,Turin,IT,45.090688,7.660825
-389,1457,2,"Equinix HE3 - Helsinki, Suvilahti",ok,Helsinki,FI,60.185146,24.970015
-390,1458,2,"Equinix HE4 - Helsinki, Hansa",ok,Vantaa,FI,60.284212,24.841203
-391,1459,2,"Equinix HE5 - Helsinki, Viikinmäki",ok,Helsinki,FI,60.220067,24.985015
-392,1461,7722,ColoCenter Zoetermeer,ok,Zoetermeer,NL,52.033382,4.496007
-393,1503,7704,S-NET KRAKOW DATA CENTER KRDC-2,ok,Krakow,PL,50.070834,19.920621
-394,1504,7704,S-NET KRAKOW DATA CENTER KRDC-1,ok,Krakow,PL,50.072462,19.902937
-395,1506,942,GlobalConnect Glostrup,ok,Glostrup,DK,55.693734,12.420409
-396,1511,7788,CC IN2P3,ok,Villeurbanne,FR,45.782598,4.86519
-397,1512,1988,Artfiles w408,ok,Hamburg,DE,53.550542,10.048753
-398,1519,7843,Fastnet Ancona DC,ok,Ancona,IT,43.571578,13.502971
-399,1532,8980,3S Data Center Katowice,ok,Katowice,PL,,
-400,1533,7966,IPCore Datacenter Madrid,ok,Madrid,ES,40.44598,-3.570053
-401,1534,11061,Energie AG Data PowerTower Provider Room,ok,Linz,AT,48.293367,14.291336
-402,1535,11061,Energie AG Data PowerCube,ok,Linz,AT,48.247557,14.272284
-403,1536,8592,Digital Realty Paris PAR7,ok,Paris,FR,48.924907,2.403
-404,1549,2184,Unix-Solutions DC Zaventem,ok,Zaventem,BE,50.875242,4.499556
-405,1567,942,GlobalConnect Sätra,ok,Stockholm,SE,59.282234,17.923317
-406,1568,942,GlobalConnect Hammarby,ok,Stockholm,SE,,
-407,1580,8122,Positivo Salerno,ok,Salerno,IT,40.650657,14.820108
-408,1599,7344,OPCORE - DC4 / PAR4,ok,Paris,FR,48.829578,2.295931
-409,1600,366,GTS Nagano Prague,ok,Prague,CZ,50.083412,14.478692
-410,1602,2698,Glesys Stockholm 1,ok,Stockholm,SE,59.289728,18.016676
-411,1624,749,Gothenburg/B,ok,Gothenburg,SE,,
-412,1625,749,Stockholm/B,ok,Stockholm,SE,,
-413,1626,749,Sundsvall/B,ok,Sundsvall,SE,,
-414,1628,749,Stockholm/C,ok,Stockholm,SE,,
-415,1629,8295,Luleå Kommunhus,ok,Luleå,SE,65.583236,22.144299
-416,1635,3750,Voxility IR1 Bucharest,ok,Bucharest,RO,44.484488,26.117868
-417,1646,13415,3U Rechenzentrum Berlin,ok,Berlin,DE,52.455763,13.389075
-418,1650,8420,DCstar Datacenter Gent DCG,ok,Ghent,BE,51.026812,3.683342
-419,1665,8478,Datacenter Groningen,ok,Zuidbroek,NL,,
-420,1666,8521,Rekenhal,ok,Groningen,NL,53.238044,6.536082
-421,1672,16785,Orange Polska / Warsaw św. Barbary 10,ok,Warsaw,PL,52.227433,21.008976
-422,1673,8532,RAX,ok,Sofia,BG,42.956073,23.359572
-423,1674,6745,LWLcom Bremen BRE01,ok,Bremen,DE,53.110922,8.764988
-424,1675,8533,Datacenter Arnhem KLW,ok,Arnhem,NL,51.970159,5.941177
-425,1677,8534,PLUTEX Bremen,ok,Bremen,DE,53.075841,8.770335
-426,1686,942,GlobalConnect Hamburg (HAM1),ok,Hamburg,DE,53.63873,10.01568
-427,1687,942,GlobalConnect Hamburg (HAM2),ok,Hamburg,DE,53.550969,10.046769
-428,1692,8607,SBTAP01,ok,San Benedetto del Tronto,IT,42.943245,13.883056
-429,1693,8606,InterConnect Datacenter,ok,Bucharest,RO,44.415116,26.122688
-430,1717,118,Global Crossing Malmo,ok,Malmö,SE,55.607973,12.981746
-431,1723,1737,next layer Fleischmarkt,ok,Vienna,AT,48.210551,16.378684
-432,1757,8592,Digital Realty Copenhagen CPH-RS,ok,Valby,DK,55.653658,12.518345
-433,1758,28858,Arelion Munich MCN,ok,Munich,DE,48.188208,11.588718
-434,1782,29301,Treefaz Jeûneurs,ok,Paris,FR,48.869597,2.343833
-435,1783,9060,Viatel Amiens,ok,Amiens,FR,,
-436,1784,9061,Somme-numerique DC1,ok,Amiens,FR,,
-437,1785,32785,Penta Infra Paris PAR01,ok,Lognes,FR,48.836897,2.641417
-438,1786,7715,FEIX,ok,Ferrara,IT,44.83275,11.597264
-439,1788,7715,BOIX,ok,Bologna,IT,44.508512,11.363497
-440,1796,9156,Tennet Datacenter,ok,Bucharest,RO,44.468324,26.044811
-441,1801,9195,NETHINKS Housing ITZ Fulda,ok,Fulda,DE,50.551258,9.670212
-442,1803,9219,ColocationIX DC0,ok,Bremen,DE,53.074781,8.80715
-443,1804,9196,Ewe Tel Bremen,ok,Bremen,DE,,
-444,1805,365,Cogent Bremen,ok,Bremen,DE,,
-445,1807,9223,DC Kounicova,ok,Brno,CZ,49.210343,16.593014
-446,1808,9223,DC Antoninska,ok,Brno,CZ,49.20172,16.603317
-447,1826,9280,KoloDC NL2,ok,Meppel,NL,52.717249,6.19872
-448,1833,4124,Datacentrum Moravia,ok,Olomouc,CZ,49.592354,17.273803
-449,1844,9363,Orange / Val de Rueil,ok,Val de Reuil,FR,,
-450,1846,9370,Shiran Datacenter,ok,Prague 6,CZ,50.101665,14.343662
-451,1850,15066,Elisa Helsinki Lauttasaari,ok,Helsinki,FI,60.153761,24.882413
-452,1857,4810,TDF Datacenter Lille Lambersart,ok,Lambersart,FR,50.647547,3.042615
-453,1858,4810,TDF Datacenter Bordeaux Bouliac,ok,Bouliac,FR,44.819668,-0.505437
-454,1859,10041,Nebula Oy Lauttasaari,ok,Helsinki,FI,60.153815,24.883142
-455,1861,9559,Innopoli,ok,Espoo,FI,60.183899,24.8144
-456,1863,9561,EMC Home of Data MUC I/II - MuCon-X,ok,Munich,DE,48.195477,11.592698
-457,1864,9037,Andrino Telecom MAD1,ok,Madrid,ES,40.439323,-3.621211
-458,1869,6935,NeoCenter Paris,ok,Paris,FR,48.869629,2.347732
-459,1870,9565,Malaga Data Center,ok,Málaga,ES,36.694764,-4.474589
-460,1873,6870,DFDC The Hague,ok,The Hague,NL,52.064706,4.387171
-461,1877,2018,Eurofiber DC - TLS00,ok,Toulouse,FR,43.619897,1.421353
-462,1879,10596,Free Pro - Marseille - MRS1,ok,Marseille,FR,43.35965,5.338429
-463,1882,9696,Techcrea Valenciennes,ok,Marly,FR,50.345456,3.543358
-464,1912,10024,CSI Piemonte,ok,Turin,IT,45.038263,7.65169
-465,1931,7602,Cloudata,ok,Bievres,FR,48.769749,2.227899
-466,1935,2,Equinix SO1 - Sofia,ok,Sofia,BG,42.668521,23.395329
-467,1936,646,VSIX,ok,Padova,IT,45.38861,11.92851
-468,1949,8592,"Digital Realty Athens Campus (ATH1, ATH2, ATH3)",ok,Koropi,GR,37.871339,23.870251
-469,1974,3172,Retelit Avalon 1,ok,Milan,IT,45.477926,9.101999
-470,1986,19800,AtlasEdge DC Stuttgart NB8,ok,Stuttgart,DE,48.774973,9.176289
-471,1993,914,Ibercom Madrid,ok,Madrid,ES,40.513898,-3.673567
-472,1994,914,Ibercom San Sebastian,ok,San Sebastián,ES,43.296669,-2.009168
-473,2000,28858,Arelion Stuttgart SGRT/Z,ok,Stuttgart,DE,48.708257,9.171464
-474,2026,10392,Qonnected I (HDB01) - aka Ecostora,ok,Hardenberg,NL,52.567834,6.621991
-475,2050,16785,Orange Polska // Warszawa,ok,Warsaw,PL,52.227433,21.008976
-476,2051,16785,Orange Polska // Białystok,ok,Białystok,PL,53.133716,23.165997
-477,2052,16785,Orange Polska // Bydgoszcz,ok,Bydgoszcz,PL,53.132007,18.029071
-478,2055,16785,Orange Polska // Gdańsk,ok,Gdansk,PL,54.377818,18.608418
-479,2056,16785,Orange Polska // Katowice,ok,Katowice,PL,50.244417,19.024686
-480,2057,16785,Orange Polska // Kielce,ok,Kielce,PL,,
-481,2058,16785,Orange Polska // Kraków,ok,Krakow,PL,50.072088,19.956126
-482,2059,16785,Orange Polska // Lublin,ok,Lublin,PL,,
-483,2060,16785,Orange Polska // Łódź,ok,Łódź,PL,51.769225,19.452131
-484,2061,16785,Orange Polska // Olsztyn,ok,Olsztyn,PL,53.741309,20.490974
-485,2062,16785,Orange Polska // Poznań,ok,Poznan,PL,52.409911,16.930076
-486,2063,16785,Orange Polska // Rzeszów,ok,Rzeszów,PL,,
-487,2064,16785,Orange Polska // Szczecin,ok,Szczecin,PL,,
-488,2065,16785,Orange Polska // Wrocław,ok,Wroclaw,PL,51.110238,17.04044
-489,2066,4570,NorthC Groningen 1,ok,Groningen,NL,53.207462,6.473715
-490,2085,10628,Television Torrevieja CPD (TVT-CPD),ok,Torrevieja,ES,37.97929,-0.686973
-491,2098,10713,4 Data Center,ok,Katowice,PL,50.253609,19.003115
-492,2108,28678,Nexeren CBZ,ok,Cébazat,FR,45.831238,3.115058
-493,2136,8592,Digital Realty Dublin DUB13-14,ok,Dublin,IE,53.318675,-6.441368
-494,2137,118,Global Crossing Munich,ok,Munich,DE,48.143033,11.555925
-495,2150,187,Slovak University of Technology,ok,Bratislava,SK,48.151421,17.112847
-496,2151,10835,Technical University Košice,ok,Košice,SK,48.73265,21.242394
-497,2161,2,"Equinix DB4 - Dublin, Ballycoolin",ok,Dublin,IE,53.411858,-6.351995
-498,2175,11125,ODC21 (IBM colocation site),ok,Vienna,AT,48.270926,16.432897
-499,2176,11126,Visual Online Contern,ok,Contern,LU,49.595079,6.223371
-500,2187,11132,Prorental (Turi),ok,Tallinn,EE,,
-501,2188,6238,M247 Europe Bucharest,ok,Bucharest,RO,44.478323,26.118016
-502,2191,11484,Telco Center,ok,Courbevoie,FR,48.90607,2.258464
-503,2199,11487,Teletrans Datacenter,ok,Bucharest,RO,44.434331,26.10737
-504,2201,11489,Techno-Z,ok,Salzburg,AT,47.822732,13.040322
-505,2204,11490,Emit dc1-2,ok,Salzburg,AT,47.822464,13.040524
-506,2220,5296,kyberio GmbH,ok,Hannover,DE,52.32856,9.783293
-507,2224,11576,dc6.cz,ok,Prague,CZ,50.100862,14.341096
-508,2228,11861,Metroptics Datacenter,ok,Amiens,FR,49.881905,2.304642
-509,2242,11864,Earth Station Usingen,ok,Usingen/Neu-Anspach,DE,50.333485,8.480151
-510,2248,951,Interconnect Services DC2 Eindhoven,ok,Eindhoven,NL,51.442133,5.387401
-511,2267,11869,Adaptivity Datacenter,ok,Zlin,CZ,,
-512,2274,4810,TDF Datacenter Aix Marseille,ok,Les Milles,FR,43.460746,5.324426
-513,2284,603,STO01 - Vaultica Data Centers,ok,Upplands Väsby,SE,59.509861,17.897369
-514,2289,444,Vodafone Willsborough Industrial Estate,ok,Dublin,IE,53.406419,-6.219909
-515,2291,18675,TTC TELEPORT DC2,ok,Prague,CZ,50.080497,14.521341
-516,2293,12972,Synapsecom SNC-2 Athens,ok,Athens,GR,,
-517,2307,4385,Datencenter 3 - Innsbruck,ok,Innsbruck,AT,47.265059,11.435879
-518,2309,4385,Datencenter 1 - Hall in Tirol,ok,Hall in Tirol,AT,47.277933,11.50305
-519,2314,2590,Smartdc Heerlen,ok,Heerlen,NL,50.892834,5.972544
-520,2326,98,ITENOS Stuttgart (STR1),ok,Stuttgart,DE,48.721575,9.128656
-521,2327,98,ITENOS Düsseldorf (DUS1),ok,Düsseldorf,DE,51.258617,6.798701
-522,2328,98,ITENOS Hamburg (HAM1),ok,Hamburg,DE,53.54667,10.07693
-523,2333,12513,Tampere Hallituskatu 14,ok,Tampere,FI,61.496478,23.757183
-524,2343,12494,Eircom Dublin (Clonshaugh),ok,Dublin,IE,53.400983,-6.218081
-525,2346,13074,Verizon OMX Lunda Stockholm,ok,Spanga,SE,59.387758,17.886071
-526,2347,4645,Datahouse Warsaw,ok,Warsaw,PL,52.194664,20.925357
-527,2363,491,NTT Vienna1 Data Center (VIE1),ok,Vienna,AT,48.158717,16.339338
-528,2383,1540,"ATMAN Data Center Warsaw-2 (WAW-2, Konstruktorska 5)",ok,Warsaw,PL,52.184865,20.998078
-529,2393,14653,NIXVAL Datacenter,ok,Paterna,ES,39.519555,-0.46719
-530,2401,19800,AtlasEdge DC Stuttgart GRP10,ok,Stuttgart,DE,48.738805,9.111434
-531,2404,16747,DARZ,ok,Darmstadt,DE,49.87706,8.6427
-532,2437,33885,Bytesnet Rotterdam,ok,Rotterdam,NL,51.930144,4.414046
-533,2488,10543,System-Net HDC 1,ok,Saint Aunes,FR,43.64844,3.970954
-534,2490,13205,Poznań University of Economics,ok,Poznan,PL,,
-535,2492,17680,Poznań City Stadium,ok,Poznan,PL,,
-536,2493,43548,Talex,ok,Poznan,PL,52.443779,16.958575
-537,2494,9191,Poznan Supercomputing and Networking Center,ok,Poznan,PL,52.411831,16.916251
-538,2495,17680,St.Dominic Monastery,ok,Poznan,PL,52.411442,16.920731
-539,2504,13243,Sirius Technology DC - Quarrata,ok,Quarrata,IT,43.838559,10.974568
-540,2510,13307,EOT Exchange,ok,Szczecin,PL,53.460027,14.589515
-541,2516,2,"Equinix HE6 - Helsinki, Sinimäki",ok,Espoo,FI,60.203031,24.777861
-542,2525,13398,Balticom Datacenter,ok,Riga,LV,,
-543,2569,13617,Affarsverken Karlskrona,ok,Karlskrona,SE,56.166312,15.588728
-544,2570,1540,"ATMAN Data Center Warsaw-1 (WAW-1, Grochowska 21A)",ok,Warsaw,PL,52.234782,21.122584
-545,2574,3172,Retelit S.p.A. Torino,ok,Turin,IT,45.091322,7.661619
-546,2580,13730,PLANET IC V (Schwerin),ok,Schwerin,DE,53.598845,11.421519
-547,2602,8735,EdgeConneX Amsterdam (EDCAMS01),ok,Amsterdam,NL,52.286093,4.768444
-548,2604,9690,Firstheberg,ok,Valenciennes,FR,50.370134,3.521853
-549,2663,9219,ColocationIX DC2,ok,Bremen,DE,53.093516,8.790259
-550,2664,9219,ColocationIX DC3,ok,Bremen,DE,53.093516,8.790259
-551,2665,9219,ColocationIX DC4,ok,Bremen,DE,53.093516,8.790259
-552,2670,365,Cogent Frankfurt,ok,Frankfurt,DE,50.081342,8.627199
-553,2671,9219,ColocationIX DC1,ok,Bremen,DE,53.07441,8.80656
-554,2687,13822,Daticum Datacenter,ok,Sofia,BG,42.654081,23.390383
-555,2703,12453,Betech Solution,ok,Gellainville Cedex,FR,,
-556,2720,13887,MIL01 Vaultica Data Centers,ok,Siziano,IT,45.3313,9.206011
-557,2741,13956,MENGINE,ok,Sartrouville,FR,48.942653,2.184571
-558,2745,1212,Bahnhof Sparven,ok,Malmö,SE,55.60006,13.002894
-559,2751,9351,TNG DataCentre Kiel - HQ,ok,Kiel,DE,54.365703,10.107111
-560,2771,10478,Netia Data Center HEART,ok,Warsaw,PL,52.153999,21.012458
-561,2827,14157,Sigma DC3,ok,Carquefou,FR,47.277659,-1.469403
-562,2831,491,NTT Frankfurt 3 Data Center (FRA3),ok,Rüsselsheim,DE,49.97472,8.450269
-563,2832,491,NTT Frankfurt 2 Data Center (FRA2),ok,Frankfurt,DE,50.12082,8.738529
-564,2834,14179,SYS4NET DATACENTER,ok,Alcantarilla,ES,37.958679,-1.194223
-565,2860,1232,FCCN Lisbon - SE06,ok,Lisbon,PT,38.756444,-9.146581
-566,2875,1904,Εθνικό Ίδρυμα Ερευνών / National Hellenic Research Foundation (EIE/NHRF),ok,Athens,GR,37.973352,23.745514
-567,2876,7786,Maxnod,ok,Saint Trivier sur Moignans,FR,,
-568,2890,14309,Templus DC Barcelona BCN01,ok,L'Hospitalet de Llobregat,ES,41.34862,2.129779
-569,2897,14317,Hostline Vilnius HSTL-DG42A,ok,Vilnius,LT,54.648357,25.273844
-570,2904,1016,GFR DataCenter Herne,ok,Herne,DE,51.540276,7.207961
-571,2905,2,"Equinix ML4 - Milan, Cascia",ok,Milan,IT,45.511047,9.243875
-572,2906,2,"Equinix AM6 - Amsterdam, Duivendrechtsekade",ok,Amsterdam,NL,52.3377,4.934929
-573,2908,2,Equinix WA2 - Warsaw,ok,Warsaw,PL,52.15476,21.002384
-574,2951,11423,TI Sparkle Greece (IDC),ok,Metamorfosi,GR,38.072494,23.774063
-575,2969,13032,ADESTIS Nürnberg NBG1 (Alte Dampfbäckerei),ok,Nuremberg,DE,49.470953,11.085497
-576,3001,14456,EcoRacks,ok,Eindhoven,NL,51.478509,5.440275
-577,3055,1273,"IPTP, Kermia 1 Limassol, Cyprus",ok,Limassol,CY,34.684763,33.028513
-578,3082,17600,nLighten Madrid MAD1,ok,Madrid,ES,40.49048,-3.691058
-579,3084,14618,Raiffeisen Informatik Data Center (RDC),ok,Vienna,AT,48.231738,16.458057
-580,3087,14618,Raiffeisenhaus Wien (RHW),ok,Vienna,AT,48.214541,16.376111
-581,3109,7511,Nessus NDC2,ok,Vienna,AT,48.178047,16.364963
-582,3133,8630,Gemenii Network TD Datacenter,ok,Bucharest,RO,44.457067,26.129063
-583,3134,8630,Gemenii Network GT Datacenter,ok,Bucharest,RO,44.462013,26.124875
-584,3175,11109,Scientific Computing Center - KIT CS,ok,Karlsruhe,DE,49.012126,8.408124
-585,3188,8099,e-Quest Datacenter,ok,Helmond,NL,51.477024,5.619535
-586,3193,2,"Equinix SK3 - Stockholm, Spånga",ok,Stockholm,SE,59.390932,17.875185
-587,3204,10116,Orange Business - La Fabrique [Grenoble],ok,Grenoble,FR,45.168498,5.71513
-588,3225,15044,TEDRA LE01,ok,León,ES,42.58964,-5.557896
-589,3228,15066,Elisa Espoo Tapiola,ok,Espoo,FI,60.178502,24.798193
-590,3229,15066,Elisa Helsinki Pasila,ok,Helsinki,FI,60.196959,24.936553
-591,3230,15066,Elisa Tampere Nalkala,ok,Tampere,FI,61.494171,23.756189
-592,3246,11781,Hosting Data Center Bucharest,ok,Bucharest,RO,44.4225,26.037128
-593,3247,11781,Hosting Data Center Brasov,ok,Brasov,RO,45.644609,25.592344
-594,3249,12507,Hetzner Online FSN1 (Falkenstein),ok,Falkenstein,DE,50.478786,12.334859
-595,3250,12507,Hetzner Online NBG1 (Nuremberg),ok,Nuremberg,DE,49.449514,11.015375
-596,3262,15162,Cibicom Datacenter CPH West,ok,Copenhagen,DK,55.716681,12.237754
-597,3266,15104,Datacom Datacenter Ljusterö,ok,Ljusterö,SE,59.522936,18.610854
-598,3298,2412,Evolink Data Center Sofia 2,ok,Sofia,BG,42.677369,23.259932
-599,3299,2412,Evolink Data Center Sofia 1,ok,Sofia,BG,42.674247,23.368103
-600,3302,17409,"Avenida Montes Sierra 36, Sevilla",ok,Seville,ES,37.396502,-5.948152
-601,3303,2404,VSHosting ServerPark DC1,ok,Prague,CZ,50.060369,14.527369
-602,3314,15247,HELIANTIS,ok,Pau,FR,43.320905,-0.310332
-603,3323,2525,TelemaxX IPC4,ok,Karlsruhe,DE,49.02726,8.47312
-604,3340,15329,Debacom Zabrze DC1,ok,Zabrze,PL,50.311469,18.783917
-605,3342,15338,DATA4 Paris Marcoussis - PAR1,ok,Marcoussis,FR,,
-606,3348,15338,DATA4 Milan-Cornaredo - MIL1,ok,Cornaredo (MI),IT,45.480764,9.031736
-607,3349,15338,DATA4 Luxembourg - LUX,ok,Bettembourg,LU,49.504806,6.112374
-608,3382,9249,31173 DC Malmö Scheelegatan,ok,Malmö,SE,55.598323,13.037787
-609,3387,15421,Naquadria Datacenter Piacenza,ok,Piacenza,IT,45.050118,9.738366
-610,3390,1212,Bahnhof St Erik,ok,Stockholm,SE,59.347517,18.039236
-611,3407,15462,TPnets.com DC Łódź,ok,Łódź,PL,51.76039,19.45924
-612,3410,15457,Den Bosch,ok,Den Bosch,NL,51.686946,5.358962
-613,3411,15457,Eindhoven,ok,Eindhoven,NL,51.442134,5.387441
-614,3494,8592,Digital Realty Dublin DUB3,ok,Dublin,IE,53.323389,-6.451204
-615,3496,15134,Quicktel Sp. z o.o.,ok,Katowice,PL,50.253609,19.003115
-616,3514,1781,2Connect DC10,ok,Budapest,HU,47.485496,19.179285
-617,3519,7771,C21,ok,Milan,IT,45.476394,9.103571
-618,3521,10478,Netia Data Center SOUL,ok,Krakow,PL,50.021202,19.896027
-619,3522,7538,Dabka Data Center,ok,Krakow,PL,50.03525,20.006637
-620,3526,15772,Alliance Réseaux,ok,St Jean De Maurienne,FR,45.267404,6.368661
-621,3528,648,freenet Duesseldorf,ok,Düsseldorf,DE,51.239955,6.715709
-622,3531,30786,Umspannwerk Berlin,ok,Berlin,DE,52.494267,13.42903
-623,3568,1436,MK Netzdienste Datacenter,ok,Frankfurt am Main,DE,50.126684,8.581712
-624,3587,15967,OT - Armor,ok,Saint-Herblain,FR,47.231428,-1.630997
-625,3590,15967,OT - Capella,ok,La Chapelle-sur-Erdre,FR,,
-626,3592,15967,Oceanet Armor B,ok,Saint-Herblain,FR,47.231428,-1.630997
-627,3594,15967,OT - Rezé,ok,Rezé,FR,,
-628,3595,15872,krzysztof Wójcik,ok,Lublin,PL,51.245257,22.563523
-629,3596,13415,3U Rechenzentrum Hannover,ok,Hannover,DE,52.404131,9.731737
-630,3611,491,NTT Munich 2 Data Center (MUC2),ok,Unterschleißheim,DE,48.292458,11.573458
-631,3617,16043,BITel Gütersloh,ok,Gütersloh,DE,51.92,8.397528
-632,3637,16082,Haute-Saône Numérique,ok,Vesoul,FR,47.62174,6.149766
-633,3640,942,GlobalConnect Stilling,ok,Skanderborg,DK,56.067627,9.983517
-634,3651,16124,DATASPACE-PL,ok,Toruń,PL,52.989325,18.666078
-635,3659,3856,DIGITALIS Bratislava,ok,Bratislava,SK,48.164797,17.159861
-636,3674,7459,WIIT Datacenter DUS5,ok,Düsseldorf,DE,51.184907,6.870745
-637,3744,16248,CONSORCIO DE TELECOMUNICACIONES AVANZADA S.A.,ok,Alcantarilla,ES,37.959055,-1.193928
-638,3749,16252,Kom4Tel GmbH,ok,Eschbach,DE,47.899277,7.631602
-639,3773,16329,Planetel,ok,Treviolo,IT,45.672561,9.625956
-640,3797,794,noris network datacenter.de MUC5,ok,Aschheim,DE,48.162154,11.732602
-641,3798,1234,Panservice DC,ok,Latina,IT,41.481815,12.878032
-642,3800,15961,iODC,ok,Hvidovre,DK,55.643198,12.470832
-643,3812,12943,Lytzen-IT AAL-DC1,ok,Aalborg,DK,57.021448,9.973775
-644,3820,46,XS4ALL DC2,ok,Amsterdam,NL,,
-645,3821,46,XS4ALL Oude Meer,ok,Schiphol Rijk,NL,52.302018,4.796767
-646,3839,16519,Dataone AMS1,ok,Wormer,NL,52.494985,4.797368
-647,3840,16523,NAV Communications - Data Center,ok,Bucharest,RO,44.470942,26.133118
-648,3843,2554,GTS Telecom DC Bucharest,ok,Bucharest,RO,44.415543,26.075437
-649,3844,2554,GTS Telecom DC Cluj-Napoca,ok,Cluj Napoca,RO,46.787806,23.592801
-650,3849,17600,nLighten Amsterdam AMS2,ok,Schiphol Rijk,NL,52.279455,4.756262
-651,3866,2184,Unix-Solutions DC Leuven,ok,Leuven,BE,50.845244,4.724364
-652,3877,9229,Servercentralen  DC02,ok,Solna,SE,59.353539,17.975884
-653,3878,12972,Synapsecom SNC-1 Thessaloniki,ok,Thessaloniki,GR,40.661276,22.865902
-654,3886,12507,Hetzner Online HEL1 (Helsinki),ok,Tuusula,FI,60.341501,25.027735
-655,3901,14986,Toszecka 101,ok,Gliwice,PL,50.318399,18.663642
-656,3916,16689,Keyweb Datacenter Erfurt,ok,Erfurt,DE,50.972932,11.027557
-657,3948,14290,ILK Datacenter TPK1 Karlsruhe,ok,Karlsruhe,DE,49.02044,8.441384
-658,3954,13916,Internetport DC1,ok,HUDIKSVALL,SE,61.722187,17.128184
-659,3967,16745,IKB - Rechenzentrum1,ok,Innsbruck,AT,47.262823,11.396518
-660,3973,16745,IKB - Rechenzentrum2,ok,Innsbruck,AT,47.262823,11.396518
-661,3975,2815,KPN Datacenter (Mchn-S1),ok,Munich,DE,,
-662,3981,16915,Net-Build GmbH,ok,Saarwellingen,DE,49.3576,6.781315
-663,3982,16915,Net-Build Datacenter Saarwellingen,ok,Saarwellingen,DE,49.3576,6.781315
-664,4062,16899,"Státní pokladna Centrum sdílených služeb, s. p.",ok,Prague,CZ,50.090195,14.476089
-665,4071,14309,Templus DC Copenhagen CPH01,ok,Copenhagen,DK,55.647402,12.539827
-666,4073,19800,AtlasEdge DC Berlin BER001,ok,Berlin,DE,52.527509,13.318852
-667,4074,14309,Templus DC Paris PAR01,ok,Paris,FR,48.897248,2.322155
-668,4075,118,COLT DC Paris II,ok,Paris,FR,48.675058,2.195475
-669,4076,118,COLT DC Paris III,ok,Paris,FR,48.834809,2.397882
-670,4077,118,COLT DC Frankfurt,ok,Frankfurt,DE,50.12162,8.74006
-671,4078,19800,AtlasEdge DC Hamburg HAM001,ok,Hamburg,DE,53.6197,10.00141
-672,4081,14309,Templus DC Amsterdam AMS01,ok,Amsterdam,NL,52.328278,4.926198
-673,4083,118,COLT DC Roosendaal,ok,Rosendaal,NL,,
-674,4084,14309,Templus DC Barcelona BCN02,ok,Barcelona,ES,41.349513,2.13885
-675,4085,14309,Templus DC Madrid MAD02,ok,Madrid,ES,40.48699,-3.664977
-676,4100,13783,Unithost AM3,ok,Amsterdam,NL,52.354686,4.958827
-677,4130,17258,Vipnet d.o.o. Hrvatska,ok,Zagreb,HR,45.785779,16.031468
-678,4131,17258,Unitel PoP Sisak,ok,Sisak,HR,,
-679,4132,17258,Unitel PoP Okucani,ok,Dubovac,HR,,
-680,4133,17258,Unitel PoP Slobodnica,ok,Slobodnica,HR,,
-681,4134,17258,Unitel PoP Mirkovci,ok,Mirkovci,HR,,
-682,4135,17258,Unitel PoP Ilok,ok,Ilok,HR,,
-683,4137,8910,Convergenze Innovation Center,ok,Capaccio-Paestum,IT,40.445284,14.998696
-684,4138,8910,TIM Opb Nola,ok,Nola,IT,40.927089,14.508359
-685,4147,7625,CyrusOne Frankfurt 1,ok,Frankfurt,DE,50.128105,8.583001
-686,4192,17409,Espacio Rack,ok,Pozuelo de Alarcón,ES,40.395981,-3.795879
-687,4229,17166,centron DC bbg,ok,Hallstadt,DE,49.913593,10.865089
-688,4256,17606,Dave Geoghegan,ok,Dublin,IE,53.280444,-6.3756
-689,4264,4020,Unidata IDC-GALERIA,ok,Rome,IT,41.806939,12.336104
-690,4280,4570,NorthC Almere,ok,Almere,NL,52.364353,5.268793
-691,4392,491,NTT Rhein-Ruhr 1 Data Center (CGN1),ok,Bonn,DE,50.74822,7.0743
-692,4400,13415,3U Rechenzentrum Frankfurt,ok,Frankfurt,DE,50.098599,8.635693
-693,4401,13415,3U Rechenzentrum Marburg,ok,Marburg,DE,50.791026,8.766395
-694,4425,3484,Previder PDC1,ok,Hengelo,NL,52.285117,6.767891
-695,4431,17992,BICOS COMPUTER GmbH,ok,Bielefeld,DE,51.989883,8.622383
-696,4432,10523,DC Coolhousing - Prague,ok,Prague,CZ,50.0782,14.473867
-697,4440,1232,FCCN itconic,ok,Prior Velho,PT,38.787923,-9.12364
-698,4459,18066,"Radiokomunikace, a.s.",ok,Prague,CZ,50.080979,14.451776
-699,4460,18066,Casablanca INT s.r.o.,ok,Prague,CZ,50.078067,14.472131
-700,4472,41935,UltraEdge Rezé,ok,Rezé,FR,47.196473,-1.561053
-701,4475,4938,TELEPOINT Montana,ok,Montana,BG,43.406185,23.225133
-702,4478,6013,Switch Datacenters AMS2,ok,Woerden,NL,52.0818,4.892822
-703,4483,17639,Keppel Data Centres | Keppel DC Frankfurt 1,ok,Frankfurt,DE,50.195395,8.639651
-704,4484,17639,Keppel Data Centres | Keppel DC Dublin 1,ok,Dublin,IE,53.291529,-6.416334
-705,4485,17639,Keppel Data Centres | Keppel DC Almere 2,ok,Almere,NL,52.364554,5.268639
-706,4486,17639,Keppel Data Centres | Keppel DC Almere 1,ok,Almere,NL,52.364554,5.268639
-707,4504,18204,Pronexon Datacenter,ok,Reutlingen,DE,48.509039,9.22433
-708,4521,1290,CITIC Telecom CPC Netherlands B.V.,ok,Amsterdam,NL,52.305474,4.949249
-709,4555,13100,INFONET DC,ok,Tallinn,EE,59.45716,24.693153
-710,4562,17337,Infium Baltic,ok,Vilnius,LT,54.723907,25.239697
-711,4566,1196,Seeweb Milano Caldera,ok,Milan,IT,45.477546,9.105083
-712,4591,17983,KIO Murcia 1 (MUR1),ok,Murcia,ES,38.024856,-1.168926
-713,4597,1583,Sevilla Datacenter,ok,Seville,ES,37.4847,-5.93039
-714,4615,18261,Baltneta TIER3 Datacenter,ok,Vilnius,LT,54.63746,25.306727
-715,4623,18261,Baltneta TIER2 Datacenter,ok,Vilnius,LT,54.669364,25.270851
-716,4627,2,"Equinix AM4 - Amsterdam, Science Park",ok,Amsterdam,NL,52.354686,4.958827
-717,4642,18572,"Dat, s.r.o",ok,Uherske Hradiste,CZ,49.065023,17.459679
-718,4663,9432,INTRED-DC-CRETA,ok,Brescia,IT,45.528561,10.214249
-719,4664,9432,INTRED-DC-TAMBURINI,ok,Brescia,IT,45.577595,10.230506
-720,4670,18622,Trivenet,ok,Padova,IT,45.410084,11.911646
-721,4671,18623,NS3 - PD02,ok,Padova,IT,45.391996,11.944702
-722,4687,18645,Datacenter.com AMS1,ok,Amsterdam,NL,52.309485,4.935572
-723,4704,2,"Equinix FR6 - Frankfurt, West",ok,Frankfurt,DE,50.097939,8.587964
-724,4707,8592,Digital Realty (ROM0),ok,Rome,IT,41.909377,12.588295
-725,4710,18604,ParcBit CPD Palma,ok,Palma,ES,39.634325,2.631838
-726,4730,18763,Esnet,ok,Vilnius,LT,54.734677,25.33237
-727,4772,8592,Digital Realty Amsterdam AMS15-16,ok,Hoofddorp,NL,52.290296,4.679718
-728,4795,18871,Connect plus s.r.o.,ok,Prague,CZ,50.091355,14.501636
-729,4796,8592,Digital Realty Frankfurt FRA29-32,ok,Frankfurt,DE,50.127174,8.585565
-730,4826,12713,Delska EU North Vilnius LT DC1,ok,Vilnius,LT,54.611556,25.120894
-731,4838,18950,ICODIA NETWORK INTEGRITY,ok,Cesson-Sévigné,FR,48.103132,-1.625042
-732,4856,4570,NorthC Eindhoven 1,ok,Eindhoven,NL,51.407417,5.458918
-733,4857,4570,NorthC Rotterdam Waalhaven,ok,Rotterdam,NL,51.875343,4.449031
-734,4876,15161,Cloud Module 1,ok,Marousi,GR,38.036138,23.797892
-735,4882,77,Global Switch Madrid,ok,Madrid,ES,40.447968,-3.574684
-736,4892,15479,MAXNET Łukasz Hamerski,ok,Gdynia,PL,54.50597,18.536652
-737,4921,19109,DROBETA DATACENTER,ok,Drobeta Turnu Severin,RO,44.643943,22.670286
-738,4924,11700,Datacenter Leipzig - envia TEL GmbH,ok,Taucha,DE,51.372686,12.472807
-739,4984,1263,Portus LUX1,ok,Luxembourg,LU,49.579747,6.109837
-740,5024,12486,Datavault Kanavuori inc.,ok,Jyväskylä,FI,62.237133,25.911942
-741,5025,942,GlobalConnect Vesterbro (CPH2),ok,Copenhagen,DK,55.670113,12.538302
-742,5026,942,GlobalConnect Albertslund (CPH3),ok,Albertslund,DK,55.665439,12.368436
-743,5027,942,GlobalConnect Odense,ok,Odense,DK,55.388958,10.440261
-744,5029,942,GlobalConnect Nørre Nebel,ok,Nørre Nebel,DK,55.778553,8.284
-745,5070,19395,Datacenter NEXEREN,ok,Civrieux,FR,45.903869,4.876179
-746,5078,19427,Datacenter Stadtwerk Konstanz,ok,Konstanz,DE,47.67585,9.16158
-747,5095,12713,Delska EU North Vilnius LT DC2,ok,Vilnius,LT,54.677175,25.267236
-748,5118,31498,EXA Edge DC Bordeaux,ok,Bordeaux,FR,44.780989,-0.537342
-749,5124,1019,Softnet Trzin DC,ok,Trzin,SI,46.121491,14.550622
-750,5125,1019,Softnet Ljubljana DC,ok,Ljubljana,SI,46.057422,14.505232
-751,5141,2018,APPLIWAVE - CBO,ok,Croissy Beaubourg,FR,48.82287,2.641987
-752,5156,12469,PlusServer DataCore Köln,ok,Cologne,DE,50.91076,7.06076
-753,5157,12469,PlusServer DataHub Düsseldorf,ok,Düsseldorf,DE,51.18847,6.86554
-754,5175,19586,Serinya Telecom,ok,Eslettes,FR,,
-755,5199,19626,D-LAKE,ok,Annecy,FR,45.907841,6.102777
-756,5206,18623,NS3 - PD01,ok,Padova,IT,45.382913,11.93908
-757,5223,314,LCL Wallonia One,ok,Gembloux,BE,50.503527,4.717761
-758,5276,19759,ENGIE Cofely (Maastricht-Airport),ok,Maastricht,NL,50.928065,5.781152
-759,5280,26110,ETIX Paris #1,ok,Paris,FR,48.869599,2.347689
-760,5281,26110,ETIX Montpellier #1,ok,Montpellier,FR,43.584674,3.87196
-761,5282,26110,ETIX Toulouse #1,ok,Balma,FR,43.625503,1.487055
-762,5322,6935,Zayo Amsterdam,ok,Amsterdam,NL,52.356817,4.840278
-763,5339,19913,Vozelia Telecom Madrid,ok,Madrid,ES,40.487315,-3.667491
-764,5355,11109,Scientific Computing Center - KIT CN,ok,Eggenstein-Leopoldshafen,DE,49.091741,8.428385
-765,5357,11109,KIT-Bibliothek Süd,ok,Karlsruhe,DE,49.011213,8.416388
-766,5362,19800,AtlasEdge DC Leverkusen LEV001,ok,Leverkusen,DE,51.058625,7.020139
-767,5379,17543,Aruba IT1 - Arezzo,ok,Arezzo,IT,43.459894,11.838035
-768,5380,17543,Aruba IT2 - Arezzo,ok,Arezzo,IT,43.476686,11.850195
-769,5381,17543,Aruba IT3 - Milan PSP,ok,Ponte San Pietro,IT,45.706417,9.590141
-770,5426,19952,maincubes AMS01,ok,Schiphol Rijk,NL,52.282192,4.772861
-771,5427,23079,maincubes FRA01,ok,Offenbach,DE,50.1093,8.74229
-772,5470,170,RETN AD DC,ok,Riga,LV,56.948372,24.201062
-773,5493,1210,Blacknight BK0,ok,Carlow,IE,52.842183,-6.935693
-774,5510,19054,DoclerNet,ok,Budapest,HU,47.496619,19.117733
-775,5519,4931,dotsi - Lisbon DC01,ok,Lisbon,PT,38.7477,-9.09797
-776,5536,20414,Kapsch BusinessCom earthDATAsafe,ok,Pötschach,AT,47.449141,15.338204
-777,5544,6613,Obenet Kista Gate,ok,Kista,SE,59.40984,17.949268
-778,5561,20459,HostSlim,ok,Woerden,NL,52.082493,4.892725
-779,5572,16787,RegioNet Schweinfurt GmbH,ok,Schweinfurt,DE,50.05121,10.21738
-780,5579,20527,WaveCom DC,ok,Tallinn,EE,59.429314,24.73133
-781,5587,1417,Plus.line AG Stuttgart,ok,Stuttgart,DE,48.70899,9.17098
-782,5588,13558,Connected Krakow,ok,Krakow,PL,50.073431,19.915404
-783,5670,4810,TDF Datacenter Rennes Cesson,ok,Cesson-Sévigné,FR,48.124785,-1.627098
-784,5748,7365,Acens Technologies,ok,Alcobendas,ES,40.526407,-3.66113
-785,5768,20886,Association Alsace Reseau Neutre,ok,Strasbourg,FR,48.56705,7.759874
-786,5842,4006,Tuxis,ok,Ede,NL,52.035024,5.62649
-787,5872,15909,SkyLink Data Center BV,ok,Eygelshoven,NL,50.895608,6.069836
-788,5875,4938,TELEPOINT Sofia East,ok,Sofia,BG,42.673082,23.383323
-789,5879,11713,CITIC Telecom CPC Datacenter Tallinn,ok,Tallinn,EE,59.437102,24.709027
-790,5887,118,COLT Datacenter Turin,ok,Turin,IT,45.088155,7.671782
-791,5901,290,Servecentric (Blanchardstown),ok,Dublin,IE,53.412959,-6.373212
-792,5931,21275,Mediam Helsinki Datacenter,ok,Helsinki,FI,60.220109,24.870195
-793,5963,6370,Plexval Datacenter,ok,Paterna,ES,39.523258,-0.466529
-794,5979,18122,CobraNET Arad,ok,Arad,RO,46.199254,21.319733
-795,5980,18122,CobraNET Main Datacenter,ok,Arad,RO,46.174168,21.319003
-796,5982,22102,Tier Datacenter,ok,Craiova,RO,44.316567,23.835249
-797,5983,21379,Compania de Informatica Aplicata,ok,Cluj Napoca,RO,46.757258,23.594142
-798,5986,22082,Universitatea Politehnica Timisoara,ok,Timisoara,RO,45.747175,21.22892
-799,5987,21436,Open Hub Med,ok,Carini,IT,38.157745,13.195175
-800,5990,21390,Top Telecom,ok,Iași,RO,47.144244,27.603334
-801,6024,16956,Eurofiber Datacenter Brabant,ok,Waalwijk,NL,51.695715,5.037861
-802,6025,16956,Eurofiber Datacenter Utrecht,ok,Groenekan,NL,52.122761,5.143087
-803,6026,16956,Eurofiber Datacenter Arnhem,ok,Arnhem,NL,51.988021,5.932863
-804,6031,8735,EdgeConneX Warsaw (EDCWAW01),ok,Warsaw,PL,52.226759,20.999259
-805,6044,21488,Conapto Stockholm Syd (Sätra),ok,Skärholmen,SE,59.283454,17.925825
-806,6045,21488,Conapto Stockholm Nord (Sollentuna),ok,Sollentuna,SE,59.448549,17.956782
-807,6103,21636,Tallinn TV Tower,ok,Tallinn,EE,59.471209,24.88745
-808,6106,15881,Citynet Facility,ok,Rzeszów,PL,50.02329,22.014328
-809,6112,14446,moji1,ok,Nanterre,FR,48.880773,2.21914
-810,6113,21862,IslaLink FSL,ok,Valencia,ES,39.440181,-0.370117
-811,6194,21823,"České Radikomunikace, a.s.",ok,Prague,CZ,50.080979,14.451776
-812,6266,3952,Hexatom Sophia Antipolis,ok,Nice,FR,43.615206,7.074971
-813,6267,37192,Green Data - Nanterre,ok,Nanterre,FR,48.887283,2.214512
-814,6277,21297,Lancom Athens DC,ok,Athens,GR,38.039974,23.802314
-815,6278,21297,Lancom Thessaloniki DC,ok,Thessaloniki,GR,40.633371,22.943482
-816,6290,1959,DNA Lauttasaari,ok,Helsinki,FI,60.153815,24.883142
-817,6296,2828,Colocation Leipzig Mitte (ZNK) - PŸUR Business,ok,Leipzig,DE,,
-818,6297,31498,EXA Edge DC Dresden,ok,Dresden,DE,51.07296,13.683991
-819,6300,35738,Woluwedal 102,ok,Sint-Lambrechts-Woluwe,BE,50.855455,4.444711
-820,6360,7985,itself TH Brno,ok,Brno,CZ,49.205764,16.661715
-821,6361,7985,itself TH Ivančice,ok,Ivančice,CZ,49.090268,16.35622
-822,6367,4889,Hasselt DC1,ok,Hasselt,BE,50.931579,5.30465
-823,6385,22218,Promo.iT Srl,ok,Merate,IT,45.68736,9.423044
-824,6393,20633,Starnet Media Cluj-Napoca,ok,Cluj Napoca,RO,46.771099,23.593616
-825,6414,22278,S3 Company Ltd.,ok,Sofia,BG,42.67892,23.36733
-826,6429,22211,BGDS TELEKOM EOOD.,ok,Kapitan Andreevo,BG,41.72111,26.323485
-827,6450,905,DEEP Resilience Center Luxembourg East,ok,Betzdorf,LU,49.693556,6.327622
-828,6513,78,Telecom Italia Sparkle Milano Data Center,ok,Milan,IT,45.502605,9.342785
-829,6549,26110,ETIX Lille #3,ok,Anzin - Valenciennes,FR,50.380311,3.521029
-830,6550,22511,ATE #1,ok,Villeneuve d'Ascq,FR,50.63997,3.14598
-831,6552,22512,Comarch France #1,ok,Lezennes,FR,50.614165,3.103819
-832,6584,22527,Applico Data Center - Perugia,ok,Perugia,IT,43.070788,12.34679
-833,6592,22568,Greenhouse Datacenters DC1,ok,Naaldwijk,NL,52.001194,4.210829
-834,6593,22568,Greenhouse Datacenters DC2,ok,Naaldwijk,NL,52.001552,4.209184
-835,6635,2447,Telekom Slovenije - DC Cigaletova,ok,Ljubljana,SI,46.056976,14.507117
-836,6656,22675,Adeo Datacenter,ok,Albertslund,DK,55.667728,12.367818
-837,6720,22101,KLH-GSN-DC - Greekstream Networks - Thessaloniki,ok,Thessaloniki,GR,,
-838,6752,22809,Datacenter NTAG,ok,Erfurt,DE,50.976193,11.021223
-839,6770,26850,dcvlaanderen,ok,Antwerp,BE,51.264077,4.399495
-840,6794,22854,Datacenter Mainfranken,ok,Würzburg,DE,49.799726,9.943007
-841,6805,22880,High5! Amsterdam,ok,Amsterdam,NL,52.336277,4.886678
-842,6812,22890,DATAGREX,ok,Saint-Saturnin,FR,48.054043,0.187639
-843,6841,15828,Junet Birka,ok,Huskvarna,SE,57.787106,14.262248
-844,6842,3254,Tiscali Cagliari,ok,Cagliari,IT,,
-845,6844,9750,Net Global DC,ok,Padua,IT,45.395345,11.945418
-846,6877,2510,ONI Telecom Lisbon Matinha,ok,Lisbon,PT,38.747404,-9.098127
-847,6883,7614,Magic OnLine,ok,Montreuil,FR,48.855088,2.439301
-848,6916,22587,ASCO TLC Data Center,ok,Santa Lucia di Piave (TV),IT,,
-849,6921,23055,MOMIT Milan,ok,Milan,IT,45.462484,9.242284
-850,6925,23059,DataGrid Network Germany,ok,Aerzen,DE,47.906613,11.108324
-851,6949,2698,Glesys Tampere 1,ok,Tampere,FI,61.497788,23.775938
-852,6950,13072,Verne Helsinki,ok,Vantaa,FI,60.303515,25.101186
-853,6951,2698,Glesys Pori 1,ok,Harjunpää,FI,61.501083,21.888366
-854,6976,10596,Free Pro - Lyon - Rock,ok,Lyon,FR,45.740044,4.888465
-855,7041,10478,Netia Warsaw (WARSC001),ok,Warsaw,PL,52.223397,21.01981
-856,7052,23287,Host-Telecom.com,ok,Veselí nad Lužnicí,CZ,49.191564,14.718417
-857,7063,23331,ITinSell Cloud Datacenter,ok,La Ciotat,FR,43.208506,5.608645
-858,7069,16322,TecnoAlcalá,ok,Alcalá de Henares,ES,40.519524,-3.341208
-859,7076,22560,weber.cloud  Data Center Balingen 1,ok,Balingen,DE,48.276912,8.851367
-860,7097,2,Equinix SO2 - Sofia,ok,Sofia,BG,42.67572,23.401498
-861,7098,2,"Equinix HE7 - Helsinki, Sinimäki",ok,Espoo,FI,60.203959,24.775753
-862,7099,2,Equinix WA3 - Warsaw,ok,Warsaw,PL,52.189965,20.920738
-863,7114,12821,XSALTO Grenoble,ok,Seyssinet-Pariset,FR,45.168755,5.68854
-864,7124,9219,ColocationIX DC5,ok,Bremen,DE,53.093964,8.790196
-865,7160,32785,Penta Infra Leeuwarden LEE01,ok,Leeuwarden,NL,53.204849,5.765145
-866,7161,32785,Penta Infra Leeuwarden LEE02,ok,Leeuwarden,NL,53.192575,5.760613
-867,7180,7344,OPCORE - DC5 / PAR5,ok,Saint-Ouen-l'Aumône,FR,49.053744,2.137936
-868,7226,17600,nLighten Paris PAR2,ok,Aubervilliers,FR,48.906734,2.367834
-869,7227,31498,EXA Edge DC Marseille,ok,Marseille,FR,43.342848,5.368113
-870,7274,1263,Portus/IPHH HH3 (Wendenstrasse 251),ok,Hamburg,DE,53.550998,10.03825
-871,7327,23773,Makarios Earth Station Kofinou,ok,Kofinou,CY,34.86132,33.382627
-872,7367,16759,GELSEN-NET Gelsenkirchen,ok,Gelsenkirchen,DE,51.528185,7.028807
-873,7396,3172,Retelit S.p.A. Verona,ok,Verona,IT,45.402363,10.971457
-874,7403,3172,Retelit S.p.A. Roma Perrier,ok,Rome,IT,41.922502,12.531523
-875,7404,3172,Retelit S.p.A. Trento,ok,Trento,IT,46.061626,11.115344
-876,7414,8592,Digital Realty Madrid MAD3,ok,Madrid,ES,40.433899,-3.62408
-877,7426,491,NTT Amsterdam 1 Data Center (AMS 1),ok,Rozenburg,NL,52.283746,4.744425
-878,7427,491,NTT Frankfurt 4 Data Center (FRA4),ok,Hattersheim am Main,DE,50.063868,8.48535
-879,7449,19839,Dawico FFM,ok,Frankfurt,DE,50.109696,8.661696
-880,7485,16806,epnox Vreden,ok,Vreden,DE,52.028778,6.823103
-881,7486,16806,epnox Stadtlohn,ok,Stadtlohn,DE,51.98577,6.89973
-882,7502,2172,InterDC Hengelo,ok,Hengelo,NL,52.267645,6.791128
-883,7515,24144,Eltodo Sarka,ok,Prague,CZ,50.100862,14.341096
-884,7570,22290,efectRO DC1,ok,Cluj Napoca,RO,46.794435,23.601719
-885,7604,24317,EVF Datacenter,ok,Göppingen,DE,48.713246,9.686683
-886,7611,17600,nLighten Lyon LYS1,ok,Villeurbanne,FR,45.771937,4.871514
-887,7627,493,Pfalzkom DCRN II,ok,Mutterstadt,DE,49.42065,8.350287
-888,7628,493,Pfalzkom DCRN I,ok,Mutterstadt,DE,49.42591,8.360248
-889,7629,942,GlobalConnect Hamburg (HAM3),ok,Hamburg,DE,53.551005,10.038666
-890,7638,1276,n@work Hamburg Grevenweg,ok,Hamburg,DE,53.548555,10.043154
-891,7643,24354,STACKIT Ostermiething (DC10),ok,Ostermiething,AT,48.032333,12.837561
-892,7652,16128,htp Rechenzentrum Hannover TZ,ok,Hannover,DE,52.322642,9.818324
-893,7653,16128,htp Rechenzentrum Lehrte RZ2,ok,Lehrte,DE,52.36163,9.91354
-894,7662,6752,Nepustil Brückenstr. Tübingen,ok,Tübingen,DE,48.518262,9.06926
-895,7663,6752,Nepustil TTR Reutlingen,ok,Reutlingen,DE,48.496032,9.137463
-896,7666,24397,IUKANET Datacenter,ok,Alfafar,ES,39.416592,-0.396344
-897,7686,24439,IXPlay Neutral Acces Point,ok,Benahavis,ES,37.97101,-1.15645
-898,7690,19800,AtlasEdge DC Düsseldorf DUS001,ok,Hilden,DE,51.191425,6.93825
-899,7692,25714,dc2scale Nanterre,ok,Nanterre,FR,48.897921,2.221522
-900,7699,22993,BADEN-RZ,ok,Baden-Baden,DE,,
-901,7746,7625,CyrusOne Amsterdam I,ok,Halfweg,NL,52.383057,4.703489
-902,7747,7625,CyrusOne Frankfurt 2,ok,Frankfurt,DE,50.128105,8.583001
-903,7748,7625,CyrusOne Dublin 1,ok,Dublin,IE,53.328573,-6.439542
-904,7755,24510,WNB A/S - TDR,ok,Tønder,DK,54.951281,8.869761
-905,7775,21491,Dataxion France DTX01,ok,Trappes,FR,48.796534,1.98491
-906,7868,2,Equinix HH1 - Hamburg,ok,Hamburg,DE,53.64479,9.97477
-907,7882,13243,Sirius Technology DC - Prato,ok,Prato,IT,43.865425,11.115335
-908,7883,13243,Sirius Technology DC- Nuoro,ok,Nuoro,IT,40.313074,9.317166
-909,7929,98,ITENOS Leverkusen (LEV1),ok,Leverkusen,DE,51.057944,7.020159
-910,7930,98,ITENOS Frankfurt (FRA2),ok,Frankfurt,DE,50.128192,8.601436
-911,8093,6745,LWLcom Bremen BRE04,ok,Bremen,DE,53.08495,8.76863
-912,8097,25109,Bestgo.pl,ok,Wroclaw,PL,51.161546,16.901513
-913,8128,10041,Telia Helsinki Datacenter,ok,Helsinki,FI,60.215932,24.877708
-914,8146,21848,Posta Slovenije d.o.o.,ok,Maribor,SI,46.558786,15.644259
-915,8151,1001,WNET DC Krakow,ok,Krakow,PL,50.073872,19.912983
-916,8171,8386,Telemach Tier3 DC,ok,Ljubljana,SI,46.094644,14.557774
-917,8197,2197,Welcome Italia spa - Data Center,ok,Pisa,IT,43.656669,10.436113
-918,8220,25371,Telemark Rechenzentrum Lüdenscheid,ok,Lüdenscheid,DE,51.226194,7.636304
-919,8273,25476,TLCWEB DC IT1,ok,Lamezia Terme,IT,38.955164,16.285415
-920,8276,21602,Wolfsburg Nordkopf Tower (WNT),ok,Wolfsburg,DE,52.42821,10.79209
-921,8284,9280,KoloDC NL3,ok,Apeldoorn,NL,52.24703,6.001603
-922,8285,365,Cogent Madrid,ok,Madrid,ES,40.565558,-3.605486
-923,8291,8975,Akquinet HAM01,ok,Hamburg,DE,53.611944,10.02545
-924,8292,8975,Akquinet HAM02,ok,Hamburg,DE,53.61445,10.027982
-925,8293,8975,Akquinet NOR01,ok,Norderstedt,DE,53.700157,9.994093
-926,8300,4264,Hexanet - DC Roland,ok,Reims,FR,49.23637,4.062967
-927,8301,4264,Hexanet - DC Sabine,ok,Reims,FR,49.235186,4.063736
-928,8320,1019,Softnet Koper DC,ok,Koper,SI,45.5481,13.737804
-929,8325,25586,KevlinX Brussels,ok,Brussels,BE,50.905939,4.402943
-930,8326,2480,PRORED Datacenter,ok,Paterna,ES,39.554075,-0.467377
-931,8342,3061,PhoenixNAP AMSTERDAM,ok,Haarlem,NL,52.392472,4.663749
-932,8358,13052,LayerBridge Pipera,ok,Voluntari,RO,44.490023,26.118948
-933,8362,25643,C2D,ok,Windhof,LU,49.644004,5.956558
-934,8367,15066,Elisa Espoo Säterinportti,ok,Espoo,FI,60.21354,24.811186
-935,8368,15066,Elisa Raisio,ok,Turku,FI,60.494456,22.206
-936,8406,25714,dc2scale PAR2 (Vélizy-Villacoublay),ok,Vélizy-Villacoublay,FR,48.783672,2.208056
-937,8408,19123,3W-DC01,ok,Amsterdam,NL,52.303794,4.939254
-938,8427,25754,Ampersand La Spezia,ok,La Spezia,IT,44.109634,9.828541
-939,8432,16043,BITel Bielefeld,ok,Bielefeld,DE,52.008772,8.564874
-940,8448,118,COLT DC Paris SouthWest,ok,Paris,FR,48.675525,2.197239
-941,8455,24012,WicitY,ok,Vernole,IT,40.28899,18.301773
-942,8488,25863,Radiocom,ok,Bucharest,RO,44.392699,26.12429
-943,8493,25866,Bolzano - Infranet AG Datacenter,ok,Bolzano,IT,46.48192,11.330275
-944,8494,25870,InAsset Udine,ok,Pasian di Prato,IT,46.076411,13.18765
-945,8499,25870,InAsset Pordenone,ok,Pordenone,IT,45.99913,12.63413
-946,8522,2198,LASOTEL PIXEL,ok,Villeurbanne,FR,45.757254,4.899645
-947,8528,1865,Celeste Marilyn,ok,Champs-sur-Marne,FR,48.835224,2.587752
-948,8567,8545,Bulk Denmark Data Center Campus - DK01,ok,Esbjerg,DK,55.510081,8.495221
-949,8576,26076,CMO Rechenzentrum Reutlingen,ok,Reutlingen,DE,48.503922,9.217854
-950,8609,26110,ETIX BelgiumDC #1,ok,Villers-le-Bouillet,BE,50.579658,5.26172
-951,8639,794,noris network datacenter.de HOF1,ok,Hof,DE,50.31767,11.89697
-952,8641,359,Titan Networks Frankfurt,ok,Hofheim am Taunus,DE,50.063159,8.373251
-953,8645,26188,Haskovo Colo,ok,Haskovo,BG,41.9402,25.544286
-954,8648,22326,MEVSPACE DC-1,ok,Wyszków,PL,52.612937,21.427774
-955,8655,16956,Eurofiber Datacenter Amsterdam,ok,Hoofddorp,NL,52.290393,4.686739
-956,8656,603,COP01 Vaultica Data Centers,ok,Copenhagen,DK,55.668076,12.621626
-957,8673,1697,Groupe Cyllene - DC - Nanterre,ok,Nanterre,FR,48.902913,2.229751
-958,8674,1697,Groupe Cyllene - DC - Courbevoie,ok,Courbevoie,FR,48.897177,2.249377
-959,8775,26416,Trusted-Colo Alsbach-Haehnlein,ok,Alsbach-Hähnlein,DE,49.746437,8.601462
-960,8787,10041,Telia Telehouse MUS,ok,Tallinn,EE,59.401368,24.700064
-961,8792,26443,Comeser Parma,ok,Fidenza,IT,44.881832,10.093286
-962,8794,24903,Datacenter Weidach,ok,Bregenz,AT,47.488633,9.73827
-963,8824,26528,VirtuaCenter Auxerre,ok,Auxerre,FR,47.805118,3.578607
-964,8865,12904,rgi RZ Remscheid,ok,Remscheid,DE,51.186203,7.226989
-965,8913,1170,Global-e Datacenter NLRI2,ok,Rijen,NL,51.576174,4.936938
-966,8953,12469,PlusServer DataStore Hamburg,ok,Hamburg,DE,53.47829,9.99321
-967,8961,24013,Pro-M Victor Hugo,ok,Budapest,HU,47.51796,19.055712
-968,8987,26850,antwerpdc,ok,Antwerp,BE,51.263067,4.414574
-969,9022,26914,Creanova Datacenter,ok,Helsinki,FI,60.218372,24.875994
-970,9028,26925,Dyjix,ok,Vélizy-Villacoublay,FR,48.783672,2.208056
-971,9088,852,Telxius Derio DC,ok,Derio,ES,43.296942,-2.870282
-972,9094,12544,NetaPOP Pontarlier,ok,Pontarlier,FR,46.900979,6.334273
-973,9109,6587,GLOBE Development Datacenter Münster,ok,Münster,DE,51.993724,7.663466
-974,9111,27070,GavleNet Operatörshotell,ok,Gävle,SE,60.676748,17.143474
-975,9124,2698,Glesys Falkenberg 2,ok,Falkenberg,SE,56.916063,12.49799
-976,9186,98,ITENOS Düsseldorf (DUS2),ok,Hilden,DE,51.191407,6.938251
-977,9221,2828,Datacenter Leipzig Lindenau (RZW) - PŸUR Business,ok,Leipzig,DE,51.33973,12.30131
-978,9222,2828,Datacenter Berlin Mahlsdorf (RZB) - PŸUR Business,ok,Berlin,DE,52.51407,13.61844
-979,9223,20737,WhiteHat,ok,Rotunda,RO,44.442196,25.986021
-980,9283,27335,Online Solution,ok,Gruenwald,DE,48.059032,11.541092
-981,9297,12544,NetaPOP Besançon,ok,Besançon,FR,,
-982,9308,27479,Gothnet DC Backa,ok,Gothenburg,SE,57.745114,11.991916
-983,9312,27482,Datacenter The Factory Roermond,ok,Roermond,NL,51.193267,6.01987
-984,9392,27608,T-M-Net Verden,ok,Verden,DE,52.954029,9.244393
-985,9399,27620,Ouiherberg Aimargues,ok,Aimargues,FR,43.69085,4.198021
-986,9410,14520,i2 Lyngby,ok,Lyngby,DK,55.784385,12.519543
-987,9419,14865,Korbank Data Center,ok,Wroclaw,PL,51.111927,16.982936
-988,9434,7625,CyrusOne Frankfurt 3,ok,Frankfurt,DE,50.128106,8.583001
-989,9556,27929,Ehiweb.it Bologna,ok,Bologna,IT,44.529071,11.352785
-990,9560,9794,LYNET Hamburg,ok,Hamburg,DE,53.550912,10.047057
-991,9568,27953,Lumanex DC1,ok,Pomezia,IT,41.66855,12.503993
-992,9572,9794,LYNET Lübeck,ok,Lübeck,DE,53.898954,10.706476
-993,9599,28010,Sprint Data Center,ok,Olsztyn,PL,53.77019,20.464915
-994,9657,10036,Ansluten VXO DC,ok,Växjö,SE,56.878437,14.779828
-995,9658,10036,Ansluten KHN DC,ok,Karlshamn,SE,56.194607,14.851981
-996,9670,12094,Barcelona Cable Landing Station,ok,Sant Adrià de Besòs,ES,41.427287,2.230662
-997,9698,6745,LWLcom Bremen BRE06 + BRE09,ok,Bremen,DE,53.084146,8.768254
-998,9736,28285,PNT DATA CENTER,ok,Opole,PL,50.683406,17.874119
-999,9753,17639,Keppel Data Centres | Keppel DC Dublin 2,ok,Dublin,IE,53.409384,-6.363503
-1000,9754,17639,Keppel Data Centres | Milan Data Centre,ok,Milan,IT,45.4531,9.11651
-1001,9755,17639,Keppel Data Centres | Kelsterbach Data Centre,ok,Kelsterbach,DE,50.051897,8.525022
-1002,9756,17639,Keppel Data Centres | maincubes Data Centre,ok,Offenbach,DE,50.1093,8.74229
-1003,9760,28282,ksiezyc.pl,ok,Zduńska Wola,PL,51.600324,18.942617
-1004,9771,28304,GLOBE DataCenter Den Helder,ok,Den Helder,NL,52.943255,4.772343
-1005,9774,17163,GGEW-POP-SHS Bensheim,ok,Bensheim,DE,49.671976,8.602558
-1006,9775,17163,GGEW-POP-SHM Bensheim,ok,Bensheim,DE,49.688727,8.605489
-1007,9794,942,GlobalConnect Hørning 2,ok,Hørning,DK,56.075703,10.026845
-1008,9818,7336,DOKOM21 RZ Huckarde,ok,Dortmund,DE,51.535359,7.418903
-1009,9878,365,Cogent Amsterdam,ok,Halfweg,NL,52.384502,4.7167
-1010,9894,20240,Belvedere DC,ok,Aversa,IT,40.968273,14.203892
-1011,9922,8980,3S Data Center Warsaw,ok,Warsaw,PL,52.301215,21.020709
-1012,9982,14290,ILK Datacenter TPK2 Karlsruhe,ok,Karlsruhe,DE,49.02014,8.44067
-1013,10049,24068,Keliweb DC2,ok,Rende,IT,39.363418,16.25075
-1014,10062,16759,GELSEN-NET DC Resse,ok,Gelsenkirchen,DE,51.577464,7.115599
-1015,10100,2257,VERIXI Louise DC,ok,Brussels,BE,50.822938,4.36895
-1016,10116,15162,Cibicom Datacenter Aarhus,ok,Højbjerg,DK,56.099039,10.217216
-1017,10117,15162,Cibicom Datacenter Ballerup,ok,Ballerup,DK,55.727972,12.382793
-1018,10266,13214,Proximus Netcenter,ok,Evere,BE,50.879584,4.393104
-1019,10267,13214,Proximus Netcenter 2,ok,Machelen,BE,50.911924,4.423264
-1020,10343,5459,China Mobile International - Frankfurt DC,ok,Mörfelden-Walldorf,DE,49.986494,8.582706
-1021,10373,7336,DOKOM21 RZ Hörde,ok,Dortmund,DE,51.49095,7.499582
-1022,10419,29010,Polcom Alwernia Datacenter,ok,Grojec,PL,50.096912,19.556092
-1023,10420,29010,Polcom Skawina Datacenter,ok,Skawina,PL,49.98829,19.837396
-1024,10442,2187,Aqua Ray Aurora,ok,Ivry-sur-Seine,FR,48.820065,2.393685
-1025,10487,29085,BizTelecom - Chiajna,ok,Chiajna,RO,44.454234,25.975813
-1026,10579,2172,InterDC Enschede Marssteden,ok,Enschede,NL,52.216301,6.820988
-1027,10587,1959,DNA Oulu Torikatu,ok,Oulu,FI,65.012644,25.468253
-1028,10645,15338,DATA4 Madrid-Alcobendas - MAD1,ok,Alcobendas,ES,40.535051,-3.647835
-1029,10647,15338,DATA4 Paris Marcoussis PAR2,ok,Marcoussis,FR,48.663145,2.212298
-1030,10701,27106,Beyond.pl - DC2 / Poznan,ok,Poznan,PL,52.378181,16.976879
-1031,10702,27106,Beyond.pl - DC1 / Poznan,ok,Poznan,PL,52.401079,16.928119
-1032,10714,942,GlobalConnect Gothenburg,ok,Hisings Kärra,SE,57.775306,11.99244
-1033,10715,942,GlobalConnect Järfälla,ok,Järfälla,SE,59.407058,17.835294
-1034,10739,30154,Advanced MedioMatrix,ok,Peltre,FR,49.085508,6.243873
-1035,10740,4570,NorthC Rotterdam Zestienhoven 1,ok,Rotterdam,NL,51.953104,4.448025
-1036,10741,4570,NorthC Nieuwegein,ok,Nieuwegein,NL,52.018332,5.104366
-1037,10774,29776,Alpes Networks DataCenter,ok,Chavanod,FR,45.891181,6.079682
-1038,10813,30155,Cellnex Datacenter Den Haag,ok,The Hague,NL,52.080714,4.335857
-1039,10823,2,Equinix ML5 - Milan,ok,5 Settimo Milanese,IT,45.475395,9.038363
-1040,10854,27813,PAM00,ok,Pamiers,FR,,
-1041,10856,17593,T-Mobile CZ DC7,ok,Prague,CZ,50.06393,14.53249
-1042,10887,6500,intersaar SB3,ok,Saarbrücken,DE,49.240384,6.955457
-1043,10912,30020,ADISTA Groupe,ok,Tours,FR,47.386744,0.695114
-1044,10913,30020,Datacenter Cyrès,ok,Tours,FR,47.436009,0.695409
-1045,10974,314,LCL Brussels South,ok,Beersel,BE,50.759693,4.26917
-1046,10994,508,TDC Borups Allé,ok,Copenhagen N,DK,55.692097,12.536813
-1047,11001,25756,DEV Italia DataCenter Pisa,ok,Pisa,IT,,
-1048,11015,41935,UltraEdge Grenoble,ok,Grenoble,FR,45.161088,5.712713
-1049,11017,17600,nLighten Besancon MLH1,ok,Besançon,FR,47.225881,5.973704
-1050,11021,13052,LayerBridge WhiteGate,ok,Bucharest,RO,44.484116,26.058284
-1051,11026,29887,Comway Sibiu,ok,Sibiu,RO,45.799593,24.138179
-1052,11038,20737,WhiteHat 2,ok,Brăila,RO,45.276552,27.981643
-1053,11077,30319,Wipak Walsrode,ok,Walsrode,DE,52.906968,9.653239
-1054,11081,1196,Seeweb FRO2,ok,Frosinone,IT,41.632386,13.269724
-1055,11105,20989,BADEN CLOUD Appenweier (APW01),ok,Appenweier,DE,48.550194,7.972655
-1056,11152,1483,M-net Augsburg,ok,Augsburg,DE,48.3715,10.91167
-1057,11171,6350,conova - Datacenter 6/7,ok,Hallein,AT,47.706159,13.08283
-1058,11181,2,"Equinix MU4 - Munich, Dornach",ok,Aschheim,DE,48.146393,11.682389
-1059,11203,25714,dc2scale ALP1 (Grenoble),ok,Grenoble,FR,45.19118,5.704659
-1060,11227,2698,Glesys Oulu 1,ok,Oulu,FI,65.061827,25.438009
-1061,11228,2698,Glesys Oulu 2,ok,Oulu,FI,65.05896,25.439577
-1062,11287,2,Equinix BX1 - Bordeaux,ok,Bruges,FR,44.89582,-0.611387
-1063,11297,491,NTT Madrid 1 Data Center (MAD1),ok,Las Rozas de Madrid,ES,40.499827,-3.890363
-1064,11326,8089,CE Colo  DC7 Prague,ok,Prague,CZ,50.063937,14.532491
-1065,11358,30878,partimus Rechenzentrum Bad Oeynhausen,ok,Bad Oeynhausen,DE,52.231925,8.806405
-1066,11360,30878,partimus Rechenzentrum Limburg,ok,Limburg an der Lahn,DE,50.38104,8.095829
-1067,11405,30983,Extendo Datacenter Belfort,ok,Belfort,FR,47.644566,6.843367
-1068,11441,30727,K2 DUB1,ok,Blanchardstown,IE,53.407134,-6.358234
-1069,11448,41935,Ultraedge Canteleu,ok,Canteleu,FR,49.446514,1.028004
-1070,11479,31173,TTI Repeaterstation Sattledt,ok,Sattledt,AT,48.080989,14.047849
-1071,11498,2287,Salamandre,ok,Paris,FR,48.857754,2.404864
-1072,11520,31255,OPTICNET Ploiesti,ok,Ploiesti,RO,44.936519,26.023637
-1073,11521,31257,Servanet FRG5,ok,Sundsvall,SE,62.394687,17.341271
-1074,11531,31278,Vienna Twin Tower,ok,Vienna,AT,48.168762,16.34682
-1075,11532,31279,Vienna BioCenter,ok,Vienna,AT,48.189245,16.402682
-1076,11533,31280,Millennium Tower,ok,Vienna,AT,48.240549,16.386609
-1077,11534,31281,Vienna International Center,ok,Vienna,AT,48.233585,16.417113
-1078,11535,31282,s IT Solutions AT Spardat Datacenter,ok,Vienna,AT,48.17563,16.402305
-1079,11536,28858,Arelion Wien Süd,ok,Vienna,AT,48.133497,16.30591
-1080,11537,31283,ÖBB Telekom Service Datacenter,ok,Vienna,AT,48.260343,16.399595
-1081,11538,1737,next layer Medienhaus,ok,Vienna,AT,48.242703,16.36476
-1082,11539,31284,Europlaza Vienna,ok,Vienna,AT,48.171168,16.334275
-1083,11541,31294,ATOS Datacenter Siemens City,ok,Vienna,AT,48.268952,16.422614
-1084,11542,31295,Florido Tower,ok,Vienna,AT,48.257683,16.396944
-1085,11543,16773,T-Center Vienna,ok,Vienna,AT,48.187285,16.402231
-1086,11544,31296,Austria Campus,ok,Vienna,AT,48.222979,16.394049
-1087,11547,22290,efectRO DC2,ok,Cluj Napoca,RO,,
-1088,11566,31400,Datacenter Breda,ok,Breda,NL,51.593391,4.803511
-1089,11568,5603,Civicos Networking DCARRECIFE,ok,Arrecife,ES,28.963987,-13.550746
-1090,11571,27608,Rechenzentrum Luttum,ok,Kirchlinteln,DE,52.909553,9.306143
-1091,11675,17600,nLighten Berlin BER1,ok,Kleinmachnow,DE,52.408645,13.186844
-1092,11697,1214,Talejas iela 1,ok,Riga,LV,56.991349,24.170101
-1093,11733,8735,EdgeConneX Barcelona (EDCBCN01),ok,Sant Boi de Llobregat,ES,41.324942,2.032896
-1094,11737,31602,ISIS-COM Datacenter Szombathely,ok,Szombathely,HU,47.229308,16.622134
-1095,11760,1865,Celeste Fil d’Ariane,ok,Albi,FR,43.91945,2.182741
-1096,11764,20737,WhiteHat 3,ok,Rotunda,RO,46.291668,26.799279
-1097,11770,9527,ScaleUp Datacenter BER03,ok,Berlin,DE,52.513685,13.61756
-1098,11780,31694,Thésée Datacenter,ok,Aubergenville,FR,,
-1099,11792,31498,EXA Edge DC Bonn,ok,Bonn,DE,50.741369,7.069673
-1100,11793,31498,EXA Edge DC Bremen,ok,Bremen,DE,53.076886,8.773821
-1101,11794,31498,EXA Edge DC Barleben,ok,Barleben,DE,52.193602,11.605514
-1102,11795,17600,nLighten Cologne CGN1,ok,Hürth,DE,50.88612,6.91235
-1103,11797,31498,EXA Edge DC Hilden,ok,Hilden,DE,51.169756,6.918782
-1104,11798,17600,nLighten Dusseldorf DUS1,ok,Hilden,DE,51.170252,6.918783
-1105,11799,31498,EXA Edge DC Eschenfelden,ok,Hirschbach,DE,49.583757,11.614458
-1106,11800,31498,EXA Edge DC Essen,ok,Gladbeck,DE,51.567254,6.965412
-1107,11801,17600,nLighten Frankfurt FRA1,ok,Eschborn,DE,50.14418,8.55744
-1108,11802,31498,EXA Edge DC Frankfurt1,ok,Frankfurt,DE,50.118678,8.736356
-1109,11803,31498,EXA Edge DC Hannover,ok,Hannover,DE,52.406419,9.825735
-1110,11804,17600,nLighten Hanover HAJ1,ok,Hannover,DE,52.405196,9.734035
-1111,11805,17600,nLighten Hamburg HAM1,ok,Hamburg,DE,53.453723,10.005829
-1112,11806,31498,EXA Edge DC Hamburg,ok,Hamburg,DE,53.550942,10.046399
-1113,11807,31498,EXA Edge DC Kehl,ok,Kehl,DE,48.57838,7.804854
-1114,11808,17600,nLighten Leipzig LEJ1,ok,Schkeuditz,DE,51.3528,12.205
-1115,11809,31498,EXA Edge DC Garching,ok,Garching bei München,DE,48.255577,11.612221
-1116,11810,17600,nLighten Munich MUC1,ok,Garching bei München,DE,48.255081,11.611552
-1117,11811,17600,nLighten Nuremberg NUE1,ok,Nuremberg,DE,49.454129,11.014413
-1118,11812,31498,EXA Edge DC Stuttgart,ok,Stuttgart,DE,48.72525,9.116589
-1119,11813,17600,nLighten Stuttgart STR1,ok,Stuttgart,DE,48.721428,9.128587
-1120,11814,31498,EXA Edge DC Velten,ok,Velten,DE,52.665726,13.210332
-1121,11817,31498,EXA Edge DC Graz,ok,Graz,AT,47.043339,15.465817
-1122,11818,31498,EXA Edge DC Salzburg,ok,Salzburg,AT,47.822732,13.040322
-1123,11819,31498,EXA Edge DC Wien,ok,Vienna,AT,48.137352,16.308034
-1124,11820,31498,EXA Edge DC Antwerp,ok,Antwerp,BE,51.329571,4.344629
-1125,11821,31498,EXA Edge DC Bruges,ok,Zedelgem,BE,51.122502,3.168293
-1126,11822,31498,EXA Edge DC Zaventem,ok,Zaventem,BE,50.875627,4.488287
-1127,11823,31498,EXA Edge DC Liege,ok,Liege,BE,50.690208,5.620842
-1128,11836,11626,BT-BLUE Datacenter 1,ok,Châteaubourg,FR,,
-1129,11840,2,"Equinix FR8 - Frankfurt, West",ok,Frankfurt,DE,50.097357,8.58628
-1130,11857,31498,EXA Edge DC Sequedin,ok,Sequedin,FR,50.626504,2.99512
-1131,11858,31498,EXA Edge DC Nice,ok,Nice,FR,43.710239,7.193273
-1132,11859,31498,EXA Edge DC Nancy,ok,Nancy,FR,48.709942,6.169665
-1133,11891,31498,EXA Edge DC Poitiers,ok,Poitiers,FR,46.589714,0.390267
-1134,11892,31498,EXA Edge DC Strasbourg,ok,Strasbourg,FR,48.59329,7.795073
-1135,11893,31498,EXA Edge DC Toulouse,ok,Toulouse,FR,43.640861,1.428143
-1136,11894,31498,EXA Edge DC Vauchelles,ok,Vauchelles,FR,49.592339,2.980772
-1137,11895,31498,EXA Edge DC Willerval,ok,Willerval,FR,50.377711,2.852547
-1138,11896,31498,EXA Edge DC Ychoux,ok,Ychoux,FR,44.331877,-0.947918
-1139,11905,8420,DCstar Datacenter Oostkamp DCO,ok,Oostkamp,BE,51.16641,3.234204
-1140,11906,8420,DCstar Datacenter Burcht DCB,ok,Zwijndrecht,BE,51.210985,4.34575
-1141,11953,31498,EXA Edge DC Rotterdam,ok,Rotterdam,NL,51.930252,4.414322
-1142,11954,31498,EXA Edge DC Utrecht,ok,Soesterberg,NL,52.123373,5.277846
-1143,11955,31498,EXA Edge DC Basauri,ok,Basauri,ES,43.229184,-2.881757
-1144,11956,31498,EXA Edge DC Hereña,ok,Hereña,ES,,
-1145,11968,31498,EXA Edge DC Valencia,ok,Valencia,ES,39.473433,-0.536672
-1146,11983,2136,Namex Bari Datacenter,ok,Bari,IT,41.109552,16.80333
-1147,12032,7459,WIIT Datacenter MUC8,ok,Haar,DE,48.109091,11.717528
-1148,12167,32310,Hermes Telecom DC,ok,Antwerp,BE,51.264077,4.399495
-1149,12220,31593,Venezia_A,ok,Venice,IT,,
-1150,12226,32338,GDC Tallinn DC-1,ok,Saue vald,EE,59.386898,24.561308
-1151,12227,8916,TWT Datacenter,ok,Milan,IT,45.496931,9.179945
-1152,12266,491,NTT Berlin 2 Data Center (BER2),ok,Berlin,DE,52.440344,13.370207
-1153,12288,32498,ViaData Toren,ok,Tjerkgaast,NL,52.909137,5.698611
-1154,12297,9351,TNG DataCentre Kiel - Wik,ok,Kiel,DE,54.363564,10.133804
-1155,12314,26110,ETIX Nantes #1,ok,Saint-Herblain,FR,47.231464,-1.631011
-1156,12315,26110,ETIX Nantes #2,ok,Carquefou,FR,47.277391,-1.469806
-1157,12316,26110,ETIX Nantes #3,ok,Couëron,FR,47.23842,-1.667363
-1158,12317,26110,ETIX Vendée #1,ok,La Roche-sur-Yon,FR,46.666065,-1.353256
-1159,12318,26110,ETIX Lille #1,ok,Tourcoing,FR,50.700168,3.15676
-1160,12338,34593,Telia Kolding,ok,Kolding,DK,55.536825,9.473829
-1161,12354,1120,Sofia Data Center (SDC) 2,ok,Sofia,BG,42.656338,23.369257
-1162,12355,1120,Sofia Data Center (SDC) Stolnik,ok,Stolnik,BG,42.656338,23.369257
-1163,12375,32675,Cloud Europe,ok,Rome,IT,41.932742,12.629473
-1164,12454,33610,CSN Solutions - Kehrsen,ok,Kehrsen,DE,53.583837,10.788402
-1165,12473,8534,PLUTEX DC01,ok,Bremen,DE,53.076377,8.77224
-1166,12474,8534,PLUTEX DC05,ok,Bremen,DE,53.075099,8.769077
-1167,12507,32785,Penta Infra Berlin BER01,ok,Berlin,DE,52.513685,13.61756
-1168,12508,32785,Penta Infra Dusseldorf DUS01,ok,Meerbusch,DE,51.245111,6.694634
-1169,12509,32785,Penta Infra Berlin BER02,ok,Berlin,DE,52.513685,13.61756
-1170,12510,32785,Penta Infra Copenhagen CPH01,ok,"Glostrup, Copenhagen",DK,55.68209,12.395427
-1171,12511,32785,Penta Infra Geleen GLN01,ok,Geleen,NL,50.979857,5.828044
-1172,12514,32785,Penta Infra Leipzig LEJ01,ok,Leipzig,DE,51.33967,12.301757
-1173,12565,1007,R-KOM Datacenter Ostbayern 1,ok,Regensburg,DE,49.01335,12.1482
-1174,12566,1007,R-KOM Datacenter Ostbayern 2,ok,Regensburg,DE,49.013454,12.148083
-1175,12567,1007,R-KOM Datacenter Ostbayern 3,ok,Lappersdorf,DE,49.036964,12.086628
-1176,12570,32999,Tornado Datacenter - FRA01,ok,Langen,DE,50.00253,8.6568
-1177,12599,24513,Elmec BR4,ok,Brunello,IT,45.769448,8.810173
-1178,12637,6031,TKRZ Rheine (RHE1),ok,Rheine,DE,52.310703,7.440631
-1179,12638,6031,TKRZ Emsdetten (EMS1),ok,Emsdetten,DE,52.157579,7.554901
-1180,12639,6031,TKRZ Nordhorn (NOH1),ok,Nordhorn,DE,52.409179,7.050301
-1181,12640,6031,TKRZ Greven (GRV1),ok,Greven,DE,52.130914,7.695303
-1182,12653,5526,1&1 Versatel Telehaus Münster,ok,Münster,DE,51.935079,7.648998
-1183,12746,33273,PCK IT Datacenter Lindau,ok,Lindau,DE,47.553064,9.71927
-1184,12758,10478,Netia Data Center MIND,ok,Jawczyce,PL,52.210771,20.848805
-1185,12761,10478,Netia Data Center BRAIN,ok,Grodzisk Mazowiecki,PL,52.11117,20.600122
-1186,12762,10478,Netia Jaworzno (JAWOH001),ok,Jaworzno,PL,50.218129,19.260778
-1187,12763,10478,Netia Poznań (POZNH003),ok,Poznan,PL,52.405482,16.920848
-1188,12780,1697,Groupe Cyllene - DC - Montigny les Bretonneux,ok,Montigny-le-Bretonneux,FR,48.774932,2.018664
-1189,12806,33088,DarkNET Burgas,ok,Burgas,BG,42.516571,27.459539
-1190,12842,33498,Fiber 23,ok,Rome,IT,41.787929,12.320431
-1191,12855,9249,31173 DC Lund Mobilvägen,ok,Lund,SE,55.716839,13.2251
-1192,12894,32785,Penta Infra Hamburg HAM01,ok,Hamburg,DE,53.619052,10.001546
-1193,12895,32785,Penta Infra Cologne CGN01,ok,Cologne,DE,50.93382,7.003018
-1194,12933,3172,Retelit Avalon 2,ok,Settimo Milanese (MI),IT,45.48054,9.067184
-1195,12934,3172,Retelit Avalon 3,ok,Milan,IT,45.44797,9.120391
-1196,12955,24354,STACKIT Ellhofen (DC08),ok,Ellhofen,DE,49.145913,9.307957
-1197,12957,8592,Digital Realty Brussels BRU3,ok,Zaventem,BE,50.873683,4.504025
-1198,12958,8592,Digital Realty Brussels BRU4,ok,Zaventem,BE,50.873683,4.504025
-1199,13040,16767,WiTCOM Wiesbaden,ok,Wiesbaden,DE,50.062309,8.238218
-1200,13055,33885,Bytesnet Groningen,ok,Groningen,NL,53.244613,6.527313
-1201,13065,33898,Holland Datacenters,ok,Kloetinge,NL,51.502547,3.909723
-1202,13088,19760,Artnet DC Gdansk MP100,ok,Gdansk,PL,54.383947,18.638972
-1203,13089,19760,Artnet DC Gdynia GAC133,ok,Gdynia,PL,54.459223,18.459429
-1204,13096,2698,Glesys Oulu 3,ok,Oulu,FI,65.013196,25.51044
-1205,13173,23155,Rocket Way DC Boissano,ok,Boissano,IT,44.132007,8.219991
-1206,13190,17600,nLighten Sophia Antipolis NCE2,ok,Valbonne,FR,43.624328,7.038502
-1207,13191,17600,nLighten Paris PAR1,ok,Lognes,FR,48.839125,2.630371
-1208,13192,17600,nLighten Strasbourg SXB1,ok,Illkirch-Graffenstaden,FR,48.520417,7.737083
-1209,13204,7625,CyrusOne Madrid 1,ok,Madrid,ES,40.53576,-3.659225
-1210,13205,7625,CyrusOne Frankfurt 4,ok,Frankfurt,DE,50.131627,8.576399
-1211,13209,9326,Sipartech Paris,ok,Paris,FR,48.871919,2.329879
-1212,13228,3172,Retelit S.p.A. Roma Cornelia,ok,Rome,IT,41.890426,12.382457
-1213,13266,1034,A1 DC Zagreb Nežićeva,ok,Zagreb,HR,45.765044,15.982436
-1214,13276,26850,brusselsdc,ok,Zaventem,BE,50.881447,4.45416
-1215,13293,2218,RelAix Networks hex/AC,ok,Aachen,DE,50.783517,6.134653
-1216,13309,10852,SÜC Datacenter 1,ok,Coburg,DE,50.252852,10.961871
-1217,13310,10852,SÜC Datacenter 2,ok,Coburg,DE,50.252852,10.961871
-1218,13322,34497,ITB2 Datacenter Deventer,ok,Deventer,NL,52.238674,6.195148
-1219,13323,34497,ITB2 Datacenter Apeldoorn,ok,Apeldoorn,NL,52.200471,6.025796
-1220,13324,25257,ILA/Regeneration site PoP-Culemborg,ok,Culemborg,NL,,
-1221,13325,25257,ILA/Regeneration site PoP-Dodewaard,ok,Dodewaard,NL,51.92705,5.66586
-1222,13326,25257,ILA/Regeneration site PoP-Doetinchem,ok,Doetinchem,NL,51.98303,6.25283
-1223,13327,25257,ILA/Regeneration site PoP-Eemshaven,ok,Eemshaven,NL,53.43473,6.86839
-1224,13328,25257,ILA/Regeneration site PoP-Ens,ok,Ens,NL,52.613664,5.807626
-1225,13329,25257,ILA/Regeneration site PoP-Fanø,ok,Fanø,DK,55.41808,8.398957
-1226,13330,25257,ILA/Regeneration site PoP-Hooghalen,ok,Hooghalen,NL,,
-1227,13331,25257,ILA/Regeneration site PoP-Krimpen aan den IJssel,ok,Krimpen aan den IJssel,NL,51.910842,4.629424
-1228,13332,25257,ILA/Regeneration site PoP-Lelystad,ok,Lelystad,NL,,
-1229,13333,25257,ILA/Regeneration site PoP-Maasbracht,ok,Maasbracht,NL,51.147893,5.911645
-1230,13334,25257,ILA/Regeneration site PoP-Middenmeer,ok,Middenmeer,NL,,
-1231,13335,25257,ILA/Regeneration site PoP-Zwolle,ok,Zwolle,NL,,
-1232,13339,34279,Qupra DC,ok,Amsterdam,NL,52.395257,4.86353
-1233,13403,14693,Servereasy DC1,ok,Settimo Milanese,IT,45.480555,9.0668
-1234,13409,34712,DC Noovle ROMA,ok,Rome,IT,41.765129,12.340573
-1235,13410,21297,Balkan Gate Thessaloniki,ok,Thessaloniki,GR,40.65723,22.868155
-1236,13412,29529,NetPro IT & HatHost DC1,ok,Rapallo,IT,44.350272,9.22869
-1237,13417,34742,XL360,ok,Toulon,FR,43.127801,5.93287
-1238,13446,34611,HEX - DC/BDS,ok,Brindisi,IT,40.629116,17.963762
-1239,13477,15985,Sieć Szerokopasmowa Polski Wschodniej,ok,Lublin,PL,51.224662,22.617174
-1240,13508,614,Ikoula IKDC2,ok,Eppes,FR,49.560267,3.741996
-1241,13516,22636,"AlexHost, Netherlands",ok,Dronten,NL,52.543805,5.704895
-1242,13559,8959,Iron Mountain Data Center - Frankfurt (FRA-2),ok,Frankfurt am Main,DE,50.196109,8.640094
-1243,13560,8959,Iron Mountain Data Center - Madrid (MAD-1),ok,San Fernando de Henares,ES,40.457935,-3.498711
-1244,13565,35060,Data Logistics Center J13,ok,Vilnius,LT,54.691637,25.287428
-1245,13573,35076,DARVA Hosting,ok,Chauray,FR,46.347936,-0.375587
-1246,13579,29427,Talido Bulgaria,ok,Haskovo,BG,,
-1247,13583,34893,EllaLink Sines Vasco de Gama CLS,ok,Sines,PT,37.994964,-8.830335
-1248,13665,32058,Liguria Digitale Data Center - WTC,ok,Genoa,IT,44.408474,8.90048
-1249,13666,34517,ODC Malaga,ok,Málaga,ES,36.694725,-4.496181
-1250,13672,35380,TSBG Hosting,ok,Haskovo,BG,,
-1251,13710,30341,DataWave#1,ok,Cluj Napoca,RO,46.780405,23.598353
-1252,13717,35457,SI Cloud Montpellier,ok,Saint-Clément-de-Rivière,FR,43.711403,3.832653
-1253,13751,35558,atNorth SWE01,ok,Stockholm,SE,59.417048,17.927184
-1254,13816,26089,Labicolo,ok,Frederiksberg C,DK,55.676358,12.54552
-1255,13837,33610,CSN Solutions Gudow,ok,Gudow,DE,53.559444,10.7791
-1256,13856,4570,NorthC Groningen 2,ok,Groningen,NL,53.207467,6.473884
-1257,13857,4570,NorthC Rotterdam Zestienhoven 2,ok,Rotterdam,NL,51.953115,4.44805
-1258,13858,4570,NorthC Eindhoven 2,ok,Eindhoven,NL,51.475777,5.406428
-1259,13878,35768,GRASS-MERKUR Hannover,ok,Hannover,DE,52.368477,9.863625
-1260,13938,35965,IaaS Datacenter Madrid,ok,Madrid,ES,40.439748,-3.624212
-1261,13959,5603,Civicos Networking - IAAS (MADRID),ok,Madrid,ES,40.439748,-3.624212
-1262,13969,36034,EnBITCon GmbH,ok,Bonn,DE,50.700793,7.134015
-1263,13985,31593,Aviano_A,ok,Aviano,IT,46.066181,12.594673
-1264,13987,35949,LuxConnect DC1.2 - Bettembourg,ok,Bettembourg,LU,49.504919,6.113522
-1265,13988,35949,LuxConnect DC1.3 - Bettembourg,ok,Bettembourg,LU,49.504919,6.113522
-1266,13999,36115,EcoDataCenter Falun,ok,Falun,SE,60.610531,15.610386
-1267,14008,78,Genova Digital Hub,ok,Genoa,IT,44.42589,8.918518
-1268,14020,2480,OASIX MADRID AIRENETWORKS,ok,Madrid,ES,40.438822,-3.623048
-1269,14039,16583,IBH Dresden C2,ok,Dresden,DE,51.008853,13.704345
-1270,14068,951,Interconnect Services DC3 's-Hertogenbosch,ok,'s-Hertogenbosch,NL,51.691408,5.353065
-1271,14082,36292,RUBIX DATACENTER - DC-1,ok,Le Creusot,FR,,
-1272,14088,16583,IBH Dresden C1,ok,Dresden,DE,51.008853,13.704345
-1273,14096,2480,OASIX ALICANTE AIRENETWORKS,ok,Elche,ES,38.291392,-0.611276
-1274,14104,1392,Telia Vilnius 1,ok,Vilnius,LT,54.675458,25.266602
-1275,14105,1392,Telia Vilnius 2,ok,Vilnius,LT,54.724094,25.297332
-1276,14115,2018,NETICENTER,ok,Bouillargues,FR,43.809975,4.409087
-1277,14125,1910,ScaleUp Datacenter NUE1,ok,Fürth,DE,49.45367,11.005389
-1278,14135,36442,Namex Napoli - Università Parthenope,ok,Naples,IT,40.832179,14.245272
-1279,14174,36545,Systemia.pl Sp. z o.o.,ok,Poznan,PL,52.445844,16.954819
-1280,14214,26110,ETIX Paris #3,ok,Vélizy-Villacoublay,FR,48.780725,2.217476
-1281,14220,2,"Equinix PA10 - Paris, Saint-Denis",ok,Paris,FR,48.92817,2.352084
-1282,14233,7283,Adam - PTV,ok,Cerdanyola del Vallès,ES,41.484761,2.127266
-1283,14234,7283,Adam - MAD,ok,Alcalá de Henares,ES,40.514618,-3.338656
-1284,14235,7283,Adam - BCN,ok,Barcelona,ES,41.408865,2.170067
-1285,14279,15338,Data 4 Warszawy,ok,"Jawczyce,",PL,52.211499,20.850628
-1286,14282,18597,Konesali Yhtiöt Jyväskylä,ok,Jyväskylä,FI,62.241994,25.74442
-1287,14310,36867,CPD Titan,ok,Murcia,ES,38.029681,-1.163561
-1288,14313,8905,VDC2 Viatel Parkwest,ok,Dublin,IE,53.330787,-6.377148
-1289,14330,30155,Cellnex Datacenter Rotterdam,ok,Rotterdam,NL,51.875343,4.449031
-1290,14331,30155,Cellnex Datacenter Amsterdam,ok,Amsterdam,NL,52.336273,4.886635
-1291,14332,30155,Cellnex Datacenter Hilversum,ok,Hilversum,NL,52.242621,5.164383
-1292,14333,30155,Cellnex Datacenter Alphen aan den Rijn,ok,Alphen aan den Rijn,NL,52.136933,4.646501
-1293,14348,36977,Online.pt LIS1 Datacenter,ok,Barreiro,PT,,
-1294,14352,36924,Start Campus SIN01,ok,Sines,PT,37.935144,-8.815555
-1295,14366,36982,REN Datacenter Riba de Ave,ok,Vila Nova de Famalicao,PT,41.403943,-8.391101
-1296,14374,36997,Castle-IT Tours,ok,Larcay,FR,47.349585,0.769303
-1297,14375,19800,AtlasEdge DC Hamburg HAM002,ok,Ahrensburg,DE,53.678625,10.27049
-1298,14380,32785,Penta Infra Amsterdam AMS01,ok,Haarlem,NL,52.388154,4.669096
-1299,14392,25714,dc2scale PAR3 (Vélizy-Villacoublay),ok,Vélizy-Villacoublay,FR,48.78425,2.209191
-1300,14403,1212,Bahnhof Gullan,ok,Kista,SE,59.402241,17.962735
-1301,14445,8592,Digital Realty Paris PAR8,ok,La Courneuve,FR,48.928564,2.397279
-1302,14456,33224,DTIX Dijon,ok,Chevigny-Saint-Sauveur,FR,,
-1303,14462,37252,City Hosting,ok,Stockholm,SE,59.335552,18.099234
-1304,14465,11371,MEO LDV,ok,Lisbon,PT,38.718661,-9.240992
-1305,14510,37361,Data Felix DF01,ok,Caserta,IT,41.0664,14.321438
-1306,14519,10392,Qonnected II Markelo (Cellnex),ok,Markelo,NL,52.237003,6.44128
-1307,14524,37406,DCXV Lithuania,ok,Vilnius,LT,54.691725,25.288454
-1308,14606,1120,Neterra Pazardzhik,ok,Pazardzhik,BG,42.19168,24.33744
-1309,14607,1120,Neterra Razgrad,ok,Razgrad,BG,43.532612,26.526461
-1310,14608,1120,Neterra Pleven,ok,Pleven,BG,43.413485,24.617276
-1311,14609,1120,Neterra Sliven,ok,Sliven,BG,,
-1312,14618,2525,TelemaxX IPC5,ok,Stutensee,DE,49.077722,8.458265
-1313,14620,37581,Raiffeisen Rechenzentrum (Raaba),ok,Raaba-Grambach,AT,47.028156,15.491685
-1314,14646,22568,Greenhouse Datacenters DC3,ok,Naaldwijk,NL,52.001434,4.209414
-1315,14651,19800,AtlasEdge DC Vienna VIE001,ok,Vienna,AT,48.26668,16.4215
-1316,14775,18506,Cassin1,ok,Chasseneuil-du-Poitou,FR,,
-1317,14779,37847,REDHEBERG SAS,ok,Paris,FR,48.871625,2.304409
-1318,14781,40110,Vegacom DC,ok,Praha 9 – Střížkov,CZ,50.125629,14.485794
-1319,14789,37889,COOLNET,ok,Piestany,SK,48.588774,17.833877
-1320,14795,37967,SynAApS,ok,Villeurbanne,FR,45.784372,4.888247
-1321,14796,41935,UltraEdge Rennes,ok,Cesson-Sévigné,FR,48.110048,-1.613671
-1322,14806,453,Nordwest-IX,ok,Oldenburg,DE,53.14,8.25
-1323,14828,32058,Liguria Digitale Data Center - Erzelli,ok,Genoa,IT,44.424191,8.863501
-1324,14833,23954,Karsolink DC Trieste,ok,Trieste,IT,45.689042,13.795317
-1325,14854,8592,Digital Realty Madrid MAD4,ok,Madrid,ES,40.438933,-3.629449
-1326,14895,20862,Web1 Latokari,ok,Turku,FI,60.44601,22.218411
-1327,14915,17543,Aruba IT4 - Rome,ok,Rome,IT,41.931345,12.631848
-1328,14961,15162,Cibicom Datacenter Aarhus North,ok,Hinnerup,DK,56.238456,10.114189
-1329,14963,2018,Eurofiber DC - AUC00,ok,Auch,FR,43.646064,0.597598
-1330,14973,1560,Vautron Rechenzentrum,ok,Regensburg,DE,49.016775,12.095983
-1331,15016,26621,Crypteo Marssac,ok,Marssac sur Tarn,FR,43.913658,2.037789
-1332,15017,38457,Media Sat Data Center,ok,Bucharest,RO,44.444577,26.130018
-1333,15030,98,ITENOS Hamburg (HAM2),ok,Ahrensburg,DE,53.678625,10.27049
-1334,15046,2,Equinix GN1 - Genoa,ok,Genoa,IT,44.426913,8.950105
-1335,15054,10104,Orange / Chartres,ok,Amilly,FR,48.446693,1.42753
-1336,15074,32785,Penta Infra Brussel BRU01,ok,Asse,BE,50.881932,4.288926
-1337,15106,30534,SachsenEnergieCenter Dresden,ok,Dresden,DE,51.03888,13.73231
-1338,15107,30534,Kraftwerk Mitte Dresden,ok,Dresden,DE,51.052916,13.722783
-1339,15108,30534,DataCenter Dresden Reick,ok,Dresden,DE,51.024311,13.787352
-1340,15109,30534,Collocation Washingtonstraße Dresden,ok,Dresden,DE,51.07586,13.68935
-1341,15147,98,ITENOS Frankfurt (FRA3),ok,Eschborn,DE,50.14418,8.55744
-1342,15148,98,ITENOS Stuttgart (STR3),ok,Stuttgart,DE,48.721428,9.128587
-1343,15149,98,ITENOS Stuttgart (STR2),ok,Böblingen,DE,48.67576,8.966942
-1344,15150,98,ITENOS München (MUC1),ok,Garching,DE,48.255514,11.61155
-1345,15189,16745,IKB - Rechenzentrum Karwendel,ok,Innsbruck,AT,47.289935,11.416019
-1346,15205,39183,Axione Limousin,ok,Limoges,FR,45.862106,1.292795
-1347,15206,31839,IzarHost,ok,Bidart,FR,43.446708,-1.553138
-1348,15207,98,ITENOS Berlin (BER1),ok,Kleinmachnow,DE,52.408761,13.186839
-1349,15254,39024,MERLIN Edged MAD01 - Madrid-Getafe,ok,Getafe,ES,40.310814,-3.692923
-1350,15255,39024,MERLIN Edged BAR01 - Barcelona-PLZ,ok,Barcelona,ES,41.341884,2.129492
-1351,15257,5087,MEDIACTIVE MN3,ok,Choisy-le-Roi,FR,48.753211,2.416659
-1352,15261,39024,MERLIN Edged BIL03 - Bilbao-Arasur,ok,Rivabellosa,ES,42.698312,-2.910495
-1353,15270,1854,KAMP Netzwerkdienste OBE1,ok,Oberhausen,DE,51.505862,6.872021
-1354,15286,28445,3HCloud - WAW-1,ok,Warsaw,PL,52.154029,21.004326
-1355,15288,28445,3HCloud - WAW-2,ok,Warsaw,PL,52.236589,21.117365
-1356,15299,11781,Hosting Data Center Cluj,ok,Cluj Napoca,RO,46.757677,23.551859
-1357,15307,31498,EXA Edge DC Barcelona,ok,Cerdanyola del Vallès,ES,41.500726,2.13558
-1358,15349,31498,EXA Edge DC Frankfurt2,ok,Frankfurt,DE,50.09885,8.632004
-1359,15394,25714,dc2scale PAR4x (Meudon),ok,Meudon,FR,48.786855,2.219393
-1360,15419,2,Equinix BA2 - Barcelona,ok,Barcelona,ES,41.351324,2.09898
-1361,15432,35909,NETMOUNTAINS® Datacenter VEL1 & VEL2,ok,Velbert,DE,51.349159,7.067888
-1362,15446,9326,BB1,ok,Boulogne-Billancourt,FR,48.836333,2.235044
-1363,15447,8592,Digital Realty Paris PAR12,ok,Ferrières-en-Brie,FR,48.823273,2.722201
-1364,15448,8592,Digital Realty Paris PAR13,ok,Les Ulis,FR,48.675347,2.203185
-1365,15457,1263,Portus MUC1,ok,Kirchheim,DE,48.158529,11.768818
-1366,15473,1032,InterBox Internet,ok,Capelle aan den IJssel,NL,51.962873,4.584283
-1367,15475,31498,EXA Edge DC Dusseldorf,ok,Düsseldorf,DE,51.258694,6.798828
-1368,15479,39518,EXEA Data Center,ok,Toruń,PL,52.990818,18.66691
-1369,15492,25714,dc2scale PAR5 (Vélizy-Villacoublay),ok,Vélizy-Villacoublay,FR,48.778615,2.214813
-1370,15506,39589,nexspace data centers Heidelberg,ok,Heidelberg,DE,49.394008,8.672689
-1371,15517,37699,Data Node,ok,Timisoara,RO,45.774162,21.211925
-1372,15522,36924,Start Campus SIN02,ok,Sines,PT,37.962277,-8.871314
-1373,15524,2,Equinix MD6,ok,Madrid,ES,40.533739,-3.661545
-1374,15526,136,Magdalena Datacenter,ok,Madrid,ES,40.467654,-3.658841
-1375,15527,136,Cantabria Datacenter,ok,Madrid,ES,40.464784,-3.659262
-1376,15550,1866,Data Center,ok,Wuppertal,DE,51.278764,7.160988
-1377,15648,35695,EVB-CLJ-DC1,ok,Juc-Herghelie,RO,46.881152,23.790246
-1378,15690,40042,Data Target DC,ok,Zagreb,HR,45.744704,16.001606
-1379,15717,12254,T2 Ljubljana Brnciceva,ok,Črnuče,SI,46.094962,14.55381
-1380,15721,38684,OD CLOUD MAD1,ok,Arganda del Rey,ES,,
-1381,15722,38684,OD CLOUD MUN1,ok,Munich,DE,,
-1382,15723,38684,OD CLOUD HEL1,ok,Helsinki,FI,,
-1383,15771,17408,Pozuelo de Alarcon,ok,Pozuelo de Alarcón,ES,40.396008,-3.79599
-1384,15824,8975,Akquinet HAM03,ok,Hamburg,DE,53.601345,10.191653
-1385,15840,8735,EdgeConneX Warsaw (EDCWAW03),ok,Warsaw,PL,52.205544,20.88649
-1386,15841,8735,EdgeConneX Warsaw (EDCWAW02),ok,Warsaw,PL,52.1872,20.937593
-1387,15864,40469,Timisoara 1,ok,Timisoara,RO,45.775777,21.21368
-1388,15874,1214,LVRTC Valmieras RTS,ok,Valmiera,LV,56.975473,23.848593
-1389,15875,1214,LVRTC Daugavpils RTS,ok,Daugavpils,LV,55.872285,26.534331
-1390,15876,1214,LVRTC Liepajas RTS,ok,Liepaja,LV,56.513365,21.002174
-1391,15877,1214,LVRTC Ventspils RTS,ok,Ventspils,LV,57.39304,21.56719
-1392,15965,5509,UNO-NX01,ok,Milan,IT,45.47765,9.103123
-1393,15988,6031,DMO - Datacenter Münster Osnabrück (DMO1),ok,Greven,DE,52.13129,7.700174
-1394,15997,40814,ZeroPlex DC01,ok,Venlo,NL,51.391569,6.186715
-1395,16040,30599,АСDС,ok,Varna,BG,43.225225,27.899987
-1396,16084,11700,Datacenter Hannover,ok,Sehnde,DE,52.320382,9.985292
-1397,16086,33224,DTiX Chalon-sur-Saône,ok,Châtenoy-le-Royal,FR,,
-1398,16100,41128,Prosoluce SG-1 Datacenter,ok,Saint-Gaudens,FR,43.116656,0.754319
-1399,16111,34279,Qupra DC2,ok,Amsterdam,NL,52.399837,4.842327
-1400,16141,15162,Cibicom Taulov,ok,Fredericia,DK,55.541535,9.648229
-1401,16189,6613,Obenet Riverlake,ok,Älvsjö,SE,59.275306,18.011313
-1402,16190,12969,BINAP BN01 DATA CENTER,ok,BARI,IT,41.090963,16.778714
-1403,16214,31498,EXA Edge DC Leipzig,ok,Leipzig,DE,51.34511,12.391967
-1404,16218,13346,DC North,ok,Varaždin,HR,46.281916,16.360397
-1405,16304,19800,AtlasEdge DC Stuttgart STR001,ok,Böblingen,DE,48.67576,8.966942
-1406,16344,1540,"ATMAN Data Center Warsaw-3 (WAW-3, Ożarowska 66B)",ok,Duchnice,PL,52.203972,20.80653
-1407,16358,41718,nbiserv,ok,Bethenhausen,DE,50.929045,12.196016
-1408,16466,8099,e-Quest Datacenter Veghel,ok,Veghel,NL,51.619364,5.525496
-1409,16533,42252,Versija SIA,ok,Riga,LV,,
-1410,16548,25371,Telemark Rechenzentrum Menden,ok,Menden,DE,51.440549,7.768832
-1411,16558,35751,1-DC EU,ok,Warsaw,PL,52.22767,21.00364
-1412,16561,42332,EnormateGreenCenter,ok,Mainhausen,DE,50.02537,9.026788
-1413,16582,42408,PHOCEA DC-M1,ok,Marseille,FR,43.311634,5.37515
-1414,16603,6484,TeleData - Umspannwerk Jettenhausen,ok,Friedrichshafen,DE,47.674591,9.466844
-1415,16662,35558,atNorth FIN04,ok,Myllykoski,FI,,
-1416,16663,35558,atNorth FIN03,ok,Espoo,FI,60.210228,24.748999
-1417,16664,35558,atNorth FIN02,ok,Espoo,FI,60.204827,24.772068
-1418,16665,35558,atNorth FIN01,ok,Helsinki,FI,60.19646,24.945956
-1419,16666,35558,atNorth SWE04,ok,Långsele,SE,,
-1420,16667,35558,atNorth DEN01,ok,Skovlunde,DK,55.711282,12.419921
-1421,16687,11313,TWL-KOM Datacenter II,ok,Ludwigshafen am Rhein,DE,49.486494,8.420059
-1422,16863,2,Equinix LS2 - Lisbon,ok,"Lisbon, , 2685",PT,38.78746,-9.123351
-1423,16910,43299,VIVAnet DC,ok,Budapest,HU,47.478812,19.169477
-1424,16922,31961,Realtox Media VEL,ok,Velbert,DE,51.34873,7.067676
-1425,16963,17600,nLighten Paris PAR3,ok,Paris,FR,48.829265,2.587319
-1426,16967,3248,net.DE DC-H2,ok,Hannover,DE,52.408781,9.727778
-1427,16982,25714,dc2scale MRS1 (Marseille datacenter),ok,Marseille,FR,43.240083,5.399141
-1428,16983,25714,dc2scale LIL1 (Lille Datacenter),ok,Mons en Baroeul,FR,50.649806,3.109514
-1429,17007,19800,AtlasEdge DC Vienna VIE002,ok,Vienna,AT,48.265472,16.419993
-1430,17028,2590,Smartdc Paris,ok,Montreuil,FR,48.85207,2.417989
-1431,17066,3248,net.DE DC-H3,ok,Hannover,DE,52.316775,9.821669
-1432,17067,19800,AtlasEdge DC Lisbon LIS001,ok,Lisbon,PT,38.723984,-9.230911
-1433,17116,6238,M247 Europe Brasov,ok,Brasov,RO,45.651805,25.601611
-1434,17138,44035,DC Vojkova 58,ok,LJubljana,SI,46.068273,14.519497
-1435,17156,9836,Webaxys DC4 - La Souterraine,ok,Saint Maurice la Souterraine,FR,46.20326,1.3894
+,city,geo
+0,Amsterdam,NL
+1,Paris,FR
+2,Paris,FR
+3,Paris,FR
+4,Paris,FR
+5,Paris,FR
+6,Vénissieux,FR
+7,Frankfurt,DE
+8,Frankfurt,DE
+9,Frankfurt,DE
+10,Amsterdam,NL
+11,Amsterdam,NL
+12,Amsterdam,NL
+13,Amsterdam,NL
+14,Vienna,AT
+15,Vienna,AT
+16,Brussels,BE
+17,Paris,FR
+18,Paris,FR
+19,Frankfurt,DE
+20,Paris,FR
+21,Amsterdam,NL
+22,Milan,IT
+23,Amsterdam,NL
+24,Düsseldorf,DE
+25,Frankfurt,DE
+26,Munich,DE
+27,Ede,NL
+28,Frankfurt,DE
+29,Paris,FR
+30,Antibes,FR
+31,Enschede,NL
+32,Frankfurt,DE
+33,Madrid,ES
+34,Barcelona,ES
+35,Lisbon,PT
+36,Alcobendas,ES
+37,Madrid,ES
+38,Brussels,BE
+39,Barcelona,ES
+40,Copenhagen,DK
+41,Düsseldorf,DE
+42,Milan,IT
+43,Berlin,DE
+44,Stockholm,SE
+45,Taastrup,DK
+46,Dublin,IE
+47,Madrid,ES
+48,Dublin,IE
+49,Dublin,IE
+50,Madrid,ES
+51,Dublin,IE
+52,Paris,FR
+53,Nuremberg,DE
+54,Ghent,BE
+55,Antwerp,BE
+56,Antwerp,BE
+57,Munich,DE
+58,Brussels,BE
+59,Nuremberg,DE
+60,Stockholm,SE
+61,Stockholm,SE
+62,Stockholm,SE
+63,Rotterdam,NL
+64,Sittard,NL
+65,Prague,CZ
+66,Prague,CZ
+67,Prague,CZ
+68,Prague,CZ
+69,Düsseldorf,DE
+70,Luxembourg,LU
+71,Copenhagen,DK
+72,Marseille,FR
+73,Roissy-en-France,FR
+74,Lille,FR
+75,Paris,FR
+76,Bordeaux,FR
+77,Strasbourg,FR
+78,Hilversum,NL
+79,Amsterdam,NL
+80,Oude Meer,NL
+81,Aalsmeer,NL
+82,Coburg,DE
+83,Doetinchem,NL
+84,Montpellier,FR
+85,Stockholm,SE
+86,Stockholm,SE
+87,Vienna,AT
+88,Düsseldorf,DE
+89,Amsterdam,NL
+90,Nice,FR
+91,Antibes,FR
+92,Toulouse,FR
+93,Bucharest,RO
+94,Düsseldorf,DE
+95,Frankfurt,DE
+96,Nossegem,BE
+97,Dublin,IE
+98,Machelen,BE
+99,Brussels,BE
+100,Frankfurt,DE
+101,Frankfurt,DE
+102,Turin,IT
+103,Brussels,BE
+104,Amsterdam,NL
+105,Budapest,HU
+106,Budapest,HU
+107,Paris,FR
+108,Sofia,BG
+109,Berlin,DE
+110,Düsseldorf,DE
+111,Berlin,DE
+112,Frankfurt,DE
+113,Amsterdam,NL
+114,Amsterdam,NL
+115,Zwolle,NL
+116,Herford,DE
+117,Boras,SE
+118,Montpellier,FR
+119,Saint-Etienne,FR
+120,Amsterdam,NL
+121,Paris,FR
+122,København S,DK
+123,Malmö,SE
+124,Ede,NL
+125,Prague,CZ
+126,Groningen,NL
+127,Hamburg,DE
+128,Berlin,DE
+129,Gothenburg,SE
+130,Bucharest,RO
+131,Amsterdam,NL
+132,Capelle aan den IJssel,NL
+133,Nuremberg,DE
+134,Berlin,DE
+135,Berlin,DE
+136,Regensburg,DE
+137,Frankfurt,DE
+138,Lisbon,PT
+139,Warsaw,PL
+140,Solna,SE
+141,Berlin,DE
+142,Bratislava,SK
+143,Nuremberg,DE
+144,Stuttgart,DE
+145,Berlin,DE
+146,Munich,DE
+147,Malmö,SE
+148,Amsterdam,NL
+149,Dublin,IE
+150,Dueren,DE
+151,Alphen aan den Rijn,NL
+152,Paris,FR
+153,Paris,FR
+154,Ascoli Piceno,IT
+155,Warsaw,PL
+156,Vienna,AT
+157,Nuremberg,DE
+158,Nuremberg,DE
+159,Steenbergen,NL
+160,Prague,CZ
+161,Eemshaven,NL
+162,Lyngby,DK
+163,Schiltigheim,FR
+164,Capelle aan den IJssel,NL
+165,Rotterdam,NL
+166,Milan,IT
+167,Rome,IT
+168,Nijmegen,NL
+169,Dronten,NL
+170,Bratislava,SK
+171,Montpellier,FR
+172,Kolding,DK
+173,Düsseldorf,DE
+174,Peague 3,CZ
+175,Bochum,DE
+176,Mahlow,DE
+177,Amsterdam,NL
+178,Frankfurt,DE
+179,Zagreb,HR
+180,Wroclaw,PL
+181,Antibes,FR
+182,Cork City,IE
+183,Rouen,FR
+184,Galway,IE
+185,Taastrup,DK
+186,Magny-les-Hameaux,FR
+187,Merelbeke,BE
+188,Milan,IT
+189,Machelen,BE
+190,Vitry-sur-Seine,FR
+191,Amsterdam,NL
+192,Villers-le-Bouillet,BE
+193,Sofia,BG
+194,Sofia,BG
+195,Sofia,BG
+196,Sofia,BG
+197,Ruse,BG
+198,Varna,BG
+199,Burgas,BG
+200,Plovdiv,BG
+201,Rotterdam,NL
+202,Frankfurt,DE
+203,Stockholm,SE
+204,Berlin,DE
+205,Norderstedt,DE
+206,Bochum,DE
+207,Rijen,NL
+208,Turin,IT
+209,Paris,FR
+210,Paris,FR
+211,Machelen,BE
+212,Paris,FR
+213,Bordeaux,FR
+214,Caen,FR
+215,Cesson-Sévigné,FR
+216,Dijon,FR
+217,Grenoble,FR
+218,La Garenne Colombes,FR
+219,Lyon,FR
+220,Nantes,FR
+221,Poitiers,FR
+222,Rennes,FR
+223,Saint Etienne du Rouvray,FR
+224,Tours,FR
+225,Vélizy-Villacoublay,FR
+226,Thillois,FR
+227,Jena,DE
+228,Jena,DE
+229,Stockholm,SE
+230,Riga,LV
+231,Riga,LV
+232,Kiel,DE
+233,Frankfurt,DE
+234,Hannover,DE
+235,Dresden,DE
+236,Leipzig,DE
+237,Hamburg,DE
+238,Düsseldorf,DE
+239,Cologne,DE
+240,Munich,DE
+241,Nuremberg,DE
+242,Milan,IT
+243,Bucharest,RO
+244,Klagenfurt,AT
+245,Klagenfurt am Wörthersee,AT
+246,Hamburg,DE
+247,Dublin,IE
+248,Tallinn,EE
+249,Vilnius,LT
+250,Riga,LV
+251,Hamburg,DE
+252,Bucharest,RO
+253,Helsinki,FI
+254,Frankfurt,DE
+255,Frankfurt,DE
+256,Villebon-sur-Yvette,FR
+257,Copenhagen,DK
+258,Reims,FR
+259,Reims,FR
+260,Amsterdam,NL
+261,Alkmaar,NL
+262,Zagreb,HR
+263,Paris,FR
+264,Skanderborg,DK
+265,Aarhus,DK
+266,Stockholm,SE
+267,Rotterdam,NL
+268,Saint-Denis,FR
+269,Dronten,NL
+270,Kiel,DE
+271,Munich,DE
+272,Milan,IT
+273,Rostock,DE
+274,Kiel,DE
+275,Bremen,DE
+276,Bielefeld,DE
+277,Magdeburg,DE
+278,Dortmund,DE
+279,Mannheim,DE
+280,Stuttgart,DE
+281,Karlsruhe,DE
+282,Würzburg,DE
+283,Erfurt,DE
+284,Ljubljana,SI
+285,Ljubljana,SI
+286,Milan,IT
+287,Milan,IT
+288,Vienna,AT
+289,Graz,AT
+290,Lyon,FR
+291,Bettembourg,LU
+292,Palermo,IT
+293,Palermo,IT
+294,Västra Frölunda,SE
+295,Frankfurt,DE
+296,Frankfurt am Main,DE
+297,Bucharest,RO
+298,Berlin,DE
+299,Frankfurt,DE
+300,Bucharest,RO
+301,Prague,CZ
+302,Brno,CZ
+303,Bucharest,RO
+304,Hengelo,NL
+305,Warsaw,PL
+306,Lille,FR
+307,Dublin,IE
+308,Katowice,PL
+309,Katowice,PL
+310,Utrecht,NL
+311,Paris,FR
+312,Plérin,FR
+313,Amsterdam,NL
+314,Linz,AT
+315,Wels,AT
+316,Voesendorf,AT
+317,Perg,AT
+318,Luxembourg,LU
+319,Bettembourg,LU
+320,Bettembourg,LU
+321,Bissen,LU
+322,Rome,IT
+323,Vilvoorde,BE
+324,Stockholm,SE
+325,Ljubljana,SI
+326,Enschede,NL
+327,Dublin,IE
+328,Labege Innopole,FR
+329,Mogilno,PL
+330,Windhof,LU
+331,Amsterdam,NL
+332,Kayl,LU
+333,Les Lilas,FR
+334,Hasselt,BE
+335,Graz,AT
+336,Spijkenisse,NL
+337,Warsaw,PL
+338,Toulouse Balma,FR
+339,Paris,FR
+340,Toulouse,FR
+341,Feldkirch,AT
+342,Balma,FR
+343,Barcelona,ES
+344,Aalst,BE
+345,Karlsruhe,DE
+346,Karlsruhe,DE
+347,Karlsruhe,DE
+348,San Cristóbal de La Laguna,ES
+349,Roubaix,FR
+350,Munich,DE
+351,Hamburg,DE
+352,Paris,FR
+353,Amsterdam,NL
+354,Alixan,FR
+355,Alblasserdam,NL
+356,Amsterdam,NL
+357,Bissen,LU
+358,Paris,FR
+359,Salzburg,AT
+360,Limonest,FR
+361,Bamberg,DE
+362,Aubière,FR
+363,Nuremberg,DE
+364,San Javier,ES
+365,Paderborn,DE
+366,Vienna,AT
+367,Stockholm,SE
+368,Spijkenisse,NL
+369,Amsterdam,NL
+370,Amsterdam,NL
+371,Frankfurt,DE
+372,Düsseldorf,DE
+373,Delft,NL
+374,IJsselstein,NL
+375,Espoo,FI
+376,Hilversum,NL
+377,Zagreb,HR
+378,Sainghin-en-Mélantois,FR
+379,Munich,DE
+380,Malmö,SE
+381,Malmö,SE
+382,Goes,NL
+383,Rouen,FR
+384,Vitry-sur-Seine,FR
+385,Eindhoven,NL
+386,Vienna,AT
+387,Turin,IT
+388,Turin,IT
+389,Helsinki,FI
+390,Vantaa,FI
+391,Helsinki,FI
+392,Zoetermeer,NL
+393,Krakow,PL
+394,Krakow,PL
+395,Glostrup,DK
+396,Villeurbanne,FR
+397,Hamburg,DE
+398,Ancona,IT
+399,Katowice,PL
+400,Madrid,ES
+401,Linz,AT
+402,Linz,AT
+403,Paris,FR
+404,Zaventem,BE
+405,Stockholm,SE
+406,Stockholm,SE
+407,Salerno,IT
+408,Paris,FR
+409,Prague,CZ
+410,Stockholm,SE
+411,Gothenburg,SE
+412,Stockholm,SE
+413,Sundsvall,SE
+414,Stockholm,SE
+415,Luleå,SE
+416,Bucharest,RO
+417,Berlin,DE
+418,Ghent,BE
+419,Zuidbroek,NL
+420,Groningen,NL
+421,Warsaw,PL
+422,Sofia,BG
+423,Bremen,DE
+424,Arnhem,NL
+425,Bremen,DE
+426,Hamburg,DE
+427,Hamburg,DE
+428,San Benedetto del Tronto,IT
+429,Bucharest,RO
+430,Malmö,SE
+431,Vienna,AT
+432,Valby,DK
+433,Munich,DE
+434,Paris,FR
+435,Amiens,FR
+436,Amiens,FR
+437,Lognes,FR
+438,Ferrara,IT
+439,Bologna,IT
+440,Bucharest,RO
+441,Fulda,DE
+442,Bremen,DE
+443,Bremen,DE
+444,Bremen,DE
+445,Brno,CZ
+446,Brno,CZ
+447,Meppel,NL
+448,Olomouc,CZ
+449,Val de Reuil,FR
+450,Prague 6,CZ
+451,Helsinki,FI
+452,Lambersart,FR
+453,Bouliac,FR
+454,Helsinki,FI
+455,Espoo,FI
+456,Munich,DE
+457,Madrid,ES
+458,Paris,FR
+459,Málaga,ES
+460,The Hague,NL
+461,Toulouse,FR
+462,Marseille,FR
+463,Marly,FR
+464,Turin,IT
+465,Bievres,FR
+466,Sofia,BG
+467,Padova,IT
+468,Koropi,GR
+469,Milan,IT
+470,Stuttgart,DE
+471,Madrid,ES
+472,San Sebastián,ES
+473,Stuttgart,DE
+474,Hardenberg,NL
+475,Warsaw,PL
+476,Białystok,PL
+477,Bydgoszcz,PL
+478,Gdansk,PL
+479,Katowice,PL
+480,Kielce,PL
+481,Krakow,PL
+482,Lublin,PL
+483,Łódź,PL
+484,Olsztyn,PL
+485,Poznan,PL
+486,Rzeszów,PL
+487,Szczecin,PL
+488,Wroclaw,PL
+489,Groningen,NL
+490,Torrevieja,ES
+491,Katowice,PL
+492,Cébazat,FR
+493,Dublin,IE
+494,Munich,DE
+495,Bratislava,SK
+496,Košice,SK
+497,Dublin,IE
+498,Vienna,AT
+499,Contern,LU
+500,Tallinn,EE
+501,Bucharest,RO
+502,Courbevoie,FR
+503,Bucharest,RO
+504,Salzburg,AT
+505,Salzburg,AT
+506,Hannover,DE
+507,Prague,CZ
+508,Amiens,FR
+509,Usingen/Neu-Anspach,DE
+510,Eindhoven,NL
+511,Zlin,CZ
+512,Les Milles,FR
+513,Upplands Väsby,SE
+514,Dublin,IE
+515,Prague,CZ
+516,Athens,GR
+517,Innsbruck,AT
+518,Hall in Tirol,AT
+519,Heerlen,NL
+520,Stuttgart,DE
+521,Düsseldorf,DE
+522,Hamburg,DE
+523,Tampere,FI
+524,Dublin,IE
+525,Spanga,SE
+526,Warsaw,PL
+527,Vienna,AT
+528,Warsaw,PL
+529,Paterna,ES
+530,Stuttgart,DE
+531,Darmstadt,DE
+532,Rotterdam,NL
+533,Saint Aunes,FR
+534,Poznan,PL
+535,Poznan,PL
+536,Poznan,PL
+537,Poznan,PL
+538,Poznan,PL
+539,Quarrata,IT
+540,Szczecin,PL
+541,Espoo,FI
+542,Riga,LV
+543,Karlskrona,SE
+544,Warsaw,PL
+545,Turin,IT
+546,Schwerin,DE
+547,Amsterdam,NL
+548,Valenciennes,FR
+549,Bremen,DE
+550,Bremen,DE
+551,Bremen,DE
+552,Frankfurt,DE
+553,Bremen,DE
+554,Sofia,BG
+555,Gellainville Cedex,FR
+556,Siziano,IT
+557,Sartrouville,FR
+558,Malmö,SE
+559,Kiel,DE
+560,Warsaw,PL
+561,Carquefou,FR
+562,Rüsselsheim,DE
+563,Frankfurt,DE
+564,Alcantarilla,ES
+565,Lisbon,PT
+566,Athens,GR
+567,Saint Trivier sur Moignans,FR
+568,L'Hospitalet de Llobregat,ES
+569,Vilnius,LT
+570,Herne,DE
+571,Milan,IT
+572,Amsterdam,NL
+573,Warsaw,PL
+574,Metamorfosi,GR
+575,Nuremberg,DE
+576,Eindhoven,NL
+577,Limassol,CY
+578,Madrid,ES
+579,Vienna,AT
+580,Vienna,AT
+581,Vienna,AT
+582,Bucharest,RO
+583,Bucharest,RO
+584,Karlsruhe,DE
+585,Helmond,NL
+586,Stockholm,SE
+587,Grenoble,FR
+588,León,ES
+589,Espoo,FI
+590,Helsinki,FI
+591,Tampere,FI
+592,Bucharest,RO
+593,Brasov,RO
+594,Falkenstein,DE
+595,Nuremberg,DE
+596,Copenhagen,DK
+597,Ljusterö,SE
+598,Sofia,BG
+599,Sofia,BG
+600,Seville,ES
+601,Prague,CZ
+602,Pau,FR
+603,Karlsruhe,DE
+604,Zabrze,PL
+605,Marcoussis,FR
+606,Cornaredo (MI),IT
+607,Bettembourg,LU
+608,Malmö,SE
+609,Piacenza,IT
+610,Stockholm,SE
+611,Łódź,PL
+612,Den Bosch,NL
+613,Eindhoven,NL
+614,Dublin,IE
+615,Katowice,PL
+616,Budapest,HU
+617,Milan,IT
+618,Krakow,PL
+619,Krakow,PL
+620,St Jean De Maurienne,FR
+621,Düsseldorf,DE
+622,Berlin,DE
+623,Frankfurt am Main,DE
+624,Saint-Herblain,FR
+625,La Chapelle-sur-Erdre,FR
+626,Saint-Herblain,FR
+627,Rezé,FR
+628,Lublin,PL
+629,Hannover,DE
+630,Unterschleißheim,DE
+631,Gütersloh,DE
+632,Vesoul,FR
+633,Skanderborg,DK
+634,Toruń,PL
+635,Bratislava,SK
+636,Düsseldorf,DE
+637,Alcantarilla,ES
+638,Eschbach,DE
+639,Treviolo,IT
+640,Aschheim,DE
+641,Latina,IT
+642,Hvidovre,DK
+643,Aalborg,DK
+644,Amsterdam,NL
+645,Schiphol Rijk,NL
+646,Wormer,NL
+647,Bucharest,RO
+648,Bucharest,RO
+649,Cluj Napoca,RO
+650,Schiphol Rijk,NL
+651,Leuven,BE
+652,Solna,SE
+653,Thessaloniki,GR
+654,Tuusula,FI
+655,Gliwice,PL
+656,Erfurt,DE
+657,Karlsruhe,DE
+658,HUDIKSVALL,SE
+659,Innsbruck,AT
+660,Innsbruck,AT
+661,Munich,DE
+662,Saarwellingen,DE
+663,Saarwellingen,DE
+664,Prague,CZ
+665,Copenhagen,DK
+666,Berlin,DE
+667,Paris,FR
+668,Paris,FR
+669,Paris,FR
+670,Frankfurt,DE
+671,Hamburg,DE
+672,Amsterdam,NL
+673,Rosendaal,NL
+674,Barcelona,ES
+675,Madrid,ES
+676,Amsterdam,NL
+677,Zagreb,HR
+678,Sisak,HR
+679,Dubovac,HR
+680,Slobodnica,HR
+681,Mirkovci,HR
+682,Ilok,HR
+683,Capaccio-Paestum,IT
+684,Nola,IT
+685,Frankfurt,DE
+686,Pozuelo de Alarcón,ES
+687,Hallstadt,DE
+688,Dublin,IE
+689,Rome,IT
+690,Almere,NL
+691,Bonn,DE
+692,Frankfurt,DE
+693,Marburg,DE
+694,Hengelo,NL
+695,Bielefeld,DE
+696,Prague,CZ
+697,Prior Velho,PT
+698,Prague,CZ
+699,Prague,CZ
+700,Rezé,FR
+701,Montana,BG
+702,Woerden,NL
+703,Frankfurt,DE
+704,Dublin,IE
+705,Almere,NL
+706,Almere,NL
+707,Reutlingen,DE
+708,Amsterdam,NL
+709,Tallinn,EE
+710,Vilnius,LT
+711,Milan,IT
+712,Murcia,ES
+713,Seville,ES
+714,Vilnius,LT
+715,Vilnius,LT
+716,Amsterdam,NL
+717,Uherske Hradiste,CZ
+718,Brescia,IT
+719,Brescia,IT
+720,Padova,IT
+721,Padova,IT
+722,Amsterdam,NL
+723,Frankfurt,DE
+724,Rome,IT
+725,Palma,ES
+726,Vilnius,LT
+727,Hoofddorp,NL
+728,Prague,CZ
+729,Frankfurt,DE
+730,Vilnius,LT
+731,Cesson-Sévigné,FR
+732,Eindhoven,NL
+733,Rotterdam,NL
+734,Marousi,GR
+735,Madrid,ES
+736,Gdynia,PL
+737,Drobeta Turnu Severin,RO
+738,Taucha,DE
+739,Luxembourg,LU
+740,Jyväskylä,FI
+741,Copenhagen,DK
+742,Albertslund,DK
+743,Odense,DK
+744,Nørre Nebel,DK
+745,Civrieux,FR
+746,Konstanz,DE
+747,Vilnius,LT
+748,Bordeaux,FR
+749,Trzin,SI
+750,Ljubljana,SI
+751,Croissy Beaubourg,FR
+752,Cologne,DE
+753,Düsseldorf,DE
+754,Eslettes,FR
+755,Annecy,FR
+756,Padova,IT
+757,Gembloux,BE
+758,Maastricht,NL
+759,Paris,FR
+760,Montpellier,FR
+761,Balma,FR
+762,Amsterdam,NL
+763,Madrid,ES
+764,Eggenstein-Leopoldshafen,DE
+765,Karlsruhe,DE
+766,Leverkusen,DE
+767,Arezzo,IT
+768,Arezzo,IT
+769,Ponte San Pietro,IT
+770,Schiphol Rijk,NL
+771,Offenbach,DE
+772,Riga,LV
+773,Carlow,IE
+774,Budapest,HU
+775,Lisbon,PT
+776,Pötschach,AT
+777,Kista,SE
+778,Woerden,NL
+779,Schweinfurt,DE
+780,Tallinn,EE
+781,Stuttgart,DE
+782,Krakow,PL
+783,Cesson-Sévigné,FR
+784,Alcobendas,ES
+785,Strasbourg,FR
+786,Ede,NL
+787,Eygelshoven,NL
+788,Sofia,BG
+789,Tallinn,EE
+790,Turin,IT
+791,Dublin,IE
+792,Helsinki,FI
+793,Paterna,ES
+794,Arad,RO
+795,Arad,RO
+796,Craiova,RO
+797,Cluj Napoca,RO
+798,Timisoara,RO
+799,Carini,IT
+800,Iași,RO
+801,Waalwijk,NL
+802,Groenekan,NL
+803,Arnhem,NL
+804,Warsaw,PL
+805,Skärholmen,SE
+806,Sollentuna,SE
+807,Tallinn,EE
+808,Rzeszów,PL
+809,Nanterre,FR
+810,Valencia,ES
+811,Prague,CZ
+812,Nice,FR
+813,Nanterre,FR
+814,Athens,GR
+815,Thessaloniki,GR
+816,Helsinki,FI
+817,Leipzig,DE
+818,Dresden,DE
+819,Sint-Lambrechts-Woluwe,BE
+820,Brno,CZ
+821,Ivančice,CZ
+822,Hasselt,BE
+823,Merate,IT
+824,Cluj Napoca,RO
+825,Sofia,BG
+826,Kapitan Andreevo,BG
+827,Betzdorf,LU
+828,Milan,IT
+829,Anzin - Valenciennes,FR
+830,Villeneuve d'Ascq,FR
+831,Lezennes,FR
+832,Perugia,IT
+833,Naaldwijk,NL
+834,Naaldwijk,NL
+835,Ljubljana,SI
+836,Albertslund,DK
+837,Thessaloniki,GR
+838,Erfurt,DE
+839,Antwerp,BE
+840,Würzburg,DE
+841,Amsterdam,NL
+842,Saint-Saturnin,FR
+843,Huskvarna,SE
+844,Cagliari,IT
+845,Padua,IT
+846,Lisbon,PT
+847,Montreuil,FR
+848,Santa Lucia di Piave (TV),IT
+849,Milan,IT
+850,Aerzen,DE
+851,Tampere,FI
+852,Vantaa,FI
+853,Harjunpää,FI
+854,Lyon,FR
+855,Warsaw,PL
+856,Veselí nad Lužnicí,CZ
+857,La Ciotat,FR
+858,Alcalá de Henares,ES
+859,Balingen,DE
+860,Sofia,BG
+861,Espoo,FI
+862,Warsaw,PL
+863,Seyssinet-Pariset,FR
+864,Bremen,DE
+865,Leeuwarden,NL
+866,Leeuwarden,NL
+867,Saint-Ouen-l'Aumône,FR
+868,Aubervilliers,FR
+869,Marseille,FR
+870,Hamburg,DE
+871,Kofinou,CY
+872,Gelsenkirchen,DE
+873,Verona,IT
+874,Rome,IT
+875,Trento,IT
+876,Madrid,ES
+877,Rozenburg,NL
+878,Hattersheim am Main,DE
+879,Frankfurt,DE
+880,Vreden,DE
+881,Stadtlohn,DE
+882,Hengelo,NL
+883,Prague,CZ
+884,Cluj Napoca,RO
+885,Göppingen,DE
+886,Villeurbanne,FR
+887,Mutterstadt,DE
+888,Mutterstadt,DE
+889,Hamburg,DE
+890,Hamburg,DE
+891,Ostermiething,AT
+892,Hannover,DE
+893,Lehrte,DE
+894,Tübingen,DE
+895,Reutlingen,DE
+896,Alfafar,ES
+897,Benahavis,ES
+898,Hilden,DE
+899,Nanterre,FR
+900,Baden-Baden,DE
+901,Halfweg,NL
+902,Frankfurt,DE
+903,Dublin,IE
+904,Tønder,DK
+905,Trappes,FR
+906,Hamburg,DE
+907,Prato,IT
+908,Nuoro,IT
+909,Leverkusen,DE
+910,Frankfurt,DE
+911,Bremen,DE
+912,Wroclaw,PL
+913,Helsinki,FI
+914,Maribor,SI
+915,Krakow,PL
+916,Ljubljana,SI
+917,Pisa,IT
+918,Lüdenscheid,DE
+919,Lamezia Terme,IT
+920,Wolfsburg,DE
+921,Apeldoorn,NL
+922,Madrid,ES
+923,Hamburg,DE
+924,Hamburg,DE
+925,Norderstedt,DE
+926,Reims,FR
+927,Reims,FR
+928,Koper,SI
+929,Brussels,BE
+930,Paterna,ES
+931,Haarlem,NL
+932,Voluntari,RO
+933,Windhof,LU
+934,Espoo,FI
+935,Turku,FI
+936,Vélizy-Villacoublay,FR
+937,Amsterdam,NL
+938,La Spezia,IT
+939,Bielefeld,DE
+940,Paris,FR
+941,Vernole,IT
+942,Bucharest,RO
+943,Bolzano,IT
+944,Pasian di Prato,IT
+945,Pordenone,IT
+946,Villeurbanne,FR
+947,Champs-sur-Marne,FR
+948,Esbjerg,DK
+949,Reutlingen,DE
+950,Villers-le-Bouillet,BE
+951,Hof,DE
+952,Hofheim am Taunus,DE
+953,Haskovo,BG
+954,Wyszków,PL
+955,Hoofddorp,NL
+956,Copenhagen,DK
+957,Nanterre,FR
+958,Courbevoie,FR
+959,Alsbach-Hähnlein,DE
+960,Tallinn,EE
+961,Fidenza,IT
+962,Bregenz,AT
+963,Auxerre,FR
+964,Remscheid,DE
+965,Rijen,NL
+966,Hamburg,DE
+967,Budapest,HU
+968,Antwerp,BE
+969,Helsinki,FI
+970,Vélizy-Villacoublay,FR
+971,Derio,ES
+972,Pontarlier,FR
+973,Münster,DE
+974,Gävle,SE
+975,Falkenberg,SE
+976,Hilden,DE
+977,Leipzig,DE
+978,Berlin,DE
+979,Rotunda,RO
+980,Gruenwald,DE
+981,Besançon,FR
+982,Gothenburg,SE
+983,Roermond,NL
+984,Verden,DE
+985,Aimargues,FR
+986,Lyngby,DK
+987,Wroclaw,PL
+988,Frankfurt,DE
+989,Bologna,IT
+990,Hamburg,DE
+991,Pomezia,IT
+992,Lübeck,DE
+993,Olsztyn,PL
+994,Växjö,SE
+995,Karlshamn,SE
+996,Sant Adrià de Besòs,ES
+997,Bremen,DE
+998,Opole,PL
+999,Dublin,IE
+1000,Milan,IT
+1001,Kelsterbach,DE
+1002,Offenbach,DE
+1003,Zduńska Wola,PL
+1004,Den Helder,NL
+1005,Bensheim,DE
+1006,Bensheim,DE
+1007,Hørning,DK
+1008,Dortmund,DE
+1009,Halfweg,NL
+1010,Aversa,IT
+1011,Warsaw,PL
+1012,Karlsruhe,DE
+1013,Rende,IT
+1014,Gelsenkirchen,DE
+1015,Brussels,BE
+1016,Højbjerg,DK
+1017,Ballerup,DK
+1018,Evere,BE
+1019,Machelen,BE
+1020,Mörfelden-Walldorf,DE
+1021,Dortmund,DE
+1022,Grojec,PL
+1023,Skawina,PL
+1024,Ivry-sur-Seine,FR
+1025,Chiajna,RO
+1026,Enschede,NL
+1027,Oulu,FI
+1028,Alcobendas,ES
+1029,Marcoussis,FR
+1030,Poznan,PL
+1031,Poznan,PL
+1032,Hisings Kärra,SE
+1033,Järfälla,SE
+1034,Peltre,FR
+1035,Rotterdam,NL
+1036,Nieuwegein,NL
+1037,Chavanod,FR
+1038,The Hague,NL
+1039,5 Settimo Milanese,IT
+1040,Pamiers,FR
+1041,Prague,CZ
+1042,Saarbrücken,DE
+1043,Tours,FR
+1044,Tours,FR
+1045,Beersel,BE
+1046,Copenhagen N,DK
+1047,Pisa,IT
+1048,Grenoble,FR
+1049,Besançon,FR
+1050,Bucharest,RO
+1051,Sibiu,RO
+1052,Brăila,RO
+1053,Walsrode,DE
+1054,Frosinone,IT
+1055,Appenweier,DE
+1056,Augsburg,DE
+1057,Hallein,AT
+1058,Aschheim,DE
+1059,Grenoble,FR
+1060,Oulu,FI
+1061,Oulu,FI
+1062,Bruges,FR
+1063,Las Rozas de Madrid,ES
+1064,Prague,CZ
+1065,Bad Oeynhausen,DE
+1066,Limburg an der Lahn,DE
+1067,Belfort,FR
+1068,Blanchardstown,IE
+1069,Canteleu,FR
+1070,Sattledt,AT
+1071,Paris,FR
+1072,Ploiesti,RO
+1073,Sundsvall,SE
+1074,Vienna,AT
+1075,Vienna,AT
+1076,Vienna,AT
+1077,Vienna,AT
+1078,Vienna,AT
+1079,Vienna,AT
+1080,Vienna,AT
+1081,Vienna,AT
+1082,Vienna,AT
+1083,Vienna,AT
+1084,Vienna,AT
+1085,Vienna,AT
+1086,Vienna,AT
+1087,Cluj Napoca,RO
+1088,Breda,NL
+1089,Arrecife,ES
+1090,Kirchlinteln,DE
+1091,Kleinmachnow,DE
+1092,Riga,LV
+1093,Sant Boi de Llobregat,ES
+1094,Szombathely,HU
+1095,Albi,FR
+1096,Rotunda,RO
+1097,Berlin,DE
+1098,Aubergenville,FR
+1099,Bonn,DE
+1100,Bremen,DE
+1101,Barleben,DE
+1102,Hürth,DE
+1103,Hilden,DE
+1104,Hilden,DE
+1105,Hirschbach,DE
+1106,Gladbeck,DE
+1107,Eschborn,DE
+1108,Frankfurt,DE
+1109,Hannover,DE
+1110,Hannover,DE
+1111,Hamburg,DE
+1112,Hamburg,DE
+1113,Kehl,DE
+1114,Schkeuditz,DE
+1115,Garching bei München,DE
+1116,Garching bei München,DE
+1117,Nuremberg,DE
+1118,Stuttgart,DE
+1119,Stuttgart,DE
+1120,Velten,DE
+1121,Graz,AT
+1122,Salzburg,AT
+1123,Vienna,AT
+1124,Antwerp,BE
+1125,Zedelgem,BE
+1126,Zaventem,BE
+1127,Liege,BE
+1128,Châteaubourg,FR
+1129,Frankfurt,DE
+1130,Sequedin,FR
+1131,Nice,FR
+1132,Nancy,FR
+1133,Poitiers,FR
+1134,Strasbourg,FR
+1135,Toulouse,FR
+1136,Vauchelles,FR
+1137,Willerval,FR
+1138,Ychoux,FR
+1139,Oostkamp,BE
+1140,Zwijndrecht,BE
+1141,Rotterdam,NL
+1142,Soesterberg,NL
+1143,Basauri,ES
+1144,Hereña,ES
+1145,Valencia,ES
+1146,Bari,IT
+1147,Haar,DE
+1148,Antwerp,BE
+1149,Venice,IT
+1150,Saue vald,EE
+1151,Milan,IT
+1152,Berlin,DE
+1153,Tjerkgaast,NL
+1154,Kiel,DE
+1155,Saint-Herblain,FR
+1156,Carquefou,FR
+1157,Couëron,FR
+1158,La Roche-sur-Yon,FR
+1159,Tourcoing,FR
+1160,Kolding,DK
+1161,Sofia,BG
+1162,Stolnik,BG
+1163,Rome,IT
+1164,Kehrsen,DE
+1165,Bremen,DE
+1166,Bremen,DE
+1167,Berlin,DE
+1168,Meerbusch,DE
+1169,Berlin,DE
+1170,"Glostrup, Copenhagen",DK
+1171,Geleen,NL
+1172,Leipzig,DE
+1173,Regensburg,DE
+1174,Regensburg,DE
+1175,Lappersdorf,DE
+1176,Langen,DE
+1177,Brunello,IT
+1178,Rheine,DE
+1179,Emsdetten,DE
+1180,Nordhorn,DE
+1181,Greven,DE
+1182,Münster,DE
+1183,Lindau,DE
+1184,Jawczyce,PL
+1185,Grodzisk Mazowiecki,PL
+1186,Jaworzno,PL
+1187,Poznan,PL
+1188,Montigny-le-Bretonneux,FR
+1189,Burgas,BG
+1190,Rome,IT
+1191,Lund,SE
+1192,Hamburg,DE
+1193,Cologne,DE
+1194,Settimo Milanese (MI),IT
+1195,Milan,IT
+1196,Ellhofen,DE
+1197,Zaventem,BE
+1198,Zaventem,BE
+1199,Wiesbaden,DE
+1200,Groningen,NL
+1201,Kloetinge,NL
+1202,Gdansk,PL
+1203,Gdynia,PL
+1204,Oulu,FI
+1205,Boissano,IT
+1206,Valbonne,FR
+1207,Lognes,FR
+1208,Illkirch-Graffenstaden,FR
+1209,Madrid,ES
+1210,Frankfurt,DE
+1211,Paris,FR
+1212,Rome,IT
+1213,Zagreb,HR
+1214,Zaventem,BE
+1215,Aachen,DE
+1216,Coburg,DE
+1217,Coburg,DE
+1218,Deventer,NL
+1219,Apeldoorn,NL
+1220,Culemborg,NL
+1221,Dodewaard,NL
+1222,Doetinchem,NL
+1223,Eemshaven,NL
+1224,Ens,NL
+1225,Fanø,DK
+1226,Hooghalen,NL
+1227,Krimpen aan den IJssel,NL
+1228,Lelystad,NL
+1229,Maasbracht,NL
+1230,Middenmeer,NL
+1231,Zwolle,NL
+1232,Amsterdam,NL
+1233,Settimo Milanese,IT
+1234,Rome,IT
+1235,Thessaloniki,GR
+1236,Rapallo,IT
+1237,Toulon,FR
+1238,Brindisi,IT
+1239,Lublin,PL
+1240,Eppes,FR
+1241,Dronten,NL
+1242,Frankfurt am Main,DE
+1243,San Fernando de Henares,ES
+1244,Vilnius,LT
+1245,Chauray,FR
+1246,Haskovo,BG
+1247,Sines,PT
+1248,Genoa,IT
+1249,Málaga,ES
+1250,Haskovo,BG
+1251,Cluj Napoca,RO
+1252,Saint-Clément-de-Rivière,FR
+1253,Stockholm,SE
+1254,Frederiksberg C,DK
+1255,Gudow,DE
+1256,Groningen,NL
+1257,Rotterdam,NL
+1258,Eindhoven,NL
+1259,Hannover,DE
+1260,Madrid,ES
+1261,Madrid,ES
+1262,Bonn,DE
+1263,Aviano,IT
+1264,Bettembourg,LU
+1265,Bettembourg,LU
+1266,Falun,SE
+1267,Genoa,IT
+1268,Madrid,ES
+1269,Dresden,DE
+1270,'s-Hertogenbosch,NL
+1271,Le Creusot,FR
+1272,Dresden,DE
+1273,Elche,ES
+1274,Vilnius,LT
+1275,Vilnius,LT
+1276,Bouillargues,FR
+1277,Fürth,DE
+1278,Naples,IT
+1279,Poznan,PL
+1280,Vélizy-Villacoublay,FR
+1281,Paris,FR
+1282,Cerdanyola del Vallès,ES
+1283,Alcalá de Henares,ES
+1284,Barcelona,ES
+1285,"Jawczyce,",PL
+1286,Jyväskylä,FI
+1287,Murcia,ES
+1288,Dublin,IE
+1289,Rotterdam,NL
+1290,Amsterdam,NL
+1291,Hilversum,NL
+1292,Alphen aan den Rijn,NL
+1293,Barreiro,PT
+1294,Sines,PT
+1295,Vila Nova de Famalicao,PT
+1296,Larcay,FR
+1297,Ahrensburg,DE
+1298,Haarlem,NL
+1299,Vélizy-Villacoublay,FR
+1300,Kista,SE
+1301,La Courneuve,FR
+1302,Chevigny-Saint-Sauveur,FR
+1303,Stockholm,SE
+1304,Lisbon,PT
+1305,Caserta,IT
+1306,Markelo,NL
+1307,Vilnius,LT
+1308,Pazardzhik,BG
+1309,Razgrad,BG
+1310,Pleven,BG
+1311,Sliven,BG
+1312,Stutensee,DE
+1313,Raaba-Grambach,AT
+1314,Naaldwijk,NL
+1315,Vienna,AT
+1316,Chasseneuil-du-Poitou,FR
+1317,Paris,FR
+1318,Praha 9 – Střížkov,CZ
+1319,Piestany,SK
+1320,Villeurbanne,FR
+1321,Cesson-Sévigné,FR
+1322,Oldenburg,DE
+1323,Genoa,IT
+1324,Trieste,IT
+1325,Madrid,ES
+1326,Turku,FI
+1327,Rome,IT
+1328,Hinnerup,DK
+1329,Auch,FR
+1330,Regensburg,DE
+1331,Marssac sur Tarn,FR
+1332,Bucharest,RO
+1333,Ahrensburg,DE
+1334,Genoa,IT
+1335,Amilly,FR
+1336,Asse,BE
+1337,Dresden,DE
+1338,Dresden,DE
+1339,Dresden,DE
+1340,Dresden,DE
+1341,Eschborn,DE
+1342,Stuttgart,DE
+1343,Böblingen,DE
+1344,Garching,DE
+1345,Innsbruck,AT
+1346,Limoges,FR
+1347,Bidart,FR
+1348,Kleinmachnow,DE
+1349,Getafe,ES
+1350,Barcelona,ES
+1351,Choisy-le-Roi,FR
+1352,Rivabellosa,ES
+1353,Oberhausen,DE
+1354,Warsaw,PL
+1355,Warsaw,PL
+1356,Cluj Napoca,RO
+1357,Cerdanyola del Vallès,ES
+1358,Frankfurt,DE
+1359,Meudon,FR
+1360,Barcelona,ES
+1361,Velbert,DE
+1362,Boulogne-Billancourt,FR
+1363,Ferrières-en-Brie,FR
+1364,Les Ulis,FR
+1365,Kirchheim,DE
+1366,Capelle aan den IJssel,NL
+1367,Düsseldorf,DE
+1368,Toruń,PL
+1369,Vélizy-Villacoublay,FR
+1370,Heidelberg,DE
+1371,Timisoara,RO
+1372,Sines,PT
+1373,Madrid,ES
+1374,Madrid,ES
+1375,Madrid,ES
+1376,Wuppertal,DE
+1377,Juc-Herghelie,RO
+1378,Zagreb,HR
+1379,Črnuče,SI
+1380,Arganda del Rey,ES
+1381,Munich,DE
+1382,Helsinki,FI
+1383,Pozuelo de Alarcón,ES
+1384,Hamburg,DE
+1385,Warsaw,PL
+1386,Warsaw,PL
+1387,Timisoara,RO
+1388,Valmiera,LV
+1389,Daugavpils,LV
+1390,Liepaja,LV
+1391,Ventspils,LV
+1392,Milan,IT
+1393,Greven,DE
+1394,Venlo,NL
+1395,Varna,BG
+1396,Sehnde,DE
+1397,Châtenoy-le-Royal,FR
+1398,Saint-Gaudens,FR
+1399,Amsterdam,NL
+1400,Fredericia,DK
+1401,Älvsjö,SE
+1402,BARI,IT
+1403,Leipzig,DE
+1404,Varaždin,HR
+1405,Böblingen,DE
+1406,Duchnice,PL
+1407,Bethenhausen,DE
+1408,Veghel,NL
+1409,Riga,LV
+1410,Menden,DE
+1411,Warsaw,PL
+1412,Mainhausen,DE
+1413,Marseille,FR
+1414,Friedrichshafen,DE
+1415,Myllykoski,FI
+1416,Espoo,FI
+1417,Espoo,FI
+1418,Helsinki,FI
+1419,Långsele,SE
+1420,Skovlunde,DK
+1421,Ludwigshafen am Rhein,DE
+1422,"Lisbon, , 2685",PT
+1423,Budapest,HU
+1424,Velbert,DE
+1425,Paris,FR
+1426,Hannover,DE
+1427,Marseille,FR
+1428,Mons en Baroeul,FR
+1429,Vienna,AT
+1430,Montreuil,FR
+1431,Hannover,DE
+1432,Lisbon,PT
+1433,Brasov,RO
+1434,LJubljana,SI
+1435,Saint Maurice la Souterraine,FR
