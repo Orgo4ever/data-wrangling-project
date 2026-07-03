@@ -1,0 +1,383 @@
+geo,country,year,renewable_energy_share
+AL,Albania,2015,34.913
+AL,Albania,2016,36.953
+AL,Albania,2017,35.776
+AL,Albania,2018,36.572
+AL,Albania,2019,38.042
+AL,Albania,2020,45.015
+AL,Albania,2021,41.389
+AL,Albania,2022,44.076
+AL,Albania,2023,46.62
+AL,Albania,2024,43.111
+AT,Austria,2015,33.497
+AT,Austria,2016,33.37
+AT,Austria,2017,33.136
+AT,Austria,2018,33.784
+AT,Austria,2019,33.755
+AT,Austria,2020,36.545
+AT,Austria,2021,34.643
+AT,Austria,2022,34.057
+AT,Austria,2023,41.6
+AT,Austria,2024,42.951
+BA,Bosnia and Herzegovina,2015,26.607
+BA,Bosnia and Herzegovina,2016,25.358
+BA,Bosnia and Herzegovina,2017,23.241
+BA,Bosnia and Herzegovina,2018,35.972
+BA,Bosnia and Herzegovina,2019,37.454
+BA,Bosnia and Herzegovina,2020,39.835
+BA,Bosnia and Herzegovina,2021,36.587
+BA,Bosnia and Herzegovina,2022,39.32
+BA,Bosnia and Herzegovina,2023,40.038
+BA,Bosnia and Herzegovina,2024,38.524
+BE,Belgium,2015,8.06
+BE,Belgium,2016,8.744
+BE,Belgium,2017,9.136
+BE,Belgium,2018,9.472
+BE,Belgium,2019,9.929
+BE,Belgium,2020,13.0
+BE,Belgium,2021,13.017
+BE,Belgium,2022,13.831
+BE,Belgium,2023,14.673
+BE,Belgium,2024,14.336
+BG,Bulgaria,2015,18.261
+BG,Bulgaria,2016,18.76
+BG,Bulgaria,2017,18.695
+BG,Bulgaria,2018,20.581
+BG,Bulgaria,2019,21.545
+BG,Bulgaria,2020,23.319
+BG,Bulgaria,2021,19.394
+BG,Bulgaria,2022,19.079
+BG,Bulgaria,2023,23.151
+BG,Bulgaria,2024,23.21
+CY,Cyprus,2015,9.903
+CY,Cyprus,2016,9.833
+CY,Cyprus,2017,10.478
+CY,Cyprus,2018,13.873
+CY,Cyprus,2019,13.777
+CY,Cyprus,2020,16.879
+CY,Cyprus,2021,19.069
+CY,Cyprus,2022,19.427
+CY,Cyprus,2023,20.213
+CY,Cyprus,2024,20.844
+CZ,Czechia,2015,15.07
+CZ,Czechia,2016,14.926
+CZ,Czechia,2017,14.799
+CZ,Czechia,2018,15.139
+CZ,Czechia,2019,16.239
+CZ,Czechia,2020,17.303
+CZ,Czechia,2021,17.614
+CZ,Czechia,2022,18.123
+CZ,Czechia,2023,18.555
+CZ,Czechia,2024,19.211
+DE,Germany,2015,14.901
+DE,Germany,2016,14.885
+DE,Germany,2017,15.472
+DE,Germany,2018,16.66
+DE,Germany,2019,17.266
+DE,Germany,2020,19.09
+DE,Germany,2021,19.302
+DE,Germany,2022,20.829
+DE,Germany,2023,21.512
+DE,Germany,2024,22.474
+DK,Denmark,2015,30.469
+DK,Denmark,2016,31.715
+DK,Denmark,2017,34.387
+DK,Denmark,2018,35.159
+DK,Denmark,2019,37.02
+DK,Denmark,2020,31.681
+DK,Denmark,2021,41.494
+DK,Denmark,2022,41.368
+DK,Denmark,2023,43.728
+DK,Denmark,2024,46.461
+EA20,Euro area – 20 countries (2023-2025),2021,20.661
+EA20,Euro area – 20 countries (2023-2025),2022,21.749
+EA20,Euro area – 20 countries (2023-2025),2023,23.429
+EA20,Euro area – 20 countries (2023-2025),2024,24.205
+EA21,Euro area – 21 countries (from 2026),2021,40.055
+EA21,Euro area – 21 countries (from 2026),2022,40.828
+EA21,Euro area – 21 countries (from 2026),2023,46.58
+EA21,Euro area – 21 countries (from 2026),2024,47.417
+EE,Estonia,2015,28.987
+EE,Estonia,2016,29.232
+EE,Estonia,2017,29.538
+EE,Estonia,2018,29.97
+EE,Estonia,2019,31.73
+EE,Estonia,2020,30.069
+EE,Estonia,2021,37.342
+EE,Estonia,2022,38.542
+EE,Estonia,2023,40.95
+EE,Estonia,2024,42.232
+EL,Greece,2015,15.69
+EL,Greece,2016,15.39
+EL,Greece,2017,17.3
+EL,Greece,2018,18.001
+EL,Greece,2019,19.633
+EL,Greece,2020,21.749
+EL,Greece,2021,22.001
+EL,Greece,2022,22.671
+EL,Greece,2023,25.269
+EL,Greece,2024,25.364
+ES,Spain,2015,16.221
+ES,Spain,2016,17.015
+ES,Spain,2017,17.118
+ES,Spain,2018,17.023
+ES,Spain,2019,17.852
+ES,Spain,2020,21.22
+ES,Spain,2021,20.552
+ES,Spain,2022,21.837
+ES,Spain,2023,24.981
+ES,Spain,2024,25.417
+EU27_2020,European Union - 27 countries (from 2020),2015,17.82
+EU27_2020,European Union - 27 countries (from 2020),2016,17.978
+EU27_2020,European Union - 27 countries (from 2020),2017,18.411
+EU27_2020,European Union - 27 countries (from 2020),2018,19.096
+EU27_2020,European Union - 27 countries (from 2020),2019,19.887
+EU27_2020,European Union - 27 countries (from 2020),2020,22.038
+EU27_2020,European Union - 27 countries (from 2020),2021,21.897
+EU27_2020,European Union - 27 countries (from 2020),2022,23.003
+EU27_2020,European Union - 27 countries (from 2020),2023,24.579
+EU27_2020,European Union - 27 countries (from 2020),2024,25.241
+FI,Finland,2015,39.23
+FI,Finland,2016,38.943
+FI,Finland,2017,40.857
+FI,Finland,2018,41.185
+FI,Finland,2019,42.807
+FI,Finland,2020,43.939
+FI,Finland,2021,42.819
+FI,Finland,2022,47.74
+FI,Finland,2023,50.784
+FI,Finland,2024,52.124
+FR,France,2015,14.803
+FR,France,2016,15.451
+FR,France,2017,15.847
+FR,France,2018,16.384
+FR,France,2019,17.174
+FR,France,2020,19.109
+FR,France,2021,19.391
+FR,France,2022,20.33
+FR,France,2023,22.462
+FR,France,2024,23.229
+GE,Georgia,2021,18.292
+GE,Georgia,2022,18.141
+GE,Georgia,2023,19.85
+GE,Georgia,2024,19.452
+HR,Croatia,2015,28.969
+HR,Croatia,2016,28.266
+HR,Croatia,2017,27.28
+HR,Croatia,2018,28.047
+HR,Croatia,2019,28.466
+HR,Croatia,2020,31.023
+HR,Croatia,2021,31.285
+HR,Croatia,2022,28.088
+HR,Croatia,2023,28.088
+HR,Croatia,2024,26.477
+HU,Hungary,2015,14.495
+HU,Hungary,2016,14.377
+HU,Hungary,2017,13.556
+HU,Hungary,2018,12.548
+HU,Hungary,2019,12.634
+HU,Hungary,2020,13.85
+HU,Hungary,2021,14.134
+HU,Hungary,2022,15.128
+HU,Hungary,2023,17.117
+HU,Hungary,2024,18.264
+IE,Ireland,2015,9.083
+IE,Ireland,2016,9.189
+IE,Ireland,2017,10.52
+IE,Ireland,2018,10.942
+IE,Ireland,2019,11.979
+IE,Ireland,2020,16.16
+IE,Ireland,2021,12.945
+IE,Ireland,2022,13.017
+IE,Ireland,2023,15.243
+IE,Ireland,2024,16.064
+IS,Iceland,2015,71.949
+IS,Iceland,2016,75.329
+IS,Iceland,2017,74.104
+IS,Iceland,2018,77.173
+IS,Iceland,2019,78.612
+IS,Iceland,2020,83.725
+IS,Iceland,2021,79.618
+IS,Iceland,2022,78.735
+IS,Iceland,2023,79.444
+IS,Iceland,2024,79.332
+IT,Italy,2015,17.525
+IT,Italy,2016,17.415
+IT,Italy,2017,18.267
+IT,Italy,2018,17.796
+IT,Italy,2019,18.181
+IT,Italy,2020,20.359
+IT,Italy,2021,18.888
+IT,Italy,2022,18.826
+IT,Italy,2023,19.179
+IT,Italy,2024,19.385
+LT,Lithuania,2015,25.748
+LT,Lithuania,2016,25.612
+LT,Lithuania,2017,26.038
+LT,Lithuania,2018,24.695
+LT,Lithuania,2019,25.474
+LT,Lithuania,2020,26.773
+LT,Lithuania,2021,28.167
+LT,Lithuania,2022,29.599
+LT,Lithuania,2023,31.927
+LT,Lithuania,2024,35.408
+LU,Luxembourg,2015,4.987
+LU,Luxembourg,2016,5.364
+LU,Luxembourg,2017,6.194
+LU,Luxembourg,2018,8.942
+LU,Luxembourg,2019,7.046
+LU,Luxembourg,2020,11.699
+LU,Luxembourg,2021,11.713
+LU,Luxembourg,2022,14.286
+LU,Luxembourg,2023,14.312
+LU,Luxembourg,2024,14.742
+LV,Latvia,2015,37.538
+LV,Latvia,2016,37.138
+LV,Latvia,2017,39.008
+LV,Latvia,2018,40.019
+LV,Latvia,2019,40.929
+LV,Latvia,2020,42.132
+LV,Latvia,2021,42.112
+LV,Latvia,2022,43.786
+LV,Latvia,2023,43.25
+LV,Latvia,2024,45.535
+MD,Moldova,2015,26.173
+MD,Moldova,2016,26.888
+MD,Moldova,2017,27.836
+MD,Moldova,2018,27.476
+MD,Moldova,2019,23.843
+MD,Moldova,2020,25.057
+MD,Moldova,2021,22.203
+MD,Moldova,2022,21.54
+MD,Moldova,2023,22.995
+MD,Moldova,2024,20.769
+ME,Montenegro,2015,43.073
+ME,Montenegro,2016,41.529
+ME,Montenegro,2017,39.693
+ME,Montenegro,2018,38.801
+ME,Montenegro,2019,37.722
+ME,Montenegro,2020,43.77
+ME,Montenegro,2021,39.891
+ME,Montenegro,2022,41.064
+ME,Montenegro,2023,40.883
+ME,Montenegro,2024,40.822
+MK,North Macedonia,2015,19.526
+MK,North Macedonia,2016,18.044
+MK,North Macedonia,2017,19.636
+MK,North Macedonia,2018,18.179
+MK,North Macedonia,2019,17.485
+MK,North Macedonia,2020,19.222
+MK,North Macedonia,2021,19.115
+MK,North Macedonia,2022,20.01
+MK,North Macedonia,2023,20.207
+MK,North Macedonia,2024,21.811
+MT,Malta,2015,5.119
+MT,Malta,2016,6.208
+MT,Malta,2017,7.219
+MT,Malta,2018,7.914
+MT,Malta,2019,8.23
+MT,Malta,2020,10.714
+MT,Malta,2021,12.631
+MT,Malta,2022,14.04
+MT,Malta,2023,15.437
+MT,Malta,2024,17.21
+NL,Netherlands,2015,5.714
+NL,Netherlands,2016,5.846
+NL,Netherlands,2017,6.507
+NL,Netherlands,2018,7.394
+NL,Netherlands,2019,8.886
+NL,Netherlands,2020,13.999
+NL,Netherlands,2021,13.117
+NL,Netherlands,2022,15.291
+NL,Netherlands,2023,17.588
+NL,Netherlands,2024,20.18
+NO,Norway,2015,68.545
+NO,Norway,2016,69.235
+NO,Norway,2017,70.036
+NO,Norway,2018,71.566
+NO,Norway,2019,74.406
+NO,Norway,2020,77.358
+NO,Norway,2021,75.038
+NO,Norway,2022,76.782
+NO,Norway,2023,76.729
+NO,Norway,2024,77.932
+PL,Poland,2015,11.881
+PL,Poland,2016,11.396
+PL,Poland,2017,11.059
+PL,Poland,2018,14.936
+PL,Poland,2019,15.377
+PL,Poland,2020,16.102
+PL,Poland,2021,15.604
+PL,Poland,2022,16.644
+PL,Poland,2023,16.651
+PL,Poland,2024,17.77
+PT,Portugal,2015,30.514
+PT,Portugal,2016,30.864
+PT,Portugal,2017,30.611
+PT,Portugal,2018,30.203
+PT,Portugal,2019,30.623
+PT,Portugal,2020,33.982
+PT,Portugal,2021,33.982
+PT,Portugal,2022,34.675
+PT,Portugal,2023,35.154
+PT,Portugal,2024,36.319
+RO,Romania,2015,24.785
+RO,Romania,2016,25.032
+RO,Romania,2017,24.454
+RO,Romania,2018,23.875
+RO,Romania,2019,24.29
+RO,Romania,2020,24.478
+RO,Romania,2021,23.871
+RO,Romania,2022,24.229
+RO,Romania,2023,25.758
+RO,Romania,2024,25.378
+RS,Serbia,2015,21.989
+RS,Serbia,2016,21.147
+RS,Serbia,2017,20.287
+RS,Serbia,2018,20.32
+RS,Serbia,2019,21.443
+RS,Serbia,2020,26.297
+RS,Serbia,2021,25.255
+RS,Serbia,2022,24.67
+RS,Serbia,2023,25.428
+RS,Serbia,2024,25.862
+SE,Sweden,2015,52.22
+SE,Sweden,2016,52.597
+SE,Sweden,2017,53.39
+SE,Sweden,2018,53.916
+SE,Sweden,2019,55.785
+SE,Sweden,2020,60.124
+SE,Sweden,2021,62.527
+SE,Sweden,2022,66.287
+SE,Sweden,2023,66.393
+SE,Sweden,2024,62.846
+SI,Slovenia,2015,22.879
+SI,Slovenia,2016,21.975
+SI,Slovenia,2017,21.658
+SI,Slovenia,2018,21.378
+SI,Slovenia,2019,21.968
+SI,Slovenia,2020,25.0
+SI,Slovenia,2021,25.0
+SI,Slovenia,2022,25.002
+SI,Slovenia,2023,25.066
+SI,Slovenia,2024,25.001
+SK,Slovakia,2015,12.882
+SK,Slovakia,2016,12.029
+SK,Slovakia,2017,11.465
+SK,Slovakia,2018,11.896
+SK,Slovakia,2019,16.894
+SK,Slovakia,2020,17.345
+SK,Slovakia,2021,17.419
+SK,Slovakia,2022,17.482
+SK,Slovakia,2023,16.991
+SK,Slovakia,2024,18.092
+XK,Kosovo*,2015,18.484
+XK,Kosovo*,2016,24.472
+XK,Kosovo*,2017,23.082
+XK,Kosovo*,2018,24.616
+XK,Kosovo*,2019,24.215
+XK,Kosovo*,2020,24.401
+XK,Kosovo*,2021,22.061
+XK,Kosovo*,2022,18.773
+XK,Kosovo*,2023,20.215
+XK,Kosovo*,2024,18.02
