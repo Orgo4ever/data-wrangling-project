@@ -1,199 +1,430 @@
-# Is Europe's AI Boom Environmentally Sustainable?
+# Europe's AI Growth & Environmental Sustainability
+### A Python Data Integration and Exploratory Analysis Project
 
-**A cross-country analysis of AI adoption, renewable energy, power-sector emissions, and data-centre infrastructure in Europe.**
+**Python | pandas | Data Wrangling | API Integration | Exploratory Data Analysis | Data Visualization**
 
-**Python · pandas · Data Cleaning · Data Integration · Exploratory Data Analysis · Data Visualization**
+*Ironhack Data Analytics Bootcamp | Collaborative Project | 2026*
 
-*Ironhack Data Analytics Bootcamp | Collaborative data-wrangling project | 2026*
+## Project Summary
 
-## Project overview
+As artificial intelligence adoption accelerates across Europe, how does that growth relate to renewable energy, national emissions, and data-centre infrastructure?
 
-AI adoption is accelerating across Europe, but rapid digital growth raises questions about the energy systems supporting it. Are countries adopting AI also expanding renewable energy? How does data-centre infrastructure relate to national emissions? And what can public data—and what **can't** it—tell us about environmental sustainability?
+This project integrates publicly available European datasets to investigate relationships between enterprise AI adoption, renewable-energy share, CO₂ emissions from energy industries, and listed data-centre facilities.
 
-This project brings together European country-level indicators to examine those questions. We combined enterprise AI adoption, renewable-energy share, CO₂ emissions from fuel combustion in energy industries, and listed data-centre facilities into a common analytical framework.
+Using Python and pandas, we prepared and combined data from Eurostat and PeeringDB, aligned country-level indicators, explored trends, and developed visualizations to compare environmental and technological conditions across European countries.
 
-**The goal was to identify patterns and differences across countries, not to estimate emissions caused by AI or prove causal relationships.**
+**The objective was to identify meaningful patterns in the available data, not to establish that AI adoption causes emissions or to calculate AI's environmental footprint.**
 
-### At a glance
+### What This Project Demonstrates
 
-| Aspect | What we analyzed |
+- **Data acquisition:** Retrieving structured data from the Eurostat API.
+- **Data cleaning:** Standardizing country identifiers, reporting years, and analytical fields.
+- **Data integration:** Combining datasets with different structures, coverage, and reporting periods.
+- **Exploratory data analysis:** Comparing national indicators, examining trends, and calculating correlations.
+- **Data visualization:** Communicating relationships through country comparisons, trend charts, and correlation matrices.
+- **Analytical judgment:** Identifying limitations, interpreting associations responsibly, and distinguishing correlation from causation.
+
+## My Role and Contributions
+
+This was a collaborative project completed with **Aline and Sandra** during the Ironhack Data Analytics Bootcamp.
+
+**My primary responsibility was developing the integrated Python analysis and bringing the separate datasets together into a common analytical framework.**
+
+My contributions included:
+
+- Retrieved and prepared enterprise AI-adoption data through the Eurostat API.
+- Developed the main Python/Jupyter analytical workflow using pandas.
+- Integrated cleaned datasets contributed by teammates.
+- Standardized country and year identifiers to support cross-source comparisons.
+- Merged AI adoption, renewable-energy, emissions, and data-centre indicators.
+- Reviewed data consistency, country coverage, and missing-value considerations.
+- Developed comparative analyses, visualizations, and investigations of relationships between indicators.
+- Contributed to the interpretation and presentation of the group's findings.
+
+My teammates contributed source-specific cleaning, exploratory work, and the collaborative presentation. Their original notebooks are preserved in the repository to maintain transparency about the project's development.
+
+### Start Here
+
+| Resource | Description |
 | --- | --- |
-| **Research question** | Is Europe's AI boom developing alongside energy conditions that could support more sustainable growth? |
-| **Data sources** | Eurostat (AI adoption, renewable energy, power-sector emissions) and PeeringDB (listed data-centre facilities) |
-| **Geographic scope** | European countries available in the source datasets; PeeringDB extraction targeted EU27 countries |
-| **Time coverage** | AI adoption: 2021, 2023, 2024, 2025; energy indicators: through 2024; data centres: a directory snapshot |
-| **Methods** | API acquisition, cleaning, country/year alignment, dataset merges, exploratory analysis, comparative plots, and correlations |
-| **Primary deliverables** | Cleaned CSVs, an integrated analysis dataset, Jupyter notebooks, visualizations, and a team presentation |
+| **[Main Analysis Notebook](Kyle%27s%20notebook%5Bmain%20notebook%5D.ipynb)** | My primary Python workflow, including AI-adoption preparation, dataset integration, exploratory analysis, and visualizations |
+| [Integrated Dataset](merged_data.csv) | Country-year dataset used in the analysis |
+| [Correlation Matrix](correlation_matrix_2024.png) | Visual summary of relationships between the main indicators |
+| [Project Conclusion (PDF)](Is%20Europe%27s%20AI%20boom%20environmentally%20sustainable_%20EDA%20Conclusion%20%281%29.pdf) | Collaborative interpretation of the findings |
 
-## Key findings
+**For a technical review, begin with the Main Analysis Notebook.** The sections below explain the research question, analytical methodology, findings, and limitations.
 
-Our analysis suggested that **AI adoption is not, by itself, a useful proxy for environmental sustainability**:
+---
 
-- **Enterprise AI adoption rose sharply**, particularly in the later reported years.
-- **Higher AI adoption did not consistently coincide with higher renewable-energy shares.** Countries with substantial AI uptake had quite different energy mixes.
-- **Listed data-centre counts showed no simple relationship with renewable-energy share.** Data-centre activity appeared across countries with different energy conditions.
-- **Data-centre facility counts showed the strongest positive association with average power-sector CO₂ emissions among the country-level relationships examined.** This is a descriptive association—not evidence that the facilities caused those emissions.
-- **Renewable-energy share had a modest negative association with average emissions**, while average AI adoption had little observed relationship with power-sector CO₂ emissions.
+## Research Question and Scope
 
-**Takeaway:** Understanding the environmental context of AI growth requires looking beyond adoption rates to energy systems, infrastructure, and national economic conditions. These indicators can guide further investigation, but they cannot establish AI's environmental footprint on their own.
+**Is Europe's AI boom developing alongside energy conditions that could support more sustainable growth?**
 
-## Selected visualizations
+We investigated several related questions:
 
-### 1. How enterprise AI adoption changed
+1. How has enterprise AI adoption changed across European countries?
+2. Do countries with higher AI adoption also have higher renewable-energy shares?
+3. How do listed data-centre facilities relate to national energy conditions?
+4. What relationships exist between renewable-energy share and CO₂ emissions from energy industries?
+5. What can these indicators tell us about the environmental context of AI growth, and where are the limits of the available evidence?
 
-The selected Eurostat series captures reported enterprise AI adoption in **2021, 2023, 2024, and 2025**. The missing 2022 observation is not interpolated.
+### Project at a Glance
+
+| Aspect | Details |
+| --- | --- |
+| **Geographic scope** | European countries represented in the available datasets; PeeringDB extraction targeted EU27 countries |
+| **AI adoption coverage** | 2021, 2023, 2024, and 2025 |
+| **Energy data coverage** | Through 2024 |
+| **Data-centre coverage** | Directory snapshot, not a historical time series |
+| **Primary sources** | Eurostat and PeeringDB |
+| **Methods** | API acquisition, cleaning, normalization, merging, exploratory analysis, visualization, and correlation analysis |
+| **Deliverables** | Jupyter notebooks, cleaned datasets, integrated analytical data, visualizations, and a team presentation |
+
+---
+
+## Key Findings
+
+Our analysis suggested that **AI adoption alone is not a reliable indicator of environmental sustainability**.
+
+### 1. Enterprise AI Adoption Increased
+
+Reported enterprise AI adoption rose substantially across the available reporting years, particularly in the later observations.
+
+However, adoption patterns differed between countries, and technological growth did not necessarily correspond to similar energy conditions.
+
+### 2. AI Adoption and Renewable Energy Did Not Show a Consistent Relationship
+
+Countries with relatively high enterprise AI adoption had different renewable-energy shares.
+
+Higher AI adoption did not consistently coincide with higher renewable-energy use.
+
+This suggests that technological adoption and national energy transition progress should be examined as separate dimensions.
+
+### 3. Data-Centre Presence Varied Across Energy Conditions
+
+Listed data-centre facilities appeared in countries with different renewable-energy profiles.
+
+The number of listed facilities did not show a simple relationship with renewable-energy share.
+
+Importantly, facility counts measure directory listings, not electricity consumption, computing capacity, or AI-specific infrastructure use.
+
+### 4. Data-Centre Counts and Power-Sector Emissions Showed an Association
+
+Among the country-level relationships examined, listed data-centre facility counts showed the strongest positive association with average CO₂ emissions from energy industries.
+
+**This is a descriptive statistical relationship, not evidence that data centres caused the observed emissions.**
+
+National economic activity, industrial structure, population, and electricity demand may influence both variables.
+
+### 5. Renewable Energy and Emissions Showed a Modest Negative Association
+
+Renewable-energy share showed a modest negative relationship with average power-sector CO₂ emissions.
+
+Average AI adoption, meanwhile, showed little observed relationship with those emissions.
+
+### Overall Interpretation
+
+**Europe's AI growth cannot be evaluated environmentally through AI adoption rates alone.**
+
+Understanding the sustainability of digital infrastructure requires additional information about electricity generation, actual data-centre energy consumption, computing workloads, and national economic conditions.
+
+The analysis provides a basis for further investigation rather than a causal assessment of AI's environmental impact.
+
+---
+
+## Selected Visualizations
+
+### 1. Enterprise AI Adoption Over Time
+
+The selected Eurostat series includes enterprise AI-adoption observations for **2021, 2023, 2024, and 2025**.
+
+The missing 2022 observation was not interpolated.
 
 ![Enterprise AI adoption across reported years](ai_adoption_trend.png)
 
-### 2. AI adoption, renewables, and data-centre presence
+### 2. AI Adoption, Renewable Energy, and Data-Centre Presence
 
-We used transparent, median-based categories to compare countries with different levels of AI adoption and renewable-energy share. The chart below shows data-centre listings within those groups; **its colors represent the AI/renewables category, not the size of the data-centre footprint**.
+We grouped countries using median-based categories for AI adoption and renewable-energy share.
+
+This allowed us to compare listed data-centre facilities across countries with different technological and energy profiles.
+
+The chart colors represent the AI/renewables category, not the magnitude of data-centre energy consumption.
 
 ![Listed data centres by AI adoption and renewable energy category](data_center_by_ai_category_2024.png)
 
-### 3. How the indicators relate
+### 3. Correlation Analysis
 
-We examined country-level correlations among AI adoption, renewable-energy share, power-sector emissions, and listed data-centre facilities. Correlation values describe patterns in the available country sample; they are **not causal effects**.
+We examined country-level associations between AI adoption, renewable-energy share, CO₂ emissions from energy industries, and listed data-centre facilities.
+
+The correlation matrix summarizes relationships in the available country sample.
+
+**Correlation coefficients do not establish causation.**
 
 ![Country-level correlation matrix](correlation_matrix_2024.png)
 
-**Additional charts:** [AI adoption by country](ai_adoption_2024_top10.png) · [Data centres vs. renewables](data_center_vs_renewable_energy_2024.png) · [Data centres vs. emissions](data_center_vs_emissions_2024.png)
+### Additional Visualizations
 
-## Data sources and definitions
+- [AI Adoption by Country](ai_adoption_2024_top10.png)
+- [Data Centres vs. Renewable Energy](data_center_vs_renewable_energy_2024.png)
+- [Data Centres vs. Emissions](data_center_vs_emissions_2024.png)
 
-| Indicator | Source | Interpretation |
+---
+
+## Data Sources and Definitions
+
+The project combines indicators from multiple publicly available sources.
+
+| Indicator | Source | Definition and Interpretation |
 | --- | --- | --- |
-| **Enterprise AI adoption** | Eurostat SDMX API (`ISOC_EB_AI`) | Share of enterprises using at least one AI technology, based on the selected series for firms with 10+ employed persons |
-| **Renewable-energy share** | Eurostat | Country-year percentage of energy from renewable sources |
-| **Power-sector CO₂ emissions** | Eurostat (`CRF1A1`) | CO₂ emissions from fuel combustion in energy industries; **not** AI-specific or data-centre emissions |
-| **Data-centre facilities** | PeeringDB Facilities API | Number of listed facilities per country in a current directory snapshot; **not** measured electricity consumption or capacity |
-| **Electricity prices (exploratory only)** | Eurostat (`nrg_pc_204`) | Investigated during data exploration but excluded from the final comparison because price does not measure generation, demand, or emissions |
+| **Enterprise AI Adoption** | Eurostat SDMX API (`ISOC_EB_AI`) | Share of enterprises using at least one AI technology, based on the selected series for firms with 10+ employed persons |
+| **Renewable-Energy Share** | Eurostat | Country-year percentage of energy from renewable sources |
+| **Power-Sector CO₂ Emissions** | Eurostat (`CRF1A1`) | CO₂ emissions from fuel combustion in energy industries; not AI-specific emissions |
+| **Data-Centre Facilities** | PeeringDB Facilities API | Count of listed facilities by country; not measured electricity consumption or computing capacity |
+| **Electricity Prices** | Eurostat (`nrg_pc_204`) | Explored during development but excluded from the final comparison because price does not directly measure generation, demand, or emissions |
 
-Source references: [Eurostat enterprise AI adoption API](https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/ISOC_EB_AI/1.0) · [PeeringDB Facilities API](https://www.peeringdb.com/api/fac)
+### Source References
 
-## Analytical workflow
+- [Eurostat Enterprise AI Adoption API](https://ec.europa.eu/eurostat/api/dissemination/sdmx/3.0/data/dataflow/ESTAT/ISOC_EB_AI/1.0)
+- [PeeringDB Facilities API](https://www.peeringdb.com/api/fac)
 
-### 1. Collect and prepare the data
+---
 
-We retrieved enterprise AI adoption data from the Eurostat API and worked with cleaned Eurostat energy and emissions files plus PeeringDB facility data. Source-specific preparation included selecting relevant measures, standardizing dates and identifiers, and aggregating facility listings to the country level.
+## Analytical Methodology
 
-### 2. Integrate data at the correct level
+### Step 1 — Data Acquisition and Preparation
 
-We aligned the sources using **country code** (`geo`) and **year** where a time dimension was available. The merged analytical data include:
+Enterprise AI-adoption data were retrieved from the Eurostat API.
 
-| Field | Meaning |
+The analysis also incorporated cleaned Eurostat renewable-energy and emissions data and PeeringDB facility records.
+
+Source-specific preparation included:
+
+- Selecting relevant indicators and reporting periods.
+- Standardizing country identifiers.
+- Aligning year fields and analytical variables.
+- Preparing numerical measures for comparison.
+- Aggregating data-centre facility listings to the country level.
+
+The source datasets differed in structure, coverage, and reporting periods, requiring additional attention during integration.
+
+### Step 2 — Dataset Integration
+
+The cleaned sources were combined using country identifiers (`geo`) and reporting years where applicable.
+
+The resulting analytical dataset included:
+
+| Field | Description |
 | --- | --- |
 | `geo` | Country identifier |
 | `year` | Reporting year |
-| `country_name` | Readable country label |
-| `ai_adoption_pct` | Enterprise AI adoption share |
+| `country_name` | Readable country name |
+| `ai_adoption_pct` | Enterprise AI-adoption percentage |
 | `renewable_energy_share` | Renewable-energy share |
 | `emissions` | CO₂ emissions from energy industries |
-| `datacenters` | Count of matched PeeringDB facility listings for that country |
+| `datacenters` | Count of matched PeeringDB facility listings |
 
-We checked country-year duplication and considered coverage mismatches and missing values during integration. **Facility counts were joined as a snapshot**, not treated as a historical series for every year.
+During integration, we reviewed country-year duplication, differences in geographic coverage, and missing values.
 
-### 3. Compare trends and countries
+**Data-centre facility counts were joined as a snapshot rather than treated as a historical series.**
 
-The exploratory analysis considered changes in AI adoption over reported years, country-level rankings, AI adoption versus renewable-energy share, data-centre listings versus renewable share or emissions, and the relationship between renewables and emissions.
+### Step 3 — Exploratory Data Analysis
 
-For cross-indicator comparisons, we used **2024 as the latest common year** in the available AI and energy datasets; the 2025 AI observations were not paired with unavailable 2025 energy data.
+The integrated data supported several analyses:
 
-### 4. Create interpretable country groupings
+- Changes in enterprise AI adoption across reported years.
+- Country-level comparisons of AI adoption.
+- AI adoption versus renewable-energy share.
+- Listed data-centre facilities versus renewable-energy share.
+- Listed data-centre facilities versus power-sector emissions.
+- Renewable-energy share versus power-sector emissions.
+- Correlations among the selected indicators.
 
-Countries were classified using the median AI-adoption rate and median renewable-energy share in the comparison sample:
+For cross-indicator comparisons, **2024 was used as the latest common year** in the available AI and energy datasets.
 
-| Project category | Definition |
+The 2025 AI-adoption observations were not paired with unavailable 2025 energy data.
+
+### Step 4 — Exploratory Country Classification
+
+Countries were grouped using the median AI-adoption rate and median renewable-energy share within the comparison sample.
+
+| Category | Definition |
 | --- | --- |
-| **Sustainable AI Leaders** | Above-median AI adoption; above-median renewable-energy share |
-| **Environmental Risk** | Above-median AI adoption; below-median renewable-energy share |
-| **Green Potential** | Below-median AI adoption; above-median renewable-energy share |
-| **Developing Transition** | Below-median AI adoption; below-median renewable-energy share |
+| **Sustainable AI Leaders** | Above-median AI adoption and above-median renewable-energy share |
+| **Environmental Risk** | Above-median AI adoption and below-median renewable-energy share |
+| **Green Potential** | Below-median AI adoption and above-median renewable-energy share |
+| **Developing Transition** | Below-median AI adoption and below-median renewable-energy share |
 
-These are **exploratory labels**, not formal sustainability ratings. They do not account for data-centre electricity use, country size, energy imports, or the full lifecycle impacts of AI systems.
+These categories were created for exploratory comparison.
 
-### 5. Examine associations responsibly
+**They are not formal sustainability ratings.**
 
-The final correlation analysis compared country-level averages for AI adoption, renewable-energy share, and power-sector CO₂ emissions over **2021, 2023, and 2024**, alongside PeeringDB facility counts. Averaging the annual indicators reduced dependence on a single reporting year, but it did **not** make the facility snapshot a historical time series.
+They do not account for actual data-centre electricity use, national economic scale, energy imports, or the full lifecycle impacts of AI systems.
 
-## My contribution and team collaboration
+### Step 5 — Correlation Analysis
 
-This was a **group project completed with Aline and Sandra** during the Ironhack Data Analytics Bootcamp.
+The final correlation analysis compared country-level averages for:
 
-My principal technical work centered on the integrated analysis:
+- Enterprise AI adoption.
+- Renewable-energy share.
+- CO₂ emissions from energy industries.
 
-- Retrieved and prepared enterprise AI-adoption data from Eurostat.
-- Built the main Python/Jupyter analytical workflow and integrated the cleaned datasets provided by teammates.
-- Standardized country/year fields, merged cross-source indicators, and reviewed consistency in the resulting data.
-- Developed the main comparative analyses, visualizations, and investigation of relationships between the indicators.
-- Contributed to the interpretation and presentation of the group's findings.
+The averages used the available observations from **2021, 2023, and 2024**, alongside PeeringDB facility counts.
 
-My teammates contributed source-specific cleaning, exploration, and the collaborative presentation. The repository preserves our separate notebooks to make those contributions visible.
+Averaging the annual indicators reduced dependence on a single reporting year, but it did not transform the data-centre snapshot into a historical time series.
 
-## Limitations and analytical decisions
+Correlation results were interpreted as descriptive associations rather than causal effects.
 
-This project is **exploratory**. Several constraints affect what we can conclude:
+---
 
-- **Correlation is not causation.** National emissions also reflect population, industrial activity, electricity demand, economic structure, and other factors.
-- **National energy-industry emissions are not AI emissions.** We cannot attribute those emissions to AI workloads or data centres.
-- **Facility counts are not electricity demand.** PeeringDB listings do not measure power draw, compute capacity, utilization, or AI-specific workloads.
-- **The data-centre information is a snapshot.** It cannot support a historical trend in facility construction or operation.
-- **Coverage differs across sources.** PeeringDB queries focused on the EU27, while the Eurostat tables can contain additional countries. Missing or unmatched facilities must not automatically be treated as confirmed zero infrastructure.
-- **Country identifiers require care.** For example, PeeringDB uses `GR` for Greece while Eurostat uses `EL`; this difference is important when assessing matched country coverage.
-- **Reporting years differ.** AI adoption includes 2025, but the energy indicators used for joint comparisons end in 2024. There is no observed 2022 AI-adoption value in the selected series.
-- **Exploratory categories simplify complex conditions.** A high renewable-energy share does not, by itself, prove sustainable AI growth.
+## Limitations and Analytical Considerations
 
-These limitations are central to the analysis, not footnotes: they determine which conclusions are defensible.
+This project is an exploratory analysis of country-level indicators.
 
-## Explore the code and data
+Several important limitations affect interpretation.
 
-| Resource | Purpose |
+### Correlation Does Not Establish Causation
+
+Relationships between national indicators may be influenced by population, economic structure, industrial activity, electricity demand, and other factors.
+
+The analysis does not establish that AI adoption or data-centre presence causes changes in national emissions.
+
+### National Emissions Are Not AI-Specific Emissions
+
+The emissions indicator measures CO₂ from fuel combustion in energy industries.
+
+It does not isolate emissions attributable to AI workloads, data-centre operations, or digital infrastructure.
+
+### Facility Counts Do Not Measure Electricity Consumption
+
+PeeringDB records listed facilities, not their electricity demand, computing capacity, utilization, or AI-specific workloads.
+
+A country with more listed facilities does not necessarily have proportionally greater data-centre energy consumption.
+
+### Data-Centre Records Are a Snapshot
+
+PeeringDB facility counts represent a directory snapshot.
+
+They cannot be used to establish historical changes in data-centre construction, operation, or electricity demand.
+
+### Source Coverage Differs
+
+PeeringDB extraction focused on EU27 countries, while the Eurostat datasets can include additional European countries.
+
+Missing or unmatched facility records should not automatically be interpreted as confirmed absence of data-centre infrastructure.
+
+### Country Identifiers Require Standardization
+
+Different sources can use different country codes.
+
+For example, PeeringDB uses `GR` for Greece, while Eurostat uses `EL`.
+
+Such differences must be considered when matching records and evaluating coverage.
+
+### Reporting Periods Are Not Identical
+
+The selected AI-adoption series contains observations for 2021, 2023, 2024, and 2025.
+
+The energy indicators used in joint comparisons end in 2024.
+
+The selected AI series has no observed 2022 value, and missing reporting years were not interpolated.
+
+### Exploratory Categories Are Simplifications
+
+The country groupings are useful for comparing relative positions within the sample.
+
+They do not prove that countries have achieved sustainable AI growth or accurately represent the environmental footprint of their AI infrastructure.
+
+**These limitations are essential to the conclusions of the project. They determine which interpretations are supported by the available evidence.**
+
+---
+
+## Repository Guide
+
+The repository preserves the original collaborative notebooks and analytical outputs.
+
+| File | Purpose |
 | --- | --- |
-| [Main analysis notebook](Kyle%27s%20notebook%5Bmain%20notebook%5D.ipynb) | AI-adoption preparation, integrated data work, exploration, and visualizations |
-| [Team EDA notebook](sandra_notebook_EDA_part.6.ipynb) | Source-specific preparation and exploratory analysis |
-| [Data-centre cleaning notebook](data_centers_cleaning.ipynb) | PeeringDB facility acquisition and cleaning |
-| [Additional exploratory notebook](Aline%27s%20notebook.ipynb) | Electricity-price exploration, excluded from the final comparison |
-| [Integrated analysis dataset](merged_data.csv) | Country-year data used in the analysis |
-| [Final merged datasets](final_merged_datasets.csv) | Additional merged project output |
-| [Project conclusion (PDF)](Is%20Europe%27s%20AI%20boom%20environmentally%20sustainable_%20EDA%20Conclusion%20%281%29.pdf) | Group interpretation and conclusions |
+| **[Main Analysis Notebook](Kyle%27s%20notebook%5Bmain%20notebook%5D.ipynb)** | Primary Python analysis, data integration, exploration, and visualizations |
+| [Team EDA Notebook](sandra_notebook_EDA_part.6.ipynb) | Source-specific preparation and exploratory analysis |
+| [Data-Centre Cleaning Notebook](data_centers_cleaning.ipynb) | PeeringDB facility acquisition and cleaning |
+| [Additional Exploratory Notebook](Aline%27s%20notebook.ipynb) | Electricity-price exploration excluded from the final comparison |
+| [Integrated Dataset](merged_data.csv) | Country-year data used in the analysis |
+| [Final Merged Datasets](final_merged_datasets.csv) | Additional merged project output |
+| [Project Conclusion (PDF)](Is%20Europe%27s%20AI%20boom%20environmentally%20sustainable_%20EDA%20Conclusion%20%281%29.pdf) | Group interpretation and conclusions |
 
-**Repository:** https://github.com/Orgo4ever/data-wrangling-project
+The original notebook filenames and repository structure have been retained to preserve the working project and its existing file references.
 
-## Running the notebooks locally
+---
 
-Clone the repository and create a Python environment:
+## Running the Project Locally
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Orgo4ever/data-wrangling-project.git
 cd data-wrangling-project
+```
+
+### 2. Create a Python Environment
+
+```bash
 python -m venv .venv
 ```
 
-Activate the environment:
+Activate the environment.
+
+**Windows (PowerShell):**
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux:**
 
 ```bash
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-
-# macOS / Linux
 source .venv/bin/activate
 ```
 
-Install the core analysis packages and start Jupyter:
+### 3. Install the Core Dependencies
 
 ```bash
 python -m pip install pandas numpy matplotlib seaborn requests jupyter
+```
+
+### 4. Launch Jupyter
+
+```bash
 jupyter notebook
 ```
 
-Open the main notebook to inspect the prepared data, analyses, and figures. Source-collection notebooks can be rerun separately if needed; public API responses and available data may have changed since the project was completed. The PeeringDB API may rate-limit repeated calls.
+Open the [Main Analysis Notebook](Kyle%27s%20notebook%5Bmain%20notebook%5D.ipynb) to inspect the prepared data, analyses, and visualizations.
 
-## Team and project context
+Source-collection notebooks can be rerun separately if needed.
 
-**Contributors:** Kyle Haustein, Aline, Sandra  
-**Course:** Ironhack Data Analytics Bootcamp  
-**Project type:** Collaborative data-wrangling and exploratory data analysis project (2026)
+**Note:** Public API responses and available data may have changed since the original project was completed. PeeringDB may also rate-limit repeated API requests.
 
 ---
 
-**Overall conclusion:** The project identifies differences in how European countries combine AI adoption, data-centre infrastructure, and national energy conditions. It does **not** establish that AI causes national emissions or that any country has achieved environmentally sustainable AI growth. It provides a transparent starting point for more detailed investigation.
+## Team and Project Context
+
+**Contributors:** Kyle Haustein, Aline, Sandra
+
+**Course:** Ironhack Data Analytics Bootcamp
+
+**Project type:** Collaborative data-wrangling and exploratory data analysis project
+
+**Year:** 2026
+
+**Repository:** https://github.com/Orgo4ever/data-wrangling-project
+
+---
+
+## Final Conclusion
+
+This project demonstrates how Python-based data acquisition, cleaning, integration, and exploratory analysis can be used to investigate complex questions across multiple public datasets.
+
+The results highlight differences in how European countries combine AI adoption, data-centre infrastructure, and national energy conditions.
+
+**The analysis does not establish that AI causes national emissions or that any country has achieved environmentally sustainable AI growth.**
+
+Instead, it provides a transparent, reproducible analytical framework for examining relationships, identifying data limitations, and guiding more detailed investigation.
